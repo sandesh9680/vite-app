@@ -5,7 +5,7 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState(0);
   const carouselRef = useRef(null);
 
-  const tabs = ['Registration', 'Registration', 'Registration', 'Registration'];
+  const tabs = ['Registration', 'Registration', 'Registration', 'Registration', 'Registration'];
 
   const serviceCards = [
     {
@@ -48,18 +48,27 @@ const Services = () => {
 
   const scrollCarousel = (direction) => {
     if (carouselRef.current) {
-      const cardWidth = 380; // Approximate card width + gap
-      carouselRef.current.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+      const firstCard = carouselRef.current.querySelector('.service-card-detailed');
+      const cardWidth =
+        (firstCard && firstCard.offsetWidth + 30) || // card width + typical gap
+        380; // sensible fallback
+
+      carouselRef.current.scrollBy({
+        left: direction * cardWidth,
+        behavior: 'smooth',
+      });
     }
   };
 
   return (
     <section className="services-page">
       <div className="container">
-        {/* Trusted By Header */}
+        {/* Services Header */}
         <div className="services-header">
-          <div className="services-label">TRUSTED BY</div>
-          <h1 className="services-main-title">28000+ Entrepreneurs And Business</h1>
+          <div className="services-label">OUR SERVICES</div>
+          <h1 className="services-main-title">
+            Smart Compliance & <span className="highlight">Legal</span> Solutions For Businesses
+          </h1>
         </div>
 
         {/* Navigation Tabs */}
@@ -113,6 +122,11 @@ const Services = () => {
                     Get Started
                     <span className="btn-arrow">→</span>
                   </button>
+                  
+                  <button className="service-add-to-cart-btn">
+                    <span className="cart-icon">🛒</span>
+                    Add to Cart
+                  </button>
                 </div>
               </div>
             ))}
@@ -130,6 +144,7 @@ const Services = () => {
         {/* Pagination Dots */}
         <div className="services-pagination">
           <span className="pagination-dot active"></span>
+          <span className="pagination-dot"></span>
           <span className="pagination-dot"></span>
           <span className="pagination-dot"></span>
         </div>

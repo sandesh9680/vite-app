@@ -1,19 +1,77 @@
 import React from 'react';
 
+const CalculatorIcon = () => {
+  return (
+    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="calculator-svg-icon">
+      <defs>
+        <linearGradient id="calculatorGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#FF6B35" />
+          <stop offset="100%" stopColor="#6B46C1" />
+        </linearGradient>
+      </defs>
+      {/* Calculator body */}
+      <rect x="8" y="6" width="32" height="36" rx="3" stroke="url(#calculatorGradient)" strokeWidth="2" fill="none"/>
+      {/* Screen */}
+      <rect x="12" y="10" width="24" height="12" rx="2" fill="url(#calculatorGradient)" opacity="0.2"/>
+      <rect x="12" y="10" width="24" height="12" rx="2" stroke="url(#calculatorGradient)" strokeWidth="1.5" fill="none"/>
+      {/* Buttons grid - 3x3 */}
+      <circle cx="16" cy="28" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="24" cy="28" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="32" cy="28" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="16" cy="34" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="24" cy="34" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="32" cy="34" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="16" cy="40" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="24" cy="40" r="3" fill="url(#calculatorGradient)"/>
+      <circle cx="32" cy="40" r="3" fill="url(#calculatorGradient)"/>
+    </svg>
+  );
+};
+
 const Calculators = () => {
   const calculators = [
-    { icon: '🧮', title: 'GST Calculator', desc: 'Calculate GST quickly and accurately' },
-    { icon: '💰', title: 'Income Tax Calculator', desc: 'Estimate your income tax liability' },
-    { icon: '📊', title: 'TDS Calculator', desc: 'Calculate TDS with ease' },
-    { icon: '🏠', title: 'HRA Calculator', desc: 'Calculate House Rent Allowance' },
-    { icon: '💼', title: 'PF Calculator', desc: 'Calculate Provident Fund' },
-    { icon: '📈', title: 'EMI Calculator', desc: 'Calculate Equated Monthly Installment' },
-  ];
-
-  const stats = [
-    { number: '50K+', label: 'Calculations' },
-    { number: '99.0%', label: 'Accuracy' },
-    { number: '24/7', label: 'Support' },
+    { 
+      title: 'GST Calculator', 
+      desc: 'Quickly calculate your GST payable on transactions.',
+      features: ['Multiple GST Rates', 'Inclusive/Exclusive', 'Instant Results'],
+      isPopular: true,
+      variant: 'white'
+    },
+    { 
+      title: 'GST Calculator', 
+      desc: 'Quickly calculate your GST payable on transactions.',
+      features: ['Multiple GST Rates', 'Inclusive/Exclusive', 'Instant Results'],
+      isPopular: true,
+      variant: 'blue'
+    },
+    { 
+      title: 'GST Calculator', 
+      desc: 'Quickly calculate your GST payable on transactions.',
+      features: ['Multiple GST Rates', 'Inclusive/Exclusive', 'Instant Results'],
+      isPopular: false,
+      variant: 'white'
+    },
+    { 
+      title: 'GST Calculator', 
+      desc: 'Quickly calculate your GST payable on transactions.',
+      features: ['Multiple GST Rates', 'Inclusive/Exclusive', 'Instant Results'],
+      isPopular: false,
+      variant: 'white'
+    },
+    { 
+      title: 'GST Calculator', 
+      desc: 'Quickly calculate your GST payable on transactions.',
+      features: ['Multiple GST Rates', 'Inclusive/Exclusive', 'Instant Results'],
+      isPopular: true,
+      variant: 'white'
+    },
+    { 
+      title: 'GST Calculator', 
+      desc: 'Quickly calculate your GST payable on transactions.',
+      features: ['Multiple GST Rates', 'Inclusive/Exclusive', 'Instant Results'],
+      isPopular: false,
+      variant: 'blue'
+    },        
   ];
 
   return (
@@ -22,23 +80,37 @@ const Calculators = () => {
         <h2 className="section-title">EbzFiling's Trusted Calculators Give You Clarity in Seconds</h2>
         <div className="calculator-grid">
           {calculators.map((calc, index) => (
-            <div key={index} className="calculator-card">
-              <div className="calc-icon">{calc.icon}</div>
-              <h3>{calc.title}</h3>
-              <p>{calc.desc}</p>
-              <button className="btn-primary">Calculate Now</button>
+            <div key={index} className={`calculator-card calculator-card-${calc.variant}`}>
+              {calc.isPopular && (
+                <div className="calculator-popular-tag">
+                  <span className="popular-icon">⚡</span>
+                  Popular
+                </div>
+              )}
+              <div className="calc-icon">
+                <CalculatorIcon />
+              </div>
+              <h3 className="calculator-title">{calc.title}</h3>
+              <p className="calculator-desc">{calc.desc}</p>
+              <ul className="calculator-features">
+                {calc.features.map((feature, idx) => (
+                  <li key={idx} className={`calculator-feature calculator-feature-${calc.variant}`}>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              {calc.variant === 'blue' ? (
+                <button className="calculator-btn calculator-btn-solid">
+                  Use Calculator <span className="btn-arrow">→</span>
+                </button>
+              ) : (
+                <a href="#" className="calculator-btn calculator-btn-link">
+                  Use Calculator <span className="btn-arrow">→</span>
+                </a>
+              )}
             </div>
           ))}
         </div>
-        <div className="calculator-stats">
-          {stats.map((stat, index) => (
-            <div key={index} className="calc-stat">
-              <div className="calc-stat-number">{stat.number}</div>
-              <div className="calc-stat-label">{stat.label}</div>
-            </div>
-          ))}
-        </div>
-        <button className="btn-primary">View All Calculators</button>
       </div>
     </section>
   );

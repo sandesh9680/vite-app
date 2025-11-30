@@ -13,16 +13,19 @@ import FilingDates from '../components/FilingDates';
 import Insights from '../components/Insights';
 import Guidance from '../components/Guidance';
 import FAQ from '../components/FAQ';
+import Services from './Services';
 
 const Home = () => {
   return (
     <>
       <Hero />
       <ClientCount />
-      <SmartCompliance />
+      {/* <SmartCompliance /> */}
+      <Services />
       <Features />
       <TrustedPartner />
       <Testimonials />
+      <Partnerships />
       <Partnerships />
       <Calculators />
       <AlertsDeadlines />
