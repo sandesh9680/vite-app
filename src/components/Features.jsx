@@ -49,7 +49,10 @@ const Features = () => {
             <p className="features-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <a href="#" className="features-read-more">Read More &gt;</a>
+            <a href="#" className="features-read-more">Read More <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.68059 5L7.15833 6.41L12.103 11L7.15833 15.59L8.68059 17L15.1583 11L8.68059 5Z" fill="#FF6F3B"/>
+</svg>
+</a>
             <button className="btn-primary features-btn">Lorem Ipsum</button>
           </div>
           <div className="features-board">

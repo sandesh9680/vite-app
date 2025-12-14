@@ -48,7 +48,7 @@ const FAQ = () => {
               >
                 <div className="faq-question">
                   <h4>{faq.question}</h4>
-                  <span className="faq-toggle">{activeIndex === index ? '−' : '+'}</span>
+                  <span className="faq-toggle">{activeIndex === index ? '×' : '+'}</span>
                 </div>
                 <div className="faq-answer">
                   <p>{faq.answer}</p>
@@ -77,7 +77,8 @@ const FAQ = () => {
             })}
           </div>
         </div>
-        <button className="btn-primary">View All FAQs</button>
+        {/* <button className="btn-primary">View All FAQs</button> */}
+        <button class="btn-primary trusted-btn-primary text-center">Explore More FAQ<span class="btn-arrow border_left"><svg width="20" height="18" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.6824 11.7593L1.19209e-06 11.7593" stroke="#FFFDFC" stroke-width="2"></path><path d="M12.8412 0.759277L25.6824 11.7593L12.8412 22.7593" stroke="#FFFDFC" stroke-width="2"></path></svg></span></button>
       </div>
     </section>
   );

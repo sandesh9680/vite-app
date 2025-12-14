@@ -1,5 +1,7 @@
 import React from 'react';
-
+import work1 from "../assets/work.png";
+import work2 from "../assets/work2.png";
+import work3 from "../assets/work3.png";
 const FilingDates = () => {
   const timelineSteps = [
     { 
@@ -43,42 +45,20 @@ const FilingDates = () => {
     switch(cardType) {
       case 'form':
         return (
-          <div className="timeline-card">
-            <div className="card-field"></div>
-            <div className="card-field"></div>
-            <button className="card-btn card-btn-orange">
-              Submit <span className="btn-plus">+</span>
-            </button>
+          <div className="timeline-card work1">
+           <img src={work1} alt='' />
           </div>
         );
       case 'consultation':
         return (
-          <div className="timeline-card">
-            <div className="consultation-icon consultation-icon-gray">
-              <div className="person-icon person-icon-gray">
-                <div className="person-body"></div>
-                <div className="person-head"></div>
-                <div className="speech-bubble speech-bubble-q">?</div>
-              </div>
-            </div>
-            <button className="card-btn card-btn-gray">
-              Call Expert <span className="btn-phone">📞</span>
-            </button>
+          <div className="timeline-card work2">
+            <img src={work2} alt='' />
           </div>
         );
       case 'consultation-blue':
         return (
-          <div className="timeline-card">
-            <div className="consultation-icon consultation-icon-blue">
-              <div className="person-icon person-icon-blue">
-                <div className="person-body person-body-blue"></div>
-                <div className="person-head person-head-blue"></div>
-                <div className="speech-bubble speech-bubble-q speech-bubble-blue">?</div>
-              </div>
-            </div>
-            <button className="card-btn card-btn-orange">
-              Call Expert <span className="btn-phone-white">📞</span>
-            </button>
+          <div className="timeline-card work1">
+            <img src={work3} alt='' />
           </div>
         );
       default:
@@ -103,7 +83,6 @@ const FilingDates = () => {
               <div 
                 key={`node-${index}`} 
                 className="timeline-node" 
-                style={{ top: `${6 + (index * 10)}%` }}
               ></div>
             ))}
           </div>

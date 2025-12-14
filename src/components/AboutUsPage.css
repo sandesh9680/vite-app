@@ -60,15 +60,21 @@
 }
 
 .phone-icon {
-  font-size: 32px;
-  color: var(--primary-orange);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(255, 111, 59, 0.1);
-  border-radius: 50%;
+    font-size: 32px;
+    color: var(--primary-orange);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50px;
+    height: 50px;
+    /* background-color: rgba(255, 111, 59, 0.1); */
+    border-radius: 50%;
+}
+
+span.btn-arrow.border_left {
+    font-size: large;
+    border-left: solid 2px #646262;
+    padding-left: 10PX;
 }
 
 .phone-info {
@@ -87,6 +93,15 @@
   font-size: 20px;
   font-weight: 700;
   color: var(--text-dark);
+}
+.trusted_clients {
+    text-align: left;
+    font-size: 14px;
+}
+.trusted_clients .phone-number {
+    width: 100%;
+    float: left;
+    font-size: 16px;
 }
 
 .cta-button {

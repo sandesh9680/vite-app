@@ -13,8 +13,9 @@ const Testimonials = () => {
         </h2>
       </div>
 
-      <div className="content-wrapper">
+      <div className="content-wrapper content_afterbefore">
         {/* Left: Testimonials */}
+        
         <div className="testimonials">
           <div className="testimonial-cards">
             {/* Card 1 */}
