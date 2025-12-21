@@ -65,7 +65,7 @@ const TrustedPartner = () => {
                 </div>
               ))}
             </div> */}
-            <section class="stats count_sec">
+            <section class="stats count_sec p-0">
   <div class="card">
     <h4 class="counter" data-target="10">10 <span>+</span></h4>
     <p>Experience</p>

@@ -4328,10 +4328,13 @@ display: block;
   }
 
   .reminder-card {
-    flex-direction: column;
-    gap: 16px;
-    padding: 18px;
+    /* flex-direction: column; */
+    gap: 8px;
+    padding: 10px;
   }
+  .calendar-widget {
+    width: 100%;
+}
 
   .reminder-date-section {
     min-width: auto;
@@ -4383,13 +4386,12 @@ display: block;
     padding: 40px 0;
   }
 
-  .calculator-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  
+ .calculator-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px !important;
+}
   .calculator-card {
-    padding: 24px 20px;
+    padding: 15px 15px;
   }
 
   .calculator-popular-tag {
@@ -5379,7 +5381,7 @@ display: block;
   
   /* Calculators */
   .calculator-card {
-    padding: 25px;
+    padding: 10px;
   }
   
   /* Footer */
@@ -5391,6 +5393,41 @@ display: block;
   .footer-social {
     flex-wrap: wrap;
   }
+.stats.count_sec {
+    gap: 10px !important;
+}
+.content-wrapper {
+    padding: 0 20px !important;
+}
+
+.timeline-card.work2 {
+    position: inherit;
+}
+.timeline-card.work1 {
+    position: inherit;
+}
+.timeline-card img {
+    width: 170px;
+}
+.timeline-step:last-child .timeline-card.work2 {
+    position: inherit;
+}
+.timeline-step-left, .timeline-step-right {
+    padding-left: 30px;
+}
+.timeline-start-node {
+    left: 2px;
+}
+.timeline-node {
+    left: 2px;
+}
+
+.blog-icon {
+    height: auto;
+}
+.blog_content {
+    padding: 20px 0px 0;
+}
 }
 
 
@@ -5873,16 +5910,14 @@ display: block;
     margin: 0 auto;
   }
 }
-
 .stats.count_sec {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
-    max-width: 900px;
     margin: auto;
     padding: 10px 0 0;
+    width: 100%;
 }
-
 .count_sec .card {
   background: #f1f8ff;
   border: 1px solid #bcdcff;

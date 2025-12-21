@@ -23,6 +23,7 @@ import img3 from '../assets/images/img-3.png';
 import img4 from '../assets/images/img-4.png';
 import img6 from '../assets/images/img6.png';
 import img7 from '../assets/images/img7.png';
+import img_7 from '../assets/images/img-7.png';
 import img8 from '../assets/images/img-8.png';
 import img13 from '../assets/images/img-13.png';
 import img15 from '../assets/images/img-15.png';
@@ -77,9 +78,9 @@ const Services = () => {
           className="absolute top-0 right-0 w-64 h-64 bg-blue-100 dark:bg-blue-900/20 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"
         ></div>
         <div
-          className="max-w-7xl w-full mx-auto grid lg:grid-cols-3 gap-12 lg:gap-5 items-center z-10"
+          className="max-w-7xl w-full mx-auto grid grid-cols-1 xl:!grid-cols-3 gap-0 lg:gap-5 items-center z-10"
         >
-          <div className="space-y-8 col-span-2 lg:pe-16">
+          <div className="space-y-4 lg:space-y-8 col-span-2 lg:pe-16">
             <div>
               <span
                 className="text-primary font-bold tracking-wider uppercase text-xs border-b-2 border-orange-200 pb-1"
@@ -127,7 +128,7 @@ const Services = () => {
                 >
               </li>
             </ul>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+            <div className="grid sm:grid-col-1 lg:grid-cols-3 gap-3 md:gap-5 lg:gap-10">
               <div
                 className="gradientcolor dark:bg-gray-800 border border-blue-100 dark:border-gray-700 rounded-xl p-4 flex flex-col items-center text-center shadow-lg hover:shadow-md transition-shadow"
               >
@@ -177,15 +178,15 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex lg:flex-row sm:flex-row gap-4 pt-4">
               <button
-                className="flex items-center justify-center space-x-2 bg-primary hover:bg-primary-hover text-white font-semibold py-3 px-8 rounded-full transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="flex items-center justify-center space-x-2 bg-primary hover:bg-primary-hover text-white font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 <span className="material-icons-outlined text-xl">play_circle</span>
                 <span>Watch a demo</span>
               </button>
               <button
-                className="flex items-center justify-center space-x-2 bg-white dark:bg-gray-800 border-2 border-primary text-gray-900 dark:text-white font-semibold py-3 px-8 rounded-full hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
+                className="flex items-center justify-center space-x-2 bg-white dark:bg-gray-800 border-2 border-primary text-gray-900 dark:text-white font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
               >
                 <span className="material-icons-outlined text-primary text-xl"
                   >description</span
@@ -196,7 +197,7 @@ const Services = () => {
           </div>
           <div className="relative mt-12 lg:mt-0">
             <div
-              className="absolute -top-10 -left-6 z-20 flex flex-col items-start space-y-1"
+              className="absolute -top-10 -left-6 z-20 w-full lg:!items-start flex flex-col items-center space-y-1"
             >
               <img src={img1} width="120" alt="" />
             </div>
@@ -334,7 +335,7 @@ const Services = () => {
                 <span className="material-symbols-outlined"> search </span>
               </div>
               <input
-                className="block w-full rounded-full border-[#8FCBFF] dark:border-slate-700 bg-white dark:bg-slate-800 py-4 pl-14 pr-14 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-2 focus:ring-primary focus:border-transparent shadow-soft transition-all duration-200 text-lg"
+                className="block w-full rounded-full border-[#8FCBFF] dark:border-slate-700 bg-white dark:bg-slate-800 py-4 pl-14 pr-14 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-2 focus:ring-primary focus:border-transparent shadow-soft transition-all duration-200 text-sm lg:text-lg"
                 placeholder="Looking for Company Registration"
                 type="text"
               />
@@ -366,7 +367,7 @@ const Services = () => {
             </h1>
           </div>
           <div
-            className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-full mx-auto pb-20"
+            className="grid grid-cols-1 lg:!grid-cols-3 gap-6 max-full mx-auto pb-10 lg:pb-20"
           >
             <div
               className="bg-white dark:bg-slate-800 rounded-2xl p-4 shadow-soft border border-slate-100 dark:border-slate-700 flex flex-col justify-center h-full hover:shadow-lg transition-shadow duration-300"
@@ -480,14 +481,14 @@ const Services = () => {
                   </p>
                 </div>
                 <div
-                  className="flex flex-col justify-between sm:flex-row sm:items-center sm:justify-between text-xs pt-3 border-t border-slate-100 dark:border-slate-700"
+                  className="flex  justify-between sm:flex-row sm:items-center sm:justify-between text-xs pt-3 border-t border-slate-100 dark:border-slate-700"
                 >
                   <span className="text-slate-400 mb-1 sm:mb-0">02/05/2025</span>
                   <a
                     className="text-primary text-[10px] hover:text-orange-700 transition-colors font-medium"
                     href="#"
-                    >Know more about this award</a
-                  >
+                    >Know more about this award
+                    </a>
                 </div>
               </div>
             </div>
@@ -612,8 +613,8 @@ const Services = () => {
       </div>
 {/* Benefits of GST Registration end */}
 {/* Plans and Pricing */}
-      <div className="py-20 px-4 sm:px-6 lg:px-10 bg-[#FBFCFF] my-6 mx-auto">
-        <div className="text-center mb-16">
+      <div className="lg:py-20 py-10 px-4 sm:px-6 lg:px-10 bg-[#FBFCFF] my-6 mx-auto">
+        <div className="text-center mb-8 lg:mb-16">
           <div className="inline-block relative mb-4 group">
             <h2
               className="text-primary font-bold tracking-[0.15em] uppercase text-sm md:text-base relative z-10 pb-2"
@@ -631,7 +632,7 @@ const Services = () => {
             Choice?
           </h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+        <div className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-2 gap-8 lg:gap-10">
           <div
             className="gradientcolor dark:bg-slate-800 border border-blue-100 dark:border-slate-700 rounded-xl p-4 sm:p-6 hover:shadow-soft dark:hover:shadow-glow transition-all duration-300 group flex flex-col h-full"
           >
@@ -714,13 +715,15 @@ const Services = () => {
           </div>
         </div>
       </div>
+
+
 {/* Plans and Pricing end */}
 
 
       <div
         className="font-sans text-slate-800 dark:text-slate-100 antialiased transition-colors duration-300"
       >
-        <div className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div className="lg:py-16 py-6 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-12 space-y-4">
             <h2
               className="text-primary font-bold tracking-widest text-sm uppercase relative inline-block"
@@ -736,9 +739,9 @@ const Services = () => {
               Choose The Right Plan To Grow Your Business
             </h1>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+          <div className="grid grid-cols-1 lg:!grid-cols-3 gap-8 items-start">
             <div
-              className="group relative bg-white dark:bg-card-dark rounded-2xl p-6 border-2 border-blue-100 dark:border-slate-700 shadow-soft hover:shadow-lg transition-all duration-300"
+              className="group relative bg-white dark:bg-card-dark rounded-2xl p-6 border-2 border-blue-100 dark:border-slate-700 shadow-soft hover:shadow-lg transition-all duration-300 transform transition-transform hover:scale-[1.02]"
             >
               <div className="flex flex-col items-center">
                 <div
@@ -814,7 +817,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full mt-6 bg-gradient-to-r from-[#FF7F50] to-primary hover:to-primary-hover text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
+                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
                 >
                   Get Basic Plan
                 </button>
@@ -997,7 +1000,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full mt-6 bg-gradient-to-r from-[#FF7F50] to-primary hover:to-primary-hover text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-300/50 dark:shadow-none transform transition hover:-translate-y-0.5"
+                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-300/50 dark:shadow-none transform transition hover:-translate-y-0.5"
                 >
                   Get Premium Plan
                 </button>
@@ -1129,7 +1132,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="group relative bg-white dark:bg-card-dark rounded-2xl p-6 border-2 border-blue-100 dark:border-slate-700 shadow-soft hover:shadow-lg transition-all duration-300"
+              className="group relative bg-white dark:bg-card-dark rounded-2xl p-6 border-2 border-blue-100 dark:border-slate-700 shadow-soft hover:shadow-lg transition-all duration-300 transform transition-transform hover:scale-[1.02]"
             >
               <div className="flex flex-col items-center">
                 <div
@@ -1211,7 +1214,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full mt-6 bg-gradient-to-r from-[#FF7F50] to-primary hover:to-primary-hover text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
+                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
                 >
                   Get Basic Plan
                 </button>
@@ -1395,7 +1398,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="mt-16 gradientcolor rounded-xl shadow-md p-4 flex flex-col md:flex-row justify-center items-center gap-16 border border-slate-100 dark:border-slate-700"
+            className="mt-16 gradientcolor rounded-xl shadow-md p-4 flex md:flex-row justify-center items-center gap-6 lg:gap-16 border border-slate-100 dark:border-slate-700"
           >
             <div className="flex flex-col items-center text-center">
               <div className="mb-2 text-blue-600 dark:text-blue-400">
@@ -1486,7 +1489,7 @@ const Services = () => {
       <div
         className="font-display text-gray-800 dark:text-gray-200 antialiased min-h-screen py-10 px-4 transition-colors duration-300"
       >
-        <div className="px-12 mx-auto">
+        <div className="px-0 lg:px-12 mx-auto">
           <div className="text-center mb-10">
             <h2
               className="text-primary font-bold tracking-wider text-sm uppercase mb-3"
@@ -1502,7 +1505,7 @@ const Services = () => {
           <div
             className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-10 border border-gray-100 dark:border-gray-700"
           >
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
+            <div className="grid grid-cols-1 lg:!grid-cols-12 gap-8 mb-12">
               <div className="lg:col-span-7">
                 <h2
                   className="text-2xl font-bold text-gray-900 dark:text-white mb-4"
@@ -1589,7 +1592,7 @@ const Services = () => {
                 Under the Companies Act, 2013, a Private Limited Company must
                 comply with the following legal conditions:
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:!grid-cols-2 gap-4">
                 <div
                   className="bg-white dark:bg-slate-700 rounded-md p-4 flex items-start gap-3 shadow-sm border border-gray-100 dark:border-slate-600"
                 >
@@ -1677,7 +1680,7 @@ const Services = () => {
             </p>
           </div>
           <div
-            className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16"
+            className="grid grid-cols-1 lg:!grid-cols-2 gap-12 items-center mb-10"
           >
             <div className="space-y-4">
               <div
@@ -1859,7 +1862,7 @@ const Services = () => {
             ></div>
           </div>
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-16 relative">
+            <div className="text-center mb-8 lg:mb-16 relative">
               <div className="inline-block relative mb-3">
                 <h3
                   className="text-primary font-bold tracking-widest text-sm uppercase"
@@ -1884,7 +1887,7 @@ const Services = () => {
               </p>
             </div>
             <div
-              className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20"
+              className="flex flex-col lg:!flex-row items-center justify-between gap-12 lg:gap-20"
             >
               <div className="w-full lg:w-5/12 relative flex justify-center">
                 <div className="relative w-full max-w-md">
@@ -1899,7 +1902,7 @@ const Services = () => {
                 </div>
               </div>
               <div className="w-full lg:w-7/12">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div className="grid grid-cols-1 md:!grid-cols-2 gap-5">
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] dark:bg-surface-dark hover:border-t-4 border-l border-r border-b border-t-primary border-l-gray-300 border-r-gray-300 border-b-gray-300 dark:border-gray-700 hover:shadow transform md:-translate-y-1 relative z-10"
                   >
@@ -2026,7 +2029,7 @@ const Services = () => {
         className="bg-[#FBFCFF] transition-colors duration-300 antialiased min-h-screen flex flex-col items-center justify-center py-20"
       >
         <div className="container mx-auto px-12">
-          <div className="text-center mb-16 max-w-6xl mx-auto">
+          <div className="text-center mb-8 lg:mb-16 max-w-6xl mx-auto">
             <div className="relative inline-block mb-4">
               <span
                 className="text-primary font-bold tracking-widest uppercase text-sm md:text-base px-4 py-1 relative z-10"
@@ -2053,7 +2056,7 @@ const Services = () => {
               amet, commodo tincidunt Quisque lacus, lacus urna ipsum Ut id
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+          <div className="grid grid-cols-1 md:!grid-cols-3 gap-8 mb-8 lg:mb-20">
             <div
               className="bg-[#F0F5FF] dark:bg-card-dark rounded-2xl p-8 border border-transparent dark:border-card-border-dark hover:shadow-card transition-shadow duration-300 flex flex-col h-full"
             >
@@ -2178,7 +2181,7 @@ const Services = () => {
           <div
             className="gst_timeline text-slate-800 dark:text-slate-200 p-4 md:p-8 lg:p-12"
           >
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+            <div className="grid grid-cols-1 lg:!grid-cols-2 gap-8 mb-10">
               <div
                 className="bg-[#FBFCFF] dark:bg-slate-800 rounded-2xl p-6 md:p-10 border border-blue-100 dark:border-slate-700 shadow-sm flex flex-col h-full"
               >
@@ -2544,10 +2547,10 @@ const Services = () => {
 {/*  How It Works? end */}
   {/* Compare Your Services */}
       <div className="bg-[#FBFCFF] dark:bg-background-dark duration-300">
-        <div className="mx-auto px-12 py-16">
+        <div className="mx-auto px-6 py-6 lg:px-12 lg:py-16">
           <div className="text-center mb-12">
             <h3
-              className="text-primary font-bold tracking-widest uppercase mb-4 relative inline-block"
+              className="text-primary text-base lg:text-lg font-bold tracking-widest uppercase mb-4 relative inline-block"
             >
               Compare Your Services
               <span
@@ -2555,7 +2558,7 @@ const Services = () => {
               ></span>
             </h3>
             <h1
-              className="text-4xl md:text-4xl font-bold text-text-light dark:text-text-dark mt-2"
+              className="text-3xl md:!text-4xl font-bold text-text-light dark:text-text-dark mt-2"
             >
               Company Registration Made Simple
             </h1>
@@ -3082,7 +3085,7 @@ const Services = () => {
             </h1>
           </div>
           <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-16"
+            className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 lg:gap-16"
           >
             <div
               className="bg-white dark:bg-card-dark rounded-xl shadow-card hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] ring-1 ring-black/5 dark:ring-white/10 p-6 flex flex-col h-full relative lg:-mt-4 lg:mb-4 lg:py-6 z-10 border border-transparent dark:border-gray-700"
@@ -3200,12 +3203,12 @@ const Services = () => {
               </span>
             </div>
             <h2
-              className="text-3xl md:text-4xl font-bold text-text-main dark:text-white mb-16 tracking-tight"
+              className="text-3xl md:text-4xl font-bold text-text-main dark:text-white mb-10 tracking-tight"
             >
               Your Trusted Partner In Business Growth
             </h2>
             <div
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 items-center"
+              className="grid grid-cols-2 md:!grid-cols-2 lg:!grid-cols-4 gap-4 lg:gap-12 items-center"
             >
               <div
                 className="bg-white dark:bg-card-dark rounded-xl p-6 hover:shadow-xl border border-orange-200 hover:border-t-4 hover:border-t-primary hover:border-r hover:border-b hover:border-l hover:border-orange-200 dark:border-slate-600 relative transform lg:scale-110 z-10 transition-transform duration-300"
@@ -3214,15 +3217,15 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-4xl font-bold text-text-main dark:text-white mb-2"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
                     data-target="10000"
                     >10,000</span
                   >
                   <div
-                    className="flex items-center gap-2 text-text-muted dark:text-gray-400 font-medium"
+                    className="flex items-center gap-2 text-text-muted dark:text-gray-400"
                   >
                     <img src={Icon11} width="24" alt="" />
-                    <span>Clients Globally</span>
+                    <span className='text-xs lg:text-base'>Clients Globally</span>
                   </div>
                 </div>
               </div>
@@ -3233,15 +3236,15 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-4xl font-bold text-text-main dark:text-white mb-3"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-3"
                     data-target="10000"
                     >10,000</span
                   >
                   <div
-                    className="flex items-center gap-2 text-text-muted dark:text-gray-300 font-medium"
+                    className="flex items-center gap-2 text-text-muted dark:text-gray-300"
                   >
                     <img src={Icon11} width="24" alt="" />
-                    <span>Clients Globally</span>
+                    <span className='text-xs lg:text-base'>Clients Globally</span>
                   </div>
                 </div>
               </div>
@@ -3252,16 +3255,16 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-4xl font-bold text-text-main dark:text-white mb-2"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
                     data-target="10000"
                     >10,000</span
                   >
                   <div
-                    className="flex items-center gap-2 text-text-muted dark:text-gray-400 font-medium"
+                    className="flex items-center gap-2 text-text-muted dark:text-gray-400"
                   >
                     <img src={Icon11} width="24" alt="" />
 
-                    <span>Clients Globally</span>
+                    <span className='text-xs lg:text-base'>Clients Globally</span>
                   </div>
                 </div>
               </div>
@@ -3272,15 +3275,15 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-4xl font-bold text-text-main dark:text-white mb-2"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
                     data-target="10000"
                     >10,000</span
                   >
                   <div
-                    className="flex items-center gap-2 text-text-muted dark:text-gray-400 font-medium"
+                    className="flex items-center gap-2 text-text-muted dark:text-gray-400"
                   >
                     <img src={Icon11} width="24" alt="" />
-                    <span>Clients Globally</span>
+                    <span className='text-xs lg:text-base'>Clients Globally</span>
                   </div>
                 </div>
               </div>
@@ -3315,7 +3318,7 @@ const Services = () => {
             </h1>
           </div>
           <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10"
+            className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 mb-10"
           >
             <div
               className="group gradientcolor dark:bg-card-bg-dark rounded-xl p-6 shadow hover:shadow-lg dark:shadow-none dark:hover:bg-slate-800 transition-all duration-300 border border-blue-50 dark:border-slate-700 h-full flex flex-col"
@@ -3418,14 +3421,14 @@ const Services = () => {
   {/* Get Personalized Assistance */}
       <div className="bg-[#E7F3FF] dark:bg-gray-900">
         <section
-          className="relative w-full bg-background-light dark:bg-background-dark transition-colors duration-300 overflow-hidden"
+          className="relative p-0 w-full bg-background-light dark:bg-background-dark transition-colors duration-300 overflow-hidden"
         >
           <div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
             <div
-              className="grid grid-cols-2 lg:grid-cols-3 items-center justify-between gap-12 lg:gap-20"
+              className="grid lg:!grid-cols-3 items-center justify-between gap-0 lg:!gap-20 pb-8 md:pb-0"
             >
               <div
-                className="flex-1 w-full md:max-w-3xl lg:col-span-2 text-center md:text-left z-10"
+                className="flex-1 w-full lg:col-span-2 text-center md:!text-left z-10 order-2 lg:!order-1"
               >
                 <h2
                   className="text-lg md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 leading-[1.15]"
@@ -3449,13 +3452,13 @@ const Services = () => {
                 </button>
               </div>
               <div
-                className="flex-1 w-full flex justify-center md:justify-end relative z-10"
+                className="flex-1 order-1 lg:!order-2 w-full flex justify-center md:justify-end relative z-10"
               >
-                <div className="relative w-full max-w-md lg:max-w-lg">
+                <div className="relative w-full">
                   <img
                     alt="Team of three business professionals standing together collaborating"
                     className="relative w-full h-auto object-cover transform rotate-1 hover:rotate-0 transition-transform duration-500"
-                    src={img7}
+                    src={img_7}
                   />
                 </div>
               </div>
@@ -3470,7 +3473,7 @@ const Services = () => {
         className="dark:bg-background-dark text-text-main dark:text-slate-200 transition-colors duration-300"
       >
         <section className="relative py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 lg:mb-16">
             <div className="mb-4 inline-block relative">
               <span
                 className="text-primary font-bold tracking-widest uppercase text-sm border-b-2 border-primary/20 pb-1 px-1"
@@ -3493,7 +3496,7 @@ const Services = () => {
             </p>
           </div>
           <div
-            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"
+            className="grid grid-cols-1 sm:!grid-cols-2 lg:!grid-cols-4 gap-6 mb-12"
           >
             <div
               className="group bg-white dark:bg-card-dark border border-blue-100 dark:border-slate-700 rounded-xl p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:border-blue-200 dark:hover:border-slate-600"
@@ -3549,7 +3552,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="flex flex-col sm:flex-row items-center justify-center gap-6"
+            className="flex md:!flex sm:flex-row items-center justify-center gap-6"
           >
             <button
               className="bg-primary hover:bg-orange-600 text-white font-bold py-3.5 px-10 rounded-full shadow-lg shadow-orange-100 dark:shadow-none transition-all duration-200 transform hover:-translate-y-0.5"
@@ -3661,9 +3664,9 @@ const Services = () => {
               commodo non. sit viverra non ex nec vitae convallis.
             </p>
           </div>
-          <div className="flex flex-col xl:flex-row gap-8">
+          <div className="flex flex-col xl:!flex-row gap-8">
             <div
-              className="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+              className="flex-1 grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-3 gap-6"
             >
               <div
                 className="bg-[#FBFCFF] dark:bg-card-dark rounded-xl p-5 shadow dark:border-gray-700 relative group hover:shadow-lg transition-all duration-300"
@@ -3845,7 +3848,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="w-full xl:w-80 flex-shrink-0">
+            <div className="w-full xl:!w-80 flex-shrink-0">
               <div
                 className="bg-blue-50 dark:bg-slate-800 rounded-xl overflow-hidden shadow-sidebar border border-blue-300 dark:border-gray-700 flex flex-col h-full max-h-[500px] xl:max-h-none xl:sticky xl:top-4"
               >
@@ -4002,7 +4005,7 @@ const Services = () => {
         className="gradientcolor22 my-10 dark:bg-background-dark text-slate-800 dark:text-slate-200 antialiased flex items-center justify-center p-4"
       >
         <section className="max-w-7xl mx-auto w-full py-6 lg:py-10">
-          <div className="text-center mb-16 px-4">
+          <div className="text-center mb-8 lg:mb-16 px-4">
             <div className="inline-block relative mb-4">
               <h3
                 className="text-primary font-bold tracking-widest text-sm uppercase"
@@ -4014,15 +4017,15 @@ const Services = () => {
               ></div>
             </div>
             <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-slate-900 dark:text-white mt-4 max-w-4xl mx-auto leading-tight"
+              className="text-lg md:!text-4xl lg:!text-3xl font-bold text-slate-900 dark:text-white mt-4 max-w-4xl mx-auto leading-tight"
             >
               Faucibus Adipiscing Viverra Placerat Ex
             </h1>
           </div>
           <div
-            className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center px-4 md:px-8"
+            className="grid grid-cols-1 lg:!grid-cols-2 gap-12 lg:gap-20 items-center px-4 md:px-8"
           >
-            <div className="space-y-8 order-2 lg:order-1">
+            <div className="space-y-8 order-2 lg:!order-1">
               <p
                 className="text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed"
               >
@@ -4103,7 +4106,7 @@ const Services = () => {
                   >
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:!flex-row gap-4 pt-4">
                 <button
                   className="bg-primary hover:bg-orange-600 transition-colors text-white rounded-full px-8 py-3 shadow-lg shadow-orange-200 dark:shadow-none flex items-center justify-center gap-1 group"
                 >
@@ -4119,7 +4122,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="order-1 lg:order-2 relative">
+            <div className="order-1 lg:!order-2 relative">
               <div className="relative group">
                 <img
                   alt="Professional signing documents at a desk"
@@ -4137,14 +4140,14 @@ const Services = () => {
         className="bg-white dark:bg-background-dark flex items-center justify-center font-body transition-colors duration-300 p-4"
       >
         <section
-          className="w-full max-w-6xl bg-[#FBFCFF] dark:bg-card-dark shadow-xl overflow-hidden flex flex-col lg:flex-row relative z-10"
+          className="w-full p-0 max-w-7xl bg-[#FBFCFF] dark:bg-card-dark shadow-xl overflow-hidden flex flex-col lg:!flex-row relative z-10"
         >
           <div
-            className="w-full lg:w-3/5 p-8 md:p-12 lg:p-16 flex flex-col justify-center"
+            className="w-full lg:!w-3/5 p-8 md:p-12 lg:p-16 flex flex-col justify-center"
           >
             <div className="mb-8">
               <h1
-                className="font-display text-4xl md:text-4xl font-bold text-gray-900 dark:text-white mb-3 tracking-tight"
+                className="font-display text-2x1 md:!text-4xl font-bold text-gray-900 dark:text-white mb-3 tracking-tight"
               >
                 Upgrade to Pro
               </h1>
@@ -4202,21 +4205,21 @@ const Services = () => {
                 Save 50% on your first registration
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+            <div className="flex flex-col sm:!flex-row gap-4 sm:gap-6">
               <button
-                className="bg-primary text-white px-10 py-3.5 rounded-full font-bold text-base shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 hover:bg-opacity-90 transform transition-all hover:-translate-y-0.5 active:translate-y-0 text-center"
+                className="bg-primary text-white px-10 py-3 rounded-full font-bold text-base shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 hover:bg-opacity-90 transform transition-all hover:-translate-y-0.5 active:translate-y-0 text-center"
               >
                 Get Started
               </button>
               <button
-                className="bg-transparent border border-orange-200 dark:border-gray-600 text-gray-800 dark:text-gray-200 px-8 py-3.5 rounded-full font-bold text-base hover:bg-orange-50 dark:hover:bg-slate-700 transition-colors text-center whitespace-nowrap"
+                className="bg-transparent border border-orange-200 dark:border-gray-600 text-gray-800 dark:text-gray-200 px-8 py-3 rounded-full font-bold text-base hover:bg-orange-50 dark:hover:bg-slate-700 transition-colors text-center whitespace-nowrap"
               >
                 Talk to Experts
               </button>
             </div>
           </div>
           <div
-            className="w-full lg:w-2/5 relative flex items-center justify-center bg-white dark:bg-card-dark lg:bg-transparent p-8 lg:p-0"
+            className="w-full lg:!w-2/5 relative flex items-center justify-center bg-white dark:bg-card-dark lg:bg-transparent p-8 lg:p-0"
           >
             <img
               alt="Woman working at desk talking on phone illustration"
@@ -4244,7 +4247,7 @@ const Services = () => {
               Services That Will And More Value To Your Package
             </h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:!grid-cols-2 gap-6 lg:gap-8">
             <article
               className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF] dark:bg-slate-800 border border-blue-100 dark:border-slate-700 transition-all hover:shadow-lg dark:hover:shadow-slate-900/50"
             >
@@ -4288,7 +4291,7 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto">
+              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
                 <button
                   className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
@@ -4344,7 +4347,7 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto">
+              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
                 <button
                   className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
@@ -4400,7 +4403,7 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto">
+              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
                 <button
                   className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
@@ -4456,7 +4459,7 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto">
+              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
                 <button
                   className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
@@ -4481,7 +4484,7 @@ const Services = () => {
         className="flex flex-col justify-center text-gray-800 dark:text-gray-200 antialiased"
       >
         <div className="w-full max-w-7xl mx-auto px-6 py-12 lg:px-12 lg:py-20">
-          <div className="text-center mb-16">
+          <div className="text-center mb-8 lg:mb-16">
             <div
               className="inline-block flex flex-col items-center justify-center mb-3"
             >
@@ -4492,7 +4495,7 @@ const Services = () => {
               </h3>
               <div className="w-full h-[2px] relative">
                 <div
-                  className="absolute left-1/2 -translate-x-1/2 w-28 h-full bg-primary"
+                  className="absolute left-[50%] -translate-x-1/4 w-28 h-full bg-primary"
                 ></div>
               </div>
             </div>
@@ -4503,7 +4506,7 @@ const Services = () => {
             </h1>
           </div>
           <div
-            className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12"
+            className="grid grid-cols-1 lg:!grid-cols-2 gap-12 items-center mb-12"
           >
             <div
               className="relative w-full aspect-video bg-black rounded-lg overflow-hidden shadow-2xl group cursor-pointer border border-gray-200 dark:border-gray-700"
@@ -4627,7 +4630,7 @@ const Services = () => {
               </p>
             </div>
             <div
-              className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 mt-8"
+              className="flex flex-col md:!flex-row items-center justify-center gap-6 md:gap-12 mt-8"
             >
               <a
                 className="group flex items-center gap-2.5 transition-transform hover:scale-105"
