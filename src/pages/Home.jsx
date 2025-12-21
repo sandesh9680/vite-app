@@ -14,6 +14,7 @@ import Insights from '../components/Insights';
 import Guidance from '../components/Guidance';
 import FAQ from '../components/FAQ';
 import Services from './Services';
+import ServiceForHome from './ServiceForHome';
 
 const Home = () => {
   return (
@@ -21,7 +22,7 @@ const Home = () => {
       <Hero />
       <ClientCount />
       {/* <SmartCompliance /> */}
-      <Services />
+      <ServiceForHome />
       <Features />
       <TrustedPartner />
       <Testimonials />
