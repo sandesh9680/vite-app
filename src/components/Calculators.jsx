@@ -105,16 +105,24 @@ const Calculators = () => {
                   </li>
                 ))}
               </ul>
+              <div className='text-center'>
               {calc.variant === 'blue' ? (
                 <button className="calculator-btn calculator-btn-solid">
-                  Use Calculator <span className="btn-arrow">→</span>
+                  Use Calculator <span className="btn-arrow"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8.1003H15.1833L8.67617 1.01254L9.49421 0L17.5507 8.77533L9.49421 17.5507L8.67617 16.5381L15.1833 9.45035H0V8.1003Z" fill="#FFFDFC"/>
+</svg>
+</span>
                 </button>
               ) : (
                 <a href="#" className="calculator-btn calculator-btn-link">
-                  Use Calculator <span className="btn-arrow">→</span>
+                  Use Calculator <span className="btn-arrow"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 8.1003H15.1833L8.67617 1.01254L9.49421 0L17.5507 8.77533L9.49421 17.5507L8.67617 16.5381L15.1833 9.45035H0V8.1003Z" fill="#ff6f3b"/>
+</svg>
+</span>
                 </a>
               )}
             </div>
+          </div>
           ))}
         </div>
       </div>

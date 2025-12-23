@@ -100,7 +100,7 @@ button {
 .btn-primary {
   background-color: var(--primary-orange);
   color: var(--bg-white);
-  padding: 14px 32px;
+  padding: 8px 32px;
   border-radius: 100px;
   font-size: 16px;
   font-weight: 600;
@@ -161,7 +161,7 @@ button {
 /* Header */
 .header {
   background-color: var(--bg-white);
-  padding: 20px 0;
+  padding: 10px 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
@@ -624,15 +624,12 @@ section {
 }
 
 .client-logo-card {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 20px 30px;
-  background-color: var(--bg-white);
-  border-radius: 12px;
-  box-shadow: var(--shadow);
-  min-width: 200px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 187px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 20px;
 }
 
 .client-logo-card:hover {
@@ -1859,7 +1856,7 @@ a.trusted-read-more.trusted_grid {
 .calculator-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 20px;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
@@ -1867,10 +1864,9 @@ a.trusted-read-more.trusted_grid {
     font-family: var(--font-primary);
     text-align: center;
     margin: 0 auto;
-    width: 100%;
-    justify-content: center;
+    width: fit-content !important;
+    justify-content: center !important;
 }
-
 .calculator-btn-link {
   color: var(--primary-orange);
 }
@@ -3092,7 +3088,7 @@ display: block;
   
   /* Header */
   .header {
-    padding: 15px 0;
+    padding: 10px 0;
   }
   
   .logo {
@@ -4801,7 +4797,7 @@ display: block;
   
   /* Header */
   .header {
-    padding: 12px 0;
+    padding: 10px 0;
   }
   
   .logo {
@@ -5767,7 +5763,7 @@ display: block;
     position: relative;
     flex: 1;
     background: transparent;
-    padding: 30px 20px 70px 30px;
+    padding: 30px 40px 70px 30px;
     box-shadow: none;
     font-family: "Poppins", sans-serif;
     text-align: center;

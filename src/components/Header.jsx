@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Logo from "../assets/logo.png";
 
 const Header = () => {
   const location = useLocation();
@@ -22,7 +23,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <span className="logo-e">E</span><span className="logo-b">B</span><span className="logo-text">Filing</span>
+          <span className="logo-e"><img src={Logo} width={100} alt="" /></span>
         </Link>
         <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Toggle menu">
           <span className={isMobileMenuOpen ? 'hamburger open' : 'hamburger'}>

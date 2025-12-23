@@ -390,21 +390,19 @@
     font-size: 13px;
   }
 
-  .services-tabs {
+.services-tabs {
     gap: 8px;
-  }
+    padding: 10px 10px;
+    border-radius: 5px;
+}
 
-  .service-tab {
-    padding: 8px 16px;
-    font-size: 14px;
+.service-tab {
+    padding: 6px 10px;
+    font-size: 12px;
     white-space: nowrap;
-  }
+}
 
-  .service-get-started-btn,
-  .service-add-to-cart-btn {
-    padding: 14px 24px;
-    font-size: 16px;
-  }
+
 
   .cart-icon {
     font-size: 18px;

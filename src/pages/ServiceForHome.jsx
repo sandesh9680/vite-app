@@ -65,8 +65,8 @@ const ServiceForHome = () => {
       <div className="container">
         {/* Services Header */}
         <div className="services-header heading_short_long">
-          <div className="services-label">OUR SERVICES</div>
-          <h1 className="services-main-title">
+          <div className="short_title">OUR SERVICES</div>
+          <h1 className="long_title">
             <span className="highlight">Smart</span> Compliance & <span className="highlight">Legal</span> Solutions For Businesses
           </h1>
         </div>
