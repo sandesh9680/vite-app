@@ -123,7 +123,7 @@
     min-width: 380px;
     background-color: #f6fafeb0;
     border-radius: 12px;
-    padding: 40px;
+    padding: 24px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -164,11 +164,12 @@
 }
 
 .service-card-description {
-  font-size: 16px;
-  color: var(--text-gray);
-  line-height: 1.6;
-  margin-bottom: 25px;
-  flex: 1;
+    font-size: 16px;
+    color: var(--text-gray);
+    line-height: 21px;
+    margin-bottom: 20px;
+    flex: 1;
+    font-weight: 300;
 }
 
 /* Service Features List */
@@ -186,17 +187,14 @@
 }
 
 .feature-check {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #10b981;
-  color: var(--bg-white);
-  border-radius: 50%;
-  font-size: 14px;
-  font-weight: 700;
-  flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10b981;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
 }
 
 .feature-text {
@@ -207,43 +205,45 @@
 
 /* Service Trust Badge */
 .service-trust-badge {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 15px;
-  background-color: #f1f6fd;
-  border-radius: 8px;
-  margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
 }
 
 .trust-icon {
-  font-size: 20px;
-  color: #10b981;
+  width: auto;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -3px;
 }
 
 .trust-text {
-  font-size: 14px;
-  color: var(--text-gray);
-  font-weight: 500;
+    font-size: 14px;
+    color: #21B168;
+    font-weight: 400;
 }
 
 /* Get Started Button */
 .service-get-started-btn {
-  background: linear-gradient(135deg, var(--primary-orange) 60%, var(--primary-orange-dark) 100%);
-  color: var(--bg-white);
-  padding: 16px 32px;
-  border-radius: 100px;
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 100%;
-  font-family: var(--font-primary);
+    background: linear-gradient(135deg, var(--primary-orange) 60%, var(--primary-orange-dark) 100%);
+    color: var(--bg-white);
+    padding: 7px 32px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    font-family: var(--font-primary);
 }
 
 .service-get-started-btn:hover {
@@ -258,22 +258,22 @@
 
 /* Add to Cart Button */
 .service-add-to-cart-btn {
-  background-color: transparent;
-  color: var(--text-dark);
-  padding: 14px 32px;
-  border-radius: 100px;
-  font-size: 18px;
-  font-weight: 600;
-  border: 2px solid var(--primary-orange);
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 100%;
-  margin-top: 12px;
-  font-family: var(--font-primary);
+    background-color: transparent;
+    color: var(--text-dark);
+    padding: 6px 32px;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid var(--primary-orange);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 12px;
+    font-family: var(--font-primary);
 }
 
 .service-add-to-cart-btn:hover {

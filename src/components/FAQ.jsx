@@ -37,7 +37,10 @@ const FAQ = () => {
   return (
     <section className="faq">
       <div className="container">
-        <h2 className="section-title">Your Most Common Questions, Answered Clearly</h2>
+        <div className="heading_short_long">
+          <div className="short_title">frequently asked questions</div>
+        <h2 className="long_title text-center">Your Most Common Questions, Answered Clearly</h2>
+        </div>
         <div className="faq-content">
           <div className="faq-column">
             {faqs.slice(0, 3).map((faq, index) => (

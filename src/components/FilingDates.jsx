@@ -69,12 +69,11 @@ const FilingDates = () => {
   return (
     <section className="filing-dates">
       <div className="container">
-        <div className="filing-dates-header">
-          <div className="filing-dates-label-wrapper">
-            <div className="filing-dates-label">HOW EBIZ WORKS</div>
-            <div className="filing-dates-label-line"></div>
-          </div>
-          <h2 className="filing-dates-title">All Your Filing Dates, Simplified</h2>
+        <div className="heading_short_long">
+          
+            <div className="short_title">HOW EBIZ WORKS</div>
+           
+          <h2 className="long_title">All Your Filing Dates, Simplified</h2>
         </div>
         <div className="timeline-container">
           <div className="timeline-line">

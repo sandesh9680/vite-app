@@ -12,18 +12,17 @@ const TrustedPartner = () => {
   return (
     <section className="trusted-partner">
       <div className="container">
-        <div className="trusted-partner-header">
-          <div className="trusted-partner-label-wrapper">
-            <div className="trusted-partner-label">ABOUT US</div>
-            <div className="trusted-partner-label-line"></div>
-          </div>
-          <h2 className="trusted-partner-title">
+        <div className="trusted-partner-header heading_short_long">
+          
+            <div className="short_title">ABOUT US</div>
+        
+          <h2 className="trusted-partner-title long_title">
             Your <span className="highlight">Trusted Partner</span> In Business Growth
           </h2>
         </div>
         <div className="trusted-content">
           <div className="trusted-text">
-            <h3>We Secure Your Success</h3>
+            <h3>We Secure Your <br></br>Success</h3>
             <p>
               faucibus Donec quis nulla, amet, varius turpis tincidunt ex efficitur. non, tincidunt tincidunt nec non, elit orci consectetur non vel adipiscing commodo quis nibh consectetur volutpat ac ex sed Lorem quis quam sapien Vestibulum Cras Ut est. scelerisque dui Cras consectetur non non, commodo est. Nullam scelerisque id cursus tortor. sit Lorem placerat placerat sit urna. hendrerit vitae ex malesuada eget non sollicitudin. venenatis nisl. sit leo. ullamcorper elementum non Nullam scelerisque id cursus tortor. sit Lorem placerat placerat sit urna. hendrerit vitae ex malesuada eget non sollicitudin. venenatis nisl. sit leo. ullamcorper elementum non.
               sit Lorem placerat placerat sit urna. hendrerit vitae ex malesuada eget non sollicitudin. venenatis nisl. sit leo. ullamcorper elementum non.

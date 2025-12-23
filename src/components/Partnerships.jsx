@@ -81,12 +81,11 @@ const Partnerships = () => {
   return (
     <section className="partnerships">
       <div className="container">
-        <div className="partnerships-header">
-          <div className="partnerships-label-wrapper">
-            <div className="partnerships-label">PARTNER SECTION</div>
-            <div className="partnerships-label-line"></div>
-          </div>
-          <h2 className="partnerships-title">Collaborating With Industry Leaders To Deliver Better Services</h2>
+        <div className="partnerships-header heading_short_long">
+         
+            <div className="short_title">PARTNER SECTION</div>
+         
+          <h2 className="long_title">Collaborating With Industry Leaders To Deliver Better Services</h2>
         </div>
         <div className="partner-logos">
           {partners.map((partner, index) => (

@@ -9,7 +9,7 @@
 
 /* CSS Variables */
 :root {
-  --primary-orange: #000000;
+  --primary-orange: #FF6F3B;
   --primary-orange-dark: #D73B00;
   --orange-light: #FFF7F0;
   --primary-blue: #1B2145;
@@ -327,7 +327,7 @@ button {
 }
 
 .hero-title .highlight {
-  color: var(--primary-orange);
+  color: var(--primary-orange-dark);
 }
 
 .hero-description {
@@ -588,19 +588,21 @@ section {
 }
 
 .client-count-label {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--primary-orange-dark);
-  letter-spacing: 1.54px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--primary-orange-dark);
+    letter-spacing: 1.54px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: solid 1px var(--primary-orange-dark);
+    padding: 0 5px 6px;
 }
 
-.client-count-label-line {
+/* .client-count-label-line {
   width: 100px;
   height: 2px;
   background-color: var(--primary-orange-dark);
-}
+} */
 
 .client-count-title {
   font-weight: 700;
@@ -773,9 +775,12 @@ section {
 
 /* Features Section */
 .features {
-  background-color: var(--orange-light);
-  padding: 80px 0;
-  margin-top: 50px;
+    background-color: var(--orange-light);
+    padding: 30px 0;
+    margin-top: 50px;
+    box-shadow: 0px 40px 12px -30px #0000001a !important;
+    width: 100%;
+    display: inline-block;
 }
 
 .features-content {
@@ -830,24 +835,27 @@ section {
 }
 
 .features-read-more {
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--primary-orange);
-  text-decoration: none;
-  margin-bottom: 30px;
-  display: inline-block;
-  transition: color 0.3s ease;
-  align-self: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-orange);
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: inline-block;
+    transition: color 0.3s ease;
+    align-self: flex-end;
+    font-style: italic;
+    display: flex;
+    align-items: center;
 }
 
 .features-read-more:hover {
   color: var(--primary-orange-dark);
 }
-
 .features-btn {
-  align-self: flex-start;
-  border-radius: 100px;
-  box-shadow: var(--shadow-lg);
+    align-self: flex-start;
+    border-radius: 100px;
+    box-shadow: var(--shadow-lg);
+    padding: 10px 70px;
 }
 
 /* Features Board */
@@ -1018,7 +1026,7 @@ section {
 .trusted-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  gap: 70px;
   align-items: center;
 }
 
@@ -1031,12 +1039,12 @@ section {
   font-size: clamp(24px, 3vw, 36px);
   font-weight: 600;
   color: var(--text-dark);
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   line-height: 1.2;
 }
 
 .trusted-text p {
-  font-size: 16px;
+  font-size: 17px;
   color: var(--text-gray);
   line-height: 1.8;
   margin-bottom: 20px;
@@ -1063,10 +1071,11 @@ a.trusted-read-more.trusted_grid {
 }
 
 .trusted-buttons {
-  display: flex;
-  gap: 16px;
-  flex-wrap: nowrap;
-  align-items: center;
+    display: flex;
+    gap: 56px;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .trusted-btn-primary {
@@ -1114,7 +1123,7 @@ a.trusted-read-more.trusted_grid {
 
 .hands-image {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1122,12 +1131,11 @@ a.trusted-read-more.trusted_grid {
 }
 
 .hands-img {
-  width: 100%;
-  max-width: 400px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 500px;
+    height: 450px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .trusted-visual {
@@ -1729,8 +1737,7 @@ a.trusted-read-more.trusted_grid {
 
 /* Calculators Section */
 .calculators {
-  background-color: var(--bg-light);
-  padding: 80px 0;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -1750,6 +1757,7 @@ a.trusted-read-more.trusted_grid {
     text-align: left;
     max-width: 340px;
     border: solid 1px var(--border-color);
+    height: fit-content;
 }
 
 .calculator-card-blue {
@@ -1874,7 +1882,7 @@ a.trusted-read-more.trusted_grid {
 .calculator-btn-solid {
   background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
   color: var(--bg-white);
-  padding: 12px 24px;
+  padding: 8px 24px;
   border-radius: 100px;
   border: none;
   cursor: pointer;
@@ -1885,6 +1893,16 @@ a.trusted-read-more.trusted_grid {
 .calculator-btn-solid:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
+}
+.calculator-card.calculator-card-white:hover .calculator-btn{
+  background: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-orange-dark) 100%);
+  color: var(--bg-white);
+  padding: 8px 24px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  justify-content: center;
 }
 
 .calculator-btn .btn-arrow {
@@ -1921,8 +1939,9 @@ a.trusted-read-more.trusted_grid {
 
 /* Alerts & Deadlines Section */
 .alerts-deadlines {
-  background: linear-gradient(135deg, #f5f5f5 0%, #e8f4fd 100%);
-  padding: 80px 0;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8f4fd 100%);
+    padding: 1px 0 40px;
+    margin-top: 30px;
 }
 
 .alerts-header {
@@ -1972,19 +1991,23 @@ a.trusted-read-more.trusted_grid {
 .reminders-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .reminder-card {
     background: linear-gradient(180deg, #FDF3E9 0%, #FBFCFF 100%);
     border-radius: 12px;
     padding: 10px 17px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     display: flex;
     align-items: flex-start;
     gap: 20px;
     position: relative;
     align-items: center;
+}
+.reminder-card:hover {
+  border: solid 1px var(--primary-orange);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .reminder-card.active {
@@ -2148,10 +2171,10 @@ a.trusted-read-more.trusted_grid {
 }
 
 .alerts-subscribe-btn {
-  padding: 16px 48px;
-  font-size: 18px;
-  font-weight: 600;
-  min-width: 360px;
+    padding: 6px 48px;
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 300px;
 }
 
 /* Calculators Section */
@@ -2179,7 +2202,7 @@ a.trusted-read-more.trusted_grid {
 /* Experts Section */
 .experts {
   /* background: linear-gradient(135deg, #f5f5f5 0%, #f5f5f5 100%); */
-  padding: 80px 0;
+  padding: 0px 0;
   text-align: center;
 }
 
@@ -2197,6 +2220,7 @@ a.trusted-read-more.trusted_grid {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: left;
     position: relative;
+    height: fit-content;
 }
 .expert-card:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -2416,6 +2440,7 @@ a.trusted-read-more.trusted_grid {
 .timeline-steps {
   position: relative;
   z-index: 3;
+  margin-top: 50px;
 }
 
 .timeline-step {
@@ -2724,7 +2749,7 @@ a.trusted-read-more.trusted_grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 90px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
 .blog-card {
@@ -5913,20 +5938,20 @@ display: block;
 .stats.count_sec {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 30px 50px;
     margin: auto;
-    padding: 10px 0 0;
     width: 100%;
+    padding: 10px 30px 0;
 }
 .count_sec .card {
   background: #f1f8ff;
   border: 1px solid #bcdcff;
   border-radius: 12px;
-  padding: 20px 20px;
+  padding: 15px 20px;
   text-align: center;
 }
 .count_sec .card:hover{
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 50px 30px rgba(0, 0, 0, 0.08);
 }
 
 .count_sec .card h2 {
@@ -5938,4 +5963,46 @@ display: block;
 .count_sec .card p {
   font-size: 16px;
   color: #333;
+}
+
+
+.heading_short {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-orange);
+    letter-spacing: 1px;
+     margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: solid 2px var(--primary-orange);
+    padding: 0 5px 6px;
+}
+
+
+.heading_short_long .short_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-orange-dark);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: solid 2px var(--primary-orange-dark);
+    padding: 0 10px 6px;
+    width: fit-content;
+    margin: 0 auto 20px;
+}
+.heading_short_long .long_title {
+ font-weight: 700;
+    color: var(--text-dark);
+    line-height: 1.2;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-start {
+  text-align: left;
+  margin-left: 0 !important;
+}
+
+.highlight {
+  color: var(--primary-orange-dark);
 }

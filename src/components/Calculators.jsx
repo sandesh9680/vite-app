@@ -75,9 +75,12 @@ const Calculators = () => {
   ];
 
   return (
-    <section className="calculators">
+    <section className="calculators p-0">
       <div className="container">
-        <h2 className="section-title">EbzFiling's Trusted Calculators Give You Clarity in Seconds</h2>
+        <div className="heading_short_long">
+          <div className="short_title">Calculate with Confidence</div>
+        <h2 className="long_title">EbzFiling's Trusted Calculators Give You Clarity in Seconds</h2>
+        </div>
         <div className="calculator-grid">
           {calculators.map((calc, index) => (
             <div key={index} className={`calculator-card calculator-card-${calc.variant}`}>

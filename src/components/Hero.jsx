@@ -9,8 +9,8 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-container">
         <div className="hero-top-label-wrapper">
-          <div className="hero-top-label">FROM IDEA TO INCORPORATION:</div>
-          <div className="hero-top-label-line"></div>
+          <div className="hero-top-label heading_short">FROM IDEA TO INCORPORATION:</div>
+          
         </div>
         <h1 className="hero-title">
           Effortless Legal Solutions for <span className="highlight">Every Stage</span> of Business

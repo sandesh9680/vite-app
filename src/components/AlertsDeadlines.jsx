@@ -113,15 +113,15 @@ const AlertsDeadlines = () => {
   );
 
   return (
-    <section className="alerts-deadlines">
-      <div className="container">
-        <div className="alerts-header">
-          <div className="alerts-label-wrapper">
-            <div className="alerts-label">REMINDERS</div>
-            <div className="alerts-label-line"></div>
-          </div>
-          <h2 className="alerts-title">Get Alerts And Important Deadlines All In One Place</h2>
+    <section>
+        <div className="heading_short_long">
+          
+            <div className="short_title">REMINDERS</div>
+            
+          <h2 className="long_title text-center">Get Alerts And Important Deadlines All In One Place</h2>
         </div>
+        <div className="alerts-deadlines">
+      <div className="container">
         <div className="alerts-content">
           <div className="reminders-list">
             {filteredReminders.map((reminder, index) => (
@@ -166,6 +166,7 @@ const AlertsDeadlines = () => {
         <div className="alerts-cta">
           <button className="btn-primary alerts-subscribe-btn">Subscribe</button>
         </div>
+      </div>
       </div>
     </section>
   );

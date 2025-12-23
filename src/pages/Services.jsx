@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../components/ServicesPage.css';
+import Testimonials from '../components/Testimonials';
 
 // Import images
 import icon1 from '../assets/images/icon1.png';
@@ -1844,7 +1845,7 @@ const Services = () => {
 
       {/* Features of GST Service end */}
        {/* testimonial */}
-      <img src={testimonialImg} alt="img" />
+       <Testimonials />
 {/* testimonial end */}
  {/* What Happen Next? */}
       <div

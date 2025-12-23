@@ -44,8 +44,11 @@ const Experts = () => {
   return (
     <section className="experts">
       <div className="container">
-        <h2 className="section-title">Connect With The Right Expert For Your Business Needs</h2>
+        <div className="heading_short_long">
+          <div className="short_title">Talk to Specialist</div>
+        <h2 className="long_title">Connect With The Right Expert For Your Business Needs</h2>
         <p className="section-subtitle">Get expert advice from certified professionals</p>
+        </div>
         <div className="expert-cards">
           {experts.map((expert, index) => (
             <div key={index} className="expert-card">

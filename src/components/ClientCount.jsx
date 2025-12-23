@@ -13,11 +13,10 @@ const ClientCount = () => {
   return (
     <section className="client-count">
       <div className="container">
-        <div className="client-count-header">
-          <div className="client-count-label-wrapper">
-            <div className="client-count-label">TRUSTED BY</div>
-            <div className="client-count-label-line"></div>
-          </div>
+        <div className="client-count-header heading_short_long">
+         
+            <div className="services-label">TRUSTED BY</div>
+       
           <h2 className="client-count-title">
             <span className="client-count-number">28000+</span> Entrepreneurs And Business
           </h2>

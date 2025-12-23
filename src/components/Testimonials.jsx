@@ -4,12 +4,12 @@ import React from "react";
 const Testimonials = () => {
   return (
     <section className="section-wrapper">
-      <div className="section-header">
-      <div className="trusted-partner-label">TESTIMONIALS</div>
-      <h2>
-          <span className="blue">What Our</span>
-          <span className="orange"> Clients Says </span>
-          <span className="blue">About Us</span>
+      <div className="section-header heading_short_long">
+      <div className="short_title">TESTIMONIALS</div>
+      <h2 className="long_title">
+          What Our
+          <span className="highlight"> Clients Says </span>
+          About Us
         </h2>
       </div>
 

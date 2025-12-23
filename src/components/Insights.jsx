@@ -47,12 +47,13 @@ const Insights = () => {
   return (
     <section className="insights">
       <div className="container">
-        <div className="insights-header">
-          <div className="insights-label-wrapper">
-            <div className="insights-label">BUSINESS BLOG</div>
-            <div className="insights-label-line"></div>
-          </div>
-          <h2 className="insights-title">Insights That Drive Your Business</h2>
+        <div className="insights-label-wrapper">
+        <div className="heading_short_long">
+         
+            <div className="short_title">BUSINESS BLOG</div>
+           
+          <h2 className="long_title text-center">Insights That Drive Your Business</h2>
+        </div>
         </div>
         <div className="blog-cards">
           {blogs.map((blog, index) => (

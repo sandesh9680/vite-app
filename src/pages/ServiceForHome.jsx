@@ -64,7 +64,7 @@ const ServiceForHome = () => {
     <section className="services-page">
       <div className="container">
         {/* Services Header */}
-        <div className="services-header">
+        <div className="services-header heading_short_long">
           <div className="services-label">OUR SERVICES</div>
           <h1 className="services-main-title">
             <span className="highlight">Smart</span> Compliance & <span className="highlight">Legal</span> Solutions For Businesses
