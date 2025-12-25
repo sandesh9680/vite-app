@@ -1074,7 +1074,6 @@ a.trusted-read-more.trusted_grid {
     align-items: center;
     margin-top: 50px;
 }
-
 .trusted-btn-primary {
     display: flex;
     align-items: center;
@@ -1082,8 +1081,8 @@ a.trusted-read-more.trusted_grid {
     white-space: nowrap;
     border-radius: 100px;
     box-shadow: 0 6px 8px 0px #00000026;
+    padding: 13px 31px;
 }
-
 .trusted-btn-secondary {
     background-color: var(--bg-white);
     color: var(--text-dark);

@@ -84,7 +84,7 @@ const Services = () => {
           <div className="space-y-4 lg:space-y-8 col-span-2 lg:pe-16">
             <div>
               <span
-                className="text-primary font-bold tracking-wider uppercase text-xs border-b-2 border-orange-200 pb-1"
+                className="hero-top-label heading_short pb-1"
               >
                 Professional Business Services
               </span>
@@ -311,7 +311,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full bg-primary hover:bg-primary-hover text-white font-bold py-3.5 px-6 rounded-full shadow-lg transform active:scale-95 transition-all flex items-center justify-center space-x-2 text-lg"
+                  className="w-full bg-primary hover:bg-primary-hover text-white font-bold py-2.5 px-6 rounded-full shadow-lg transform active:scale-95 transition-all flex items-center justify-center space-x-2 text-lg"
                   type="submit"
                 >
                   <span>Book an Appointment</span>
@@ -325,7 +325,7 @@ const Services = () => {
       {/* Professional Business Services End*/}
       {/* Trusted by Thousands */}
       <div
-        className="font-body shadow-lg text-slate-800 dark:text-slate-100 min-h-screen flex flex-col items-center pt-10 transition-colors duration-300"
+        className="font-body shadow-lg text-slate-800 dark:text-slate-100 flex flex-col items-center pt-10 transition-colors duration-300"
       >
         <div className="w-full max-w-8xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto mb-16">
@@ -350,22 +350,18 @@ const Services = () => {
             </div>
           </div>
           <div className="text-center mb-12">
-            <div className="inline-block relative mb-3">
-              <h2
-                className="text-primary font-bold tracking-[0.2em] text-xs uppercase"
-              >
+            <div className="heading_short_long mb-3">
+              <div className="short_title">
                 Trusted by Thousands
-              </h2>
-              <div
-                className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-0.5 bg-primary/30"
-              ></div>
-            </div>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-slate-900 dark:text-white mt-4"
+              </div>
+              <h2
+              className="long_title"
             >
               Rated 4.5<span className="text-slate-800 dark:text-slate-200">★</span>
               On Google &amp; Trustpilot
-            </h1>
+            </h2>
+            </div>
+            
           </div>
           <div
             className="grid grid-cols-1 lg:!grid-cols-3 gap-6 max-full mx-auto pb-10 lg:pb-20"
@@ -475,7 +471,7 @@ const Services = () => {
                   </h3>
 
                   <p
-                    className="text-sm text-slate-500 dark:text-slate-400 leading-snug mb-4"
+                    className="text-sm text-slate-600 dark:text-slate-400 leading-snug mb-4"
                   >
                     Ullamcorper ultrices quis ullam tincidunt felis, placerat
                     Lorem Ut leo.
@@ -545,7 +541,7 @@ const Services = () => {
                     >
                   </div>
                 </div>
-                <div className="text-sm text-slate-500 dark:text-slate-400">
+                <div className="text-sm text-slate-600 dark:text-slate-400">
                   Based on
                   <a
                     className="font-semibold underline decoration-slate-400 hover:text-slate-800 dark:hover:text-white"
@@ -570,7 +566,7 @@ const Services = () => {
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div
-              className="flex justify-center md:justify-between items-center overflow-x-auto whitespace-nowrap no-scrollbar space-x-2 md:space-x-4"
+              className="flex justify-between md:justify-between items-center overflow-x-auto whitespace-nowrap no-scrollbar space-x-2 md:space-x-4"
             >
               <a
                 className="bg-primary text-white px-8 py-2.5 rounded-full font-bold text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5"
@@ -616,22 +612,16 @@ const Services = () => {
 {/* Plans and Pricing */}
       <div className="lg:py-20 py-10 px-4 sm:px-6 lg:px-10 bg-[#FBFCFF] my-6 mx-auto">
         <div className="text-center mb-8 lg:mb-16">
-          <div className="inline-block relative mb-4 group">
-            <h2
-              className="text-primary font-bold tracking-[0.15em] uppercase text-sm md:text-base relative z-10 pb-2"
-            >
+          <div className="heading_short_long mb-4 group">
+            <div className="short_title">
               Benefits of GST Registration
-            </h2>
-            <div
-              className="absolute bottom-0 left-0 w-full h-0.5 bg-primary/20 scale-x-50 group-hover:scale-x-100 transition-transform duration-500"
-            ></div>
-          </div>
-          <h1
-            className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mt-2 leading-tight"
-          >
+            </div>
+         <h2 className="long_title">
             Why <span className="text-primary">(Service Name)</span> Is A Smart
             Choice?
-          </h1>
+          </h2>   
+          </div>
+          
         </div>
         <div className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-2 gap-8 lg:gap-10">
           <div
@@ -725,20 +715,16 @@ const Services = () => {
         className="font-sans text-slate-800 dark:text-slate-100 antialiased transition-colors duration-300"
       >
         <div className="lg:py-16 py-6 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-          <div className="text-center mb-12 space-y-4">
-            <h2
-              className="text-primary font-bold tracking-widest text-sm uppercase relative inline-block"
-            >
+          <div className="heading_short_long text-center mb-12 space-y-4">
+            <div className="short_title">
               Plans and Pricing
-              <span
-                className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-orange-200 dark:bg-orange-900/50 rounded-full"
-              ></span>
-            </h2>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-display font-bold text-slate-900 dark:text-white mt-4"
+             
+            </div>
+            <h2
+              className="long_title mt-4"
             >
               Choose The Right Plan To Grow Your Business
-            </h1>
+            </h2>
           </div>
           <div className="grid grid-cols-1 lg:!grid-cols-3 gap-8 items-start">
             <div
@@ -767,7 +753,7 @@ const Services = () => {
                     className="text-4xl font-bold text-slate-900 dark:text-white"
                     >₹ 999</span
                   >
-                  <div className="text-xs text-slate-500 dark:text-slate-400">
+                  <div className="text-xs text-slate-600 dark:text-slate-400">
                     per registration
                   </div>
                 </div>
@@ -778,7 +764,7 @@ const Services = () => {
                   <span className="font-mono font-bold text-red-500">24:27:56</span>
                 </div>
                 <div
-                  className="mt-3 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/50 px-2 py-1 rounded border border-dashed border-slate-300 dark:border-slate-600 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
+                  className="mt-3 flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/50 px-2 py-1 rounded border border-dashed border-slate-300 dark:border-slate-600 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
                 >
                   Use Code:
                   <span className="font-bold text-slate-700 dark:text-slate-300"
@@ -818,7 +804,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
+                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-2 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
                 >
                   Get Basic Plan
                 </button>
@@ -950,7 +936,7 @@ const Services = () => {
                     className="text-4xl font-bold text-slate-900 dark:text-white"
                     >₹ 999</span
                   >
-                  <div className="text-xs text-slate-500 dark:text-slate-400">
+                  <div className="text-xs text-slate-600 dark:text-slate-400">
                     per registration
                   </div>
                 </div>
@@ -961,7 +947,7 @@ const Services = () => {
                   <span className="font-mono font-bold text-red-500">24:27:56</span>
                 </div>
                 <div
-                  className="mt-3 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900/50 px-2 py-1 rounded border border-dashed border-orange-300 dark:border-orange-700 cursor-pointer hover:bg-orange-50 dark:hover:bg-slate-800 transition-colors"
+                  className="mt-3 flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400 bg-white dark:bg-slate-900/50 px-2 py-1 rounded border border-dashed border-orange-300 dark:border-orange-700 cursor-pointer hover:bg-orange-50 dark:hover:bg-slate-800 transition-colors"
                 >
                   Use Code:
                   <span className="font-bold text-slate-700 dark:text-slate-300"
@@ -1001,7 +987,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-300/50 dark:shadow-none transform transition hover:-translate-y-0.5"
+                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-2 px-6 rounded-full shadow-lg shadow-orange-300/50 dark:shadow-none transform transition hover:-translate-y-0.5"
                 >
                   Get Premium Plan
                 </button>
@@ -1158,7 +1144,7 @@ const Services = () => {
                     className="text-4xl font-bold text-slate-900 dark:text-white"
                     >₹ 4999</span
                   >
-                  <div className="text-xs text-slate-500 dark:text-slate-400">
+                  <div className="text-xs text-slate-600 dark:text-slate-400">
                     per registration
                   </div>
                 </div>
@@ -1175,7 +1161,7 @@ const Services = () => {
                   <span className="font-mono font-bold text-red-500">24:27:56</span>
                 </div>
                 <div
-                  className="mt-3 flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/50 px-2 py-1 rounded border border-dashed border-slate-300 dark:border-slate-600 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
+                  className="mt-3 flex items-center gap-2 text-xs text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-800/50 px-2 py-1 rounded border border-dashed border-slate-300 dark:border-slate-600 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
                 >
                   Use Code:
                   <span className="font-bold text-slate-700 dark:text-slate-300"
@@ -1215,7 +1201,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-3 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
+                  className="w-full mt-6 bg-[#FF6F3B] text-white font-bold py-2 px-6 rounded-full shadow-lg shadow-orange-200 dark:shadow-none transform transition hover:-translate-y-0.5"
                 >
                   Get Basic Plan
                 </button>
@@ -1423,7 +1409,7 @@ const Services = () => {
               <div className="text-2xl font-bold text-slate-900 dark:text-white">
                 6,000+
               </div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">
+              <div className="text-sm text-slate-600 dark:text-slate-400">
                 Happy Clients
               </div>
             </div>
@@ -1452,7 +1438,7 @@ const Services = () => {
               <div className="text-2xl font-bold text-slate-900 dark:text-white">
                 4.8/5
               </div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">
+              <div className="text-sm text-slate-600 dark:text-slate-400">
                 Customer Reviews
               </div>
             </div>
@@ -1478,7 +1464,7 @@ const Services = () => {
               <div className="text-2xl font-bold text-slate-900 dark:text-white">
                 100%
               </div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">
+              <div className="text-sm text-slate-600 dark:text-slate-400">
                 Compliance Guarantee
               </div>
             </div>
@@ -1491,17 +1477,14 @@ const Services = () => {
         className="font-display text-gray-800 dark:text-gray-200 antialiased min-h-screen py-10 px-4 transition-colors duration-300"
       >
         <div className="px-0 lg:px-12 mx-auto">
-          <div className="text-center mb-10">
-            <h2
-              className="text-primary font-bold tracking-wider text-sm uppercase mb-3"
-            >
+          <div className="heading_short_long text-center mb-10">
+            <div className="short_title">
               Company Overview
-            </h2>
-            <h1
-              className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white leading-tight"
-            >
+            </div>
+            <h2
+              className="long_title">
               Key Details About Private Limited Registration In India
-            </h1>
+            </h2>
           </div>
           <div
             className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-10 border border-gray-100 dark:border-gray-700"
@@ -1661,19 +1644,16 @@ const Services = () => {
         className="bg-[#FBFCFF] my-8 text-slate-600 dark:text-slate-300 transition-colors duration-300 font-sans antialiased min-h-screen flex flex-col justify-center"
       >
         <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
-          <div className="text-center mb-12 space-y-4">
-            <h2
-              className="text-primary font-bold tracking-wider text-sm sm:text-base uppercase mb-2"
-            >
+          <div className="heading_short_long text-center mb-12 space-y-4">
+            <div className='short_title'>
               Features of GST Service
-            </h2>
-            <h1
-              className="text-3xl sm:text-4xl md:text-4xl font-bold text-black dark:text-white leading-tight"
-            >
+            </div>
+            <h2
+              className="long_title">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
             <p
-              className="max-w-3xl mx-auto text-slate-500 dark:text-slate-400 text-base sm:text-lg leading-relaxed"
+              className="max-w-3xl mx-auto text-slate-600 dark:text-slate-400 text-base sm:text-lg leading-relaxed"
             >
               Experience hassle-free GST registration with our comprehensive
               service designed to make your business compliant quickly and
@@ -1700,7 +1680,7 @@ const Services = () => {
                   >
                     100% Legal Compliance
                   </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     Complete adherence to GST laws and government regulations
                   </p>
                 </div>
@@ -1721,7 +1701,7 @@ const Services = () => {
                   >
                     100% Legal Compliance
                   </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     Complete adherence to GST laws and government regulations
                   </p>
                 </div>
@@ -1742,7 +1722,7 @@ const Services = () => {
                   >
                     100% Legal Compliance
                   </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     Complete adherence to GST laws and government regulations
                   </p>
                 </div>
@@ -1763,7 +1743,7 @@ const Services = () => {
                   >
                     100% Legal Compliance
                   </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     Complete adherence to GST laws and government regulations
                   </p>
                 </div>
@@ -1784,7 +1764,7 @@ const Services = () => {
                   >
                     100% Legal Compliance
                   </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     Complete adherence to GST laws and government regulations
                   </p>
                 </div>
@@ -1805,7 +1785,7 @@ const Services = () => {
                   >
                     100% Legal Compliance
                   </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     Complete adherence to GST laws and government regulations
                   </p>
                 </div>
@@ -1834,7 +1814,7 @@ const Services = () => {
               Join 50,000+ businesses who trust eBizFiling
             </h3>
             <button
-              className="bg-primary hover:bg-orange-600 text-white font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-glow transform hover:-translate-y-0.5 transition-all duration-200 text-lg flex items-center justify-center mx-auto space-x-2"
+              className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-8 rounded-full shadow-lg hover:shadow-glow transform hover:-translate-y-0.5 transition-all duration-200 text-lg flex items-center justify-center mx-auto space-x-2"
             >
               <span>Start Registration</span>
               <span className="material-icons text-white">arrow_forward</span>
@@ -1864,21 +1844,14 @@ const Services = () => {
           </div>
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-8 lg:mb-16 relative">
-              <div className="inline-block relative mb-3">
-                <h3
-                  className="text-primary font-bold tracking-widest text-sm uppercase"
-                >
+              <div className="heading_short_long inline-block relative mb-3">
+                <div className='short_title'>
                   What Happen Next?
-                </h3>
-                <div
-                  className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-12 h-0.5 bg-primary/30"
-                ></div>
-              </div>
-              <h1
-                className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6"
-              >
+                </div>
+                <h2
+                className="long_title inline-block pb-6">
                 Post Service <span className="text-primary">Compliances</span>
-              </h1>
+              </h2>
               <p
                 className="max-w-3xl mx-auto text-gray-600 dark:text-gray-400 text-lg leading-relaxed"
               >
@@ -1886,6 +1859,8 @@ const Services = () => {
                 compliance and ongoing support to keep your business running
                 smoothly.
               </p>
+              </div>
+              
             </div>
             <div
               className="flex flex-col lg:!flex-row items-center justify-between gap-12 lg:gap-20"
@@ -2030,23 +2005,15 @@ const Services = () => {
         className="bg-[#FBFCFF] transition-colors duration-300 antialiased min-h-screen flex flex-col items-center justify-center py-20"
       >
         <div className="container mx-auto px-12">
-          <div className="text-center mb-8 lg:mb-16 max-w-6xl mx-auto">
-            <div className="relative inline-block mb-4">
-              <span
-                className="text-primary font-bold tracking-widest uppercase text-sm md:text-base px-4 py-1 relative z-10"
-              >
+          <div className="heading_short_long text-center mb-10 mx-auto">
+            
+<div className="short_title">
                 Committed to Security
-              </span>
-              <div
-                className="absolute bottom-0 left-0 w-full h-[2px] bg-primary/20 dark:bg-primary/40 -mb-1 transform scale-x-75"
-              ></div>
-            </div>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-heading-light dark:text-heading-dark mb-8 leading-tight"
-            >
+</div>
+            <h2 className="long_title pb-6">
               Your Data Stays Safe With Enterprise-Grade Protection And
               Compliance
-            </h1>
+            </h2>
             <p
               className="text-text-light dark:text-text-dark text-base md:text-lg leading-relaxed max-w-7xl mx-auto"
             >
@@ -2150,7 +2117,7 @@ const Services = () => {
               Questions About Our Data Security?
             </h2>
             <button
-              className="inline-flex items-center justify-center bg-primary hover:bg-primary-hover text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg shadow-primary/30 transition-all duration-300 transform hover:-translate-y-1"
+              className="inline-flex items-center justify-center bg-primary hover:bg-primary-hover text-white font-bold text-lg py-2.5 px-10 rounded-full shadow-lg shadow-primary/30 transition-all duration-300 transform hover:-translate-y-1"
             >
               <span className="material-icons-outlined mr-2">phone</span>
               Contact Us
@@ -2167,24 +2134,20 @@ const Services = () => {
       {/* process gst registration */}
       <div>
         <div className="mx-auto">
-          <div className="text-center mb-12">
-            <h2
-              className="text-primary font-bold tracking-widest uppercase text-sm mb-3"
-            >
+          <div className="heading_short_long text-center mb-12">
+            <div className="short_title">
               Process for GST Registration
-            </h2>
-            <h1
-              className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white"
-            >
+            </div>
+            <h2 className="long_title">
               Company Registration Made Simple
-            </h1>
+            </h2>
           </div>
           <div
             className="gst_timeline text-slate-800 dark:text-slate-200 p-4 md:p-8 lg:p-12"
           >
             <div className="grid grid-cols-1 lg:!grid-cols-2 gap-8 mb-10">
               <div
-                className="bg-[#FBFCFF] dark:bg-slate-800 rounded-2xl p-6 md:p-10 border border-blue-100 dark:border-slate-700 shadow-sm flex flex-col h-full"
+                className="bg-[#FBFCFF] dark:bg-slate-800 rounded-2xl p-6 md:p-10 border border-blue-100 dark:border-slate-700 shadow-sm flex flex-col h-fit"
               >
                 <div className="mb-8">
                   <h3
@@ -2193,7 +2156,7 @@ const Services = () => {
                     GST Registration in 3 Simple Steps
                   </h3>
                   <p
-                    className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed"
+                    className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
                   >
                     Our streamlined process makes company registration quick and
                     hassle-free
@@ -2217,7 +2180,7 @@ const Services = () => {
                         Answer Quick Questions
                       </h4>
                       <p
-                        className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                        className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                       >
                         Fill out our simple online form with your business
                         details. Our smart questionnaire guides you through all
@@ -2242,7 +2205,7 @@ const Services = () => {
                         Answer Quick Questions
                       </h4>
                       <p
-                        className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                        className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                       >
                         Fill out our simple online form with your business
                         details. Our smart questionnaire guides you through all
@@ -2267,7 +2230,7 @@ const Services = () => {
                         Answer Quick Questions
                       </h4>
                       <p
-                        className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                        className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                       >
                         Fill out our simple online form with your business
                         details. Our smart questionnaire guides you through all
@@ -2278,7 +2241,7 @@ const Services = () => {
                 </div>
                 <div className="flex justify-center mt-auto">
                   <button
-                    className="px-8 py-2.5 rounded-full border border-primary text-slate-900 dark:text-white font-medium hover:bg-primary hover:text-white transition-colors duration-300"
+                    className="px-8 py-2 rounded-full border border-primary text-slate-900 dark:text-white font-medium hover:bg-primary hover:text-white transition-colors duration-300"
                   >
                     Download
                   </button>
@@ -2297,7 +2260,7 @@ const Services = () => {
                     Timeline to Register a Company
                   </h3>
                   <p
-                    className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed"
+                    className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed"
                   >
                     Track your company registration journey from start to finish
                   </p>
@@ -2334,7 +2297,7 @@ const Services = () => {
                             Application Processing
                           </h4>
                           <p
-                            className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                            className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
                             Document preparation and name availability check
                             with government authorities.
@@ -2369,7 +2332,7 @@ const Services = () => {
                             Government Submission
                           </h4>
                           <p
-                            className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                            className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
                             Filing incorporation documents and regulatory
                             approvals with relevant authorities.
@@ -2404,7 +2367,7 @@ const Services = () => {
                             Verification &amp; Review
                           </h4>
                           <p
-                            className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                            className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
                             Government review process and verification of
                             submitted documents and details.
@@ -2439,7 +2402,7 @@ const Services = () => {
                             Certificate Issuance
                           </h4>
                           <p
-                            className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed"
+                            className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
                             Receive company registration certificate and
                             commence business operations.
@@ -2451,7 +2414,7 @@ const Services = () => {
                 </div>
                 <div className="flex justify-center mt-auto z-10">
                   <button
-                    className="px-8 py-2.5 rounded-full border border-primary text-slate-900 dark:text-white font-medium hover:bg-primary hover:text-white transition-colors duration-300"
+                    className="px-8 py-2 rounded-full border border-primary text-slate-900 dark:text-white font-medium hover:bg-primary hover:text-white transition-colors duration-300"
                   >
                     Download
                   </button>
@@ -2465,7 +2428,7 @@ const Services = () => {
                 Ready to Start Your Company Registration?
               </h3>
               <button
-                className="bg-primary hover:bg-orange-600 text-white font-semibold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 text-lg"
+                className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-10 rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 text-lg"
               >
                 Start Registration Now
               </button>
@@ -2478,18 +2441,14 @@ const Services = () => {
       <div
         className="min-h-screen flex flex-col items-center justify-center p-4 transition-colors duration-300"
       >
-        <section className="max-w-4xl w-full mx-auto py-12">
-          <div className="text-center mb-10">
-            <h2
-              className="text-primary font-bold tracking-widest uppercase text-sm mb-3"
-            >
+        <section className="max-w-6xl w-full mx-auto py-12">
+          <div className="heading_short_long text-center mb-10">
+            <div className="short_title">
               How It Works?
-            </h2>
-            <h1
-              className="text-3xl md:text-4xl font-bold text-text-main-light dark:text-text-main-dark"
-            >
+            </div>
+            <h2 className="long_title">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
           </div>
           <div className="space-y-4">
             {[0, 1, 2, 3].map((index) => (
@@ -2538,7 +2497,7 @@ const Services = () => {
           </div>
           <div className="mt-8 flex justify-end w-full">
             <button
-              className="bg-primary hover:bg-orange-600 dark:hover:bg-orange-500 text-white font-semibold py-3 px-8 rounded-full shadow-md transition-colors duration-200"
+              className="bg-primary hover:bg-orange-600 dark:hover:bg-orange-500 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors duration-200"
             >
               Download the Steps
             </button>
@@ -2549,20 +2508,13 @@ const Services = () => {
   {/* Compare Your Services */}
       <div className="bg-[#FBFCFF] dark:bg-background-dark duration-300">
         <div className="mx-auto px-6 py-6 lg:px-12 lg:py-16">
-          <div className="text-center mb-12">
-            <h3
-              className="text-primary text-base lg:text-lg font-bold tracking-widest uppercase mb-4 relative inline-block"
-            >
+          <div className="heading_short_long text-center mb-12">
+            <div className="short_title">
               Compare Your Services
-              <span
-                className="absolute -bottom-2 left-0 right-0 h-0.5 bg-primary/30 w-1/2 mx-auto"
-              ></span>
-            </h3>
-            <h1
-              className="text-3xl md:!text-4xl font-bold text-text-light dark:text-text-dark mt-2"
-            >
+            </div>
+            <h2 className="long_title">
               Company Registration Made Simple
-            </h1>
+            </h2>
           </div>
           <div
             className="bg-white dark:bg-gray-800 rounded-xl shadow-soft overflow-hidden border border-gray-200 dark:border-gray-700"
@@ -3020,35 +2972,35 @@ const Services = () => {
                     </td>
                     <td className="p-4 text-center">
                       <button
-                        className="bg-primary hover:bg-primary-hover text-white font-semibold py-2.5 px-6 rounded-full shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5"
+                        className="bg-primary hover:bg-primary-hover text-white font-semibold py-1.5 px-6 rounded-full shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5"
                       >
                         Get Started
                       </button>
                     </td>
                     <td className="p-4 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-2.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-1.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
                     <td className="p-4 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-2.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-1.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
                     <td className="p-4 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-2.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-1.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
                     <td className="p-4 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-2.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white dark:bg-transparent border border-primary text-text-light dark:text-text-dark font-semibold py-1.5 px-6 rounded-full hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
                       >
                         Read More
                       </button>
@@ -3068,22 +3020,16 @@ const Services = () => {
         <section
           className="w-full max-w-[1400px] mx-auto py-16 px-4 sm:px-6 lg:px-8"
         >
-          <div className="text-center mb-12">
-            <div className="inline-block relative mb-4">
-              <h2
-                className="text-primary font-bold tracking-widest uppercase text-sm md:text-base mb-1"
-              >
+          <div className=" text-center mb-12">
+            <div className="heading_short_long inline-block relative mb-4">
+              <div className="short_title">
                 Quick Access Guides
-              </h2>
-              <div
-                className="h-0.5 w-full bg-primary/30 mx-auto mt-1 rounded-full"
-              ></div>
-            </div>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-text-main dark:text-text-main-dark mt-2 tracking-tight"
-            >
+              </div>
+              
+            <h2 className="long_title">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
+            </div>
           </div>
           <div
             className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 lg:gap-16"
@@ -3196,18 +3142,14 @@ const Services = () => {
           className="relative py-16 px-4 sm:px-6 lg:px-8 bg-soft-gradient dark:bg-soft-gradient-dark overflow-hidden"
         >
           <div className="max-w-7xl mx-auto text-center relative z-10">
-            <div className="inline-block mb-4">
-              <span
-                className="text-primary font-bold tracking-wider text-sm uppercase border-b-2 border-primary/30 pb-1"
-              >
+            <div className="heading_short_long inline-block mb-8">
+              <div className="short_title">
                 Why Us
-              </span>
-            </div>
-            <h2
-              className="text-3xl md:text-4xl font-bold text-text-main dark:text-white mb-10 tracking-tight"
-            >
+              </div>
+            <h2 className="long_title">
               Your Trusted Partner In Business Growth
             </h2>
+            </div>
             <div
               className="grid grid-cols-2 md:!grid-cols-2 lg:!grid-cols-4 gap-4 lg:gap-12 items-center"
             >
@@ -3299,24 +3241,15 @@ const Services = () => {
       >
         <section className="w-full max-w-7xl mx-auto px-4 py-16 md:py-20">
           <div className="text-center mb-10 space-y-4">
-            <div className="inline-block relative">
-              <h3
-                className="text-primary font-bold tracking-[0.15em] uppercase text-sm md:text-base mb-2"
-              >
+            <div className="heading_short_long inline-block relative">
+              <div className="short_title">
                 Why Choose Ebiz
-              </h3>
-              <div
-                className="h-[2px] w-full bg-primary/30 absolute -bottom-1 left-0"
-              ></div>
-              <div
-                className="h-[2px] w-1/2 bg-primary absolute -bottom-1 left-1/4"
-              ></div>
-            </div>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-heading-dark dark:text-white tracking-tight leading-tight"
-            >
+              </div>
+              
+            <h2 className="long_title">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
+            </div>
           </div>
           <div
             className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 mb-10"
@@ -3407,7 +3340,7 @@ const Services = () => {
               Looking for the Perfect Partner to Power Your Growth?
             </p>
             <button
-              className="bg-primary hover:bg-primary-hover text-white font-bold text-lg py-3 px-8 rounded-full shadow-glow hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-3 group"
+              className="bg-primary hover:bg-primary-hover text-white font-bold text-lg py-2 px-8 rounded-full shadow-glow hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex items-center gap-3 group"
             >
               <span>Explore Partnerships</span>
               <span
@@ -3443,7 +3376,7 @@ const Services = () => {
                   to your business goals.
                 </p>
                 <button
-                  className="group inline-flex items-center justify-center bg-primary hover:bg-orange-600 text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg hover:shadow-orange-500/30 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:focus:ring-orange-900"
+                  className="group inline-flex items-center justify-center bg-primary hover:bg-orange-600 text-white font-bold text-lg py-2 px-10 rounded-full shadow-lg hover:shadow-orange-500/30 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:focus:ring-orange-900"
                 >
                   Get Assistance
                   <span
@@ -3475,18 +3408,14 @@ const Services = () => {
       >
         <section className="relative py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-8 lg:mb-16">
-            <div className="mb-4 inline-block relative">
-              <span
-                className="text-primary font-bold tracking-widest uppercase text-sm border-b-2 border-primary/20 pb-1 px-1"
-              >
+            <div className="heading_short_long inline-block relative">
+              <div className="short_title">
                 Calculators
-              </span>
-            </div>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-slate-900 dark:text-white mb-6 leading-tight tracking-tight"
-            >
+              </div>
+            
+            <h2 className="long_title pb-6">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
             <p
               className="max-w-5xl mx-auto text-text-muted dark:text-slate-400 text-lg leading-relaxed font-light"
             >
@@ -3495,6 +3424,7 @@ const Services = () => {
               Guide, and more. Simplify complex calculations with our
               user-friendly interface.
             </p>
+            </div>
           </div>
           <div
             className="grid grid-cols-1 sm:!grid-cols-2 lg:!grid-cols-4 gap-6 mb-12"
@@ -3556,12 +3486,12 @@ const Services = () => {
             className="flex md:!flex sm:flex-row items-center justify-center gap-6"
           >
             <button
-              className="bg-primary hover:bg-orange-600 text-white font-bold py-3.5 px-10 rounded-full shadow-lg shadow-orange-100 dark:shadow-none transition-all duration-200 transform hover:-translate-y-0.5"
+              className="bg-primary hover:bg-orange-600 text-white font-bold py-2 px-10 rounded-full shadow-lg shadow-orange-100 dark:shadow-none transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Explore Tools
             </button>
             <button
-              className="bg-transparent hover:bg-orange-50 dark:hover:bg-slate-800 border-2 border-primary text-slate-900 dark:text-white font-bold py-3.5 px-10 rounded-full transition-all duration-200 transform hover:-translate-y-0.5"
+              className="bg-transparent hover:bg-orange-50 dark:hover:bg-slate-800 border-2 border-primary text-slate-900 dark:text-white font-bold py-2 px-10 rounded-full transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Try a Calculator
             </button>
@@ -3646,17 +3576,13 @@ const Services = () => {
         className="gradientcolor22 dark:bg-background-dark text-gray-800 dark:text-gray-200 min-h-screen flex flex-col justify-center py-10 transition-colors duration-300"
       >
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
-          <div className="text-center mb-12">
-            <h3
-              className="text-primary font-bold uppercase tracking-widest text-sm mb-3"
-            >
+          <div className="heading_short_long text-center mb-12">
+            <div className="short_title">
               Document Required
-            </h3>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight"
-            >
+            </div>
+            <h2 className="long_title pb-6">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
             <p
               className="text-gray-500 dark:text-gray-400 text-base md:text-lg max-w-4xl mx-auto leading-relaxed"
             >
@@ -3692,6 +3618,7 @@ const Services = () => {
                   for identity verification and tax compliance during company
                   registration.
                 </p>
+                <div className="border border-gray-200 mb-3"></div>
                 <button
                   className="w-full py-2 px-4 border border-primary text-black rounded-full text-sm font-semibold hover:bg-primary hover:text-white transition-colors duration-200"
                 >
@@ -3982,7 +3909,7 @@ const Services = () => {
           </div>
           <div className="mt-16 flex justify-center">
             <div
-              className="bg-white dark:bg-slate-800 rounded-full shadow-lg border border-gray-100 dark:border-slate-700 py-3 px-6 flex items-center gap-4 text-xs sm:text-sm"
+              className="bg-white dark:bg-slate-800 rounded-full border border-blue-100 dark:border-slate-700 py-3 px-6 flex items-center gap-4 text-xs sm:text-sm"
             >
               <div
                 className="flex items-center gap-2 border-r border-gray-200 dark:border-slate-600 pr-4"
@@ -4007,21 +3934,15 @@ const Services = () => {
       >
         <section className="max-w-7xl mx-auto w-full py-6 lg:py-10">
           <div className="text-center mb-8 lg:mb-16 px-4">
-            <div className="inline-block relative mb-4">
-              <h3
-                className="text-primary font-bold tracking-widest text-sm uppercase"
-              >
+            <div className="heading_short_long inline-block relative mb-4">
+              <div className="short_title">
                 PREMIUM PLAN SECTION
-              </h3>
-              <div
-                className="absolute -bottom-2 left-0 right-0 h-0.5 bg-orange-200 dark:bg-orange-900 w-full mx-auto"
-              ></div>
-            </div>
-            <h1
-              className="text-lg md:!text-4xl lg:!text-3xl font-bold text-slate-900 dark:text-white mt-4 max-w-4xl mx-auto leading-tight"
-            >
+              </div>
+              
+            <h2 className="long_title">
               Faucibus Adipiscing Viverra Placerat Ex
-            </h1>
+            </h2>
+            </div>
           </div>
           <div
             className="grid grid-cols-1 lg:!grid-cols-2 gap-12 lg:gap-20 items-center px-4 md:px-8"
@@ -4109,7 +4030,7 @@ const Services = () => {
               </div>
               <div className="flex flex-col sm:!flex-row gap-4 pt-4">
                 <button
-                  className="bg-primary hover:bg-orange-600 transition-colors text-white rounded-full px-8 py-3 shadow-lg shadow-orange-200 dark:shadow-none flex items-center justify-center gap-1 group"
+                  className="bg-primary hover:bg-orange-600 transition-colors text-white rounded-full px-8 py-2 shadow-lg shadow-orange-200 dark:shadow-none flex items-center justify-center gap-1 group"
                 >
                   <span className="font-bold text-lg">₹29,000 onwards</span>
                   <span className="text-xs opacity-80 font-normal mt-1"
@@ -4117,7 +4038,7 @@ const Services = () => {
                   >
                 </button>
                 <button
-                  className="bg-transparent border border-slate-300 dark:border-slate-600 hover:border-primary dark:hover:border-primary text-slate-700 dark:text-white hover:text-primary dark:hover:text-primary transition-all rounded-full px-10 py-3 font-semibold bg-white dark:bg-slate-800"
+                  className="bg-transparent border border-slate-300 dark:border-slate-600 hover:border-primary dark:hover:border-primary text-slate-700 dark:text-white hover:text-primary dark:hover:text-primary transition-all rounded-full px-10 py-2 font-semibold bg-white dark:bg-slate-800"
                 >
                   Know More
                 </button>
@@ -4208,12 +4129,12 @@ const Services = () => {
             </div>
             <div className="flex flex-col sm:!flex-row gap-4 sm:gap-6">
               <button
-                className="bg-primary text-white px-10 py-3 rounded-full font-bold text-base shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 hover:bg-opacity-90 transform transition-all hover:-translate-y-0.5 active:translate-y-0 text-center"
+                className="bg-primary text-white px-10 py-2 rounded-full font-bold text-base shadow-lg shadow-orange-500/20 hover:shadow-orange-500/40 hover:bg-opacity-90 transform transition-all hover:-translate-y-0.5 active:translate-y-0 text-center"
               >
                 Get Started
               </button>
               <button
-                className="bg-transparent border border-orange-200 dark:border-gray-600 text-gray-800 dark:text-gray-200 px-8 py-3 rounded-full font-bold text-base hover:bg-orange-50 dark:hover:bg-slate-700 transition-colors text-center whitespace-nowrap"
+                className="bg-transparent border border-orange-200 dark:border-gray-600 text-gray-800 dark:text-gray-200 px-8 py-2 rounded-full font-bold text-base hover:bg-orange-50 dark:hover:bg-slate-700 transition-colors text-center whitespace-nowrap"
               >
                 Talk to Experts
               </button>
@@ -4235,18 +4156,14 @@ const Services = () => {
       <div
         className="dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased transition-colors duration-300"
       >
-        <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-          <div className="text-center mb-12">
-            <h2
-              className="text-primary font-bold tracking-wider text-sm md:text-base uppercase inline-block border-b border-primary/30 pb-1 mb-3"
-            >
+        <section className="py-16 px-4 sm:px-6 lg:px-20 max-w-8xl mx-auto">
+          <div className="heading_short_long text-center mb-12">
+            <div className="short_title">
               ADD ON SERVICES
-            </h2>
-            <h1
-              className="text-3xl md:text-4xl lg:text-4xl font-bold text-slate-900 dark:text-white leading-tight"
-            >
+            </div>
+            <h2 className="long_title">
               Services That Will And More Value To Your Package
-            </h1>
+            </h2>
           </div>
           <div className="grid grid-cols-1 md:!grid-cols-2 gap-6 lg:gap-8">
             <article
@@ -4283,7 +4200,7 @@ const Services = () => {
               </div>
 
               <p
-                className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
+                className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
               >
                 tincidunt ex. malesuada adipiscing est. elit ac risus
                 ullamcorper at dolor porta quis sit placerat. vitae odio tempor
@@ -4292,14 +4209,14 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
+              <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2.5 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="w-full bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-3 px-6 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4339,7 +4256,7 @@ const Services = () => {
               </div>
 
               <p
-                className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
+                className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
               >
                 tincidunt ex. malesuada adipiscing est. elit ac risus
                 ullamcorper at dolor porta quis sit placerat. vitae odio tempor
@@ -4348,14 +4265,14 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
+              <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2.5 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="w-full bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-3 px-6 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4395,7 +4312,7 @@ const Services = () => {
               </div>
 
               <p
-                className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
+                className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
               >
                 tincidunt ex. malesuada adipiscing est. elit ac risus
                 ullamcorper at dolor porta quis sit placerat. vitae odio tempor
@@ -4404,14 +4321,14 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
+              <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2.5 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="w-full bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-3 px-6 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4451,7 +4368,7 @@ const Services = () => {
               </div>
 
               <p
-                className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
+                className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-8 flex-grow"
               >
                 tincidunt ex. malesuada adipiscing est. elit ac risus
                 ullamcorper at dolor porta quis sit placerat. vitae odio tempor
@@ -4460,14 +4377,14 @@ const Services = () => {
                 vehicula, at, elit ullamcorper nec cursus faucibus non nisl.
                 Donec vitae elit id non, vitae ex enim.
               </p>
-              <div className="grid grid-cols-1 sm:!grid-cols-2 gap-4 mt-auto">
+              <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="w-full bg-primary hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2.5 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="w-full bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-3 px-6 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4487,24 +4404,16 @@ const Services = () => {
         <div className="w-full max-w-7xl mx-auto px-6 py-12 lg:px-12 lg:py-20">
           <div className="text-center mb-8 lg:mb-16">
             <div
-              className="inline-block flex flex-col items-center justify-center mb-3"
+              className="heading_short_long mb-6"
             >
-              <h3
-                className="text-primary font-bold uppercase tracking-wider text-sm md:text-base mb-2"
-              >
+              <div className="short_title">
                 Lorem Ipsum Dolor
-              </h3>
-              <div className="w-full h-[2px] relative">
-                <div
-                  className="absolute left-[50%] -translate-x-1/4 w-28 h-full bg-primary"
-                ></div>
               </div>
-            </div>
-            <h1
-              className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-4"
-            >
+              
+            <h2 className="long_title">
               Aliquip <span className="text-primary">Adipiscing</span> Elit
-            </h1>
+            </h2>
+            </div>
           </div>
           <div
             className="grid grid-cols-1 lg:!grid-cols-2 gap-12 items-center mb-12"
@@ -4626,7 +4535,7 @@ const Services = () => {
               Experts handle the process so you can focus on growth.
             </p>
             <div className="pt-2 pb-6">
-              <p className="text-sm font-medium text-slate-500 dark:text-slate-400">
+              <p className="text-sm font-medium text-slate-600 dark:text-slate-400">
                 Have More Questions? Seek Help of an Expert
               </p>
             </div>
