@@ -5,8 +5,8 @@ const Guidance = () => {
     <section className="guidance">
       <div className="container">
         <h2 className="section-title">Need Guidance?</h2>
-        <p className="section-subtitle">Our experts are here to help you</p>
-        <button className="btn-primary">Contact Us</button>
+        <p className="section-subtitle">We are here to Help you</p>
+        <button className="btn-primary">Register Now</button>
       </div>
     </section>
   );

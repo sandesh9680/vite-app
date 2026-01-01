@@ -1,30 +1,8 @@
 import React from 'react';
-
+import Calucater from '../assets/calucater-icon.png';
 const CalculatorIcon = () => {
   return (
-    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="calculator-svg-icon">
-      <defs>
-        <linearGradient id="calculatorGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stopColor="#FF6B35" />
-          <stop offset="100%" stopColor="#6B46C1" />
-        </linearGradient>
-      </defs>
-      {/* Calculator body */}
-      <rect x="8" y="6" width="32" height="36" rx="3" stroke="url(#calculatorGradient)" strokeWidth="2" fill="none"/>
-      {/* Screen */}
-      <rect x="12" y="10" width="24" height="12" rx="2" fill="url(#calculatorGradient)" opacity="0.2"/>
-      <rect x="12" y="10" width="24" height="12" rx="2" stroke="url(#calculatorGradient)" strokeWidth="1.5" fill="none"/>
-      {/* Buttons grid - 3x3 */}
-      <circle cx="16" cy="28" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="24" cy="28" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="32" cy="28" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="16" cy="34" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="24" cy="34" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="32" cy="34" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="16" cy="40" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="24" cy="40" r="3" fill="url(#calculatorGradient)"/>
-      <circle cx="32" cy="40" r="3" fill="url(#calculatorGradient)"/>
-    </svg>
+    <img src={Calucater} alt='' />
   );
 };
 
@@ -125,6 +103,23 @@ const Calculators = () => {
           </div>
           ))}
         </div>
+<div className='performed_sec'>
+        <div className='grid lg:grid-cols-3 lg:gap-20'>
+          <div className='performed_info'>
+            <h2 className="long_title text-center">50K +</h2>
+            <p>calculations performed</p>
+          </div>
+          <div className='performed_info'>
+            <h2 className="long_title text-center">99.9%</h2>
+            <p>Accuracy Rate</p>
+          </div>
+          <div className='performed_info'>
+            <h2 className="long_title text-center">24/7</h2>
+            <p>Available Support</p>
+          </div>
+        </div>
+        </div>
+        <div className="alerts-cta"><button className="btn-primary alerts-subscribe-btn">View all Calculators</button></div>
       </div>
     </section>
   );
