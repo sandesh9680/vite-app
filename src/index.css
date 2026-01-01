@@ -5637,8 +5637,9 @@ display: block;
 }
 
 .checkbox-group input {
-  width: 14px;
-  height: 14px;
+    width: 14px !important;
+    height: 14px;
+    border-radius: 5px;
 }
 
 .btn-appointment {
@@ -5894,8 +5895,9 @@ display: block;
 }
 
 .checkbox-group input {
-  width: 14px;
-  height: 14px;
+    width: 14px !important;
+    height: 14px;
+    border-radius: 5px;
 }
 
 .btn-appointment {

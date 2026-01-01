@@ -160,7 +160,7 @@ const Testimonials = () => {
               />
             </div>
 
-            <div className="checkbox-group">
+            <div className="checkbox-group text-center justify-center">
               <input type="checkbox" id="terms" />
               <label htmlFor="terms">
                 I hereby accept the T&amp;C of Ethelling
