@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../components/ServicesPage.css';
 import Testimonials from '../components/Testimonials';
-
+import '../Service.css'
 // Import images
 import icon1 from '../assets/images/icon1.png';
 import icon2 from '../assets/images/icon2.png';
