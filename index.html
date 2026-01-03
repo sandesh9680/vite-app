@@ -29,8 +29,174 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
       rel="stylesheet"
     />
-   
-  
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .text-primary {
+        color: #d73b00 !important;
+      }
+      .hero-bg {
+        background: linear-gradient(90deg, #fff5eb 0%, #f0f7ff 100%);
+      }
+
+      .dark .hero-bg {
+        background: #0f172a;
+      }
+
+      .ribbon-wrapper {
+        width: 180px;
+        height: 130px;
+        overflow: hidden;
+        position: absolute;
+        top: -9px;
+        right: -28px;
+        z-index: 10;
+        padding: 20px 20px;
+      }
+
+      .ribbon {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        transform: rotate(45deg);
+        position: relative;
+        padding: 7px 0;
+        left: -5px;
+        top: 25px;
+        width: 180px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .ribbon-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-top-right-radius: 1.5rem;
+        pointer-events: none;
+      }
+
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: #ebf5ff;
+        border-radius: 4px;
+      }
+
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #ff7a50;
+        border-radius: 10px;
+        border: 2px solid #ebf5ff;
+      }
+
+      .dark .custom-scrollbar::-webkit-scrollbar-track {
+        background: #334155;
+        border-color: #1e293b;
+      }
+
+      .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+        border-color: #334155;
+      }
+
+      .wreath-container {
+        position: relative;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .wreath-text {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 0.65rem;
+        line-height: 1;
+        text-align: center;
+        font-weight: 700;
+        width: 60%;
+      }
+
+      .trustpilot-star-box {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .gradientcolor {
+        background: linear-gradient(124deg, #e3f1fe, #f7faff);
+      }
+      .gradientcolor22 {
+        background: linear-gradient(180deg, #ebf2ff, #fbfcff);
+      }
+      .bg-card-light {
+        background: linear-gradient(360deg, #fbfcff, #fdf4ea);
+      }
+
+      .hero-title {
+        font-size: clamp(28px, 5vw, 48px);
+        font-weight: 800;
+        color: var(--primary-blue);
+        margin-bottom: 24px;
+        line-height: 1.2;
+      }
+
+      .gst_timeline {
+        background: linear-gradient(124deg, #fff5eb, #ecf5fd);
+      }
+
+      h1 {
+        font-size: clamp(28px, 5vw, 48px);
+      }
+
+      h2 {
+        font-size: clamp(26px, 4vw, 42px);
+      }
+
+      h3 {
+        font-size: clamp(24px, 3vw, 40px);
+      }
+
+      h4 {
+        font-size: clamp(20px, 2.5vw, 32px);
+      }
+
+      h5 {
+        font-size: clamp(18px, 2vw, 24px);
+      }
+
+      h6 {
+        font-size: clamp(14px, 1.1vw, 18px);
+      }
+      :root {
+        --primary-orange: #ff6f3b;
+        --primary-orange-dark: #d73b00;
+        --orange-light: #fff7f0;
+        --primary-blue: #1b2145;
+        --text-dark: #06102d;
+        --text-gray: #424349;
+        --text-light: #bab4b4;
+        --bg-white: #ffffff;
+        --bg-light: #fbfbff;
+        --bg-gradient-start: #fff5eb;
+        --bg-gradient-end: #ecf5fd;
+        --border-color: #e0e0e0;
+        --shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        --font-primary: "Inter", sans-serif;
+        --font-secondary: "Poppins", sans-serif;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
