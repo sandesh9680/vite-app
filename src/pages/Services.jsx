@@ -28,9 +28,8 @@ import img_7 from '../assets/images/img-7.png';
 import img8 from '../assets/images/img-8.png';
 import img13 from '../assets/images/img-13.png';
 import img15 from '../assets/images/img-15.png';
-import testimonialImg from '../assets/images/testimonial.png';
-import trustedPartners from '../assets/images/trusted-partners.png';
-import faqsImg from '../assets/images/faqs.png';
+import Partnerships from '../components/Partnerships';
+import FAQ from '../components/FAQ';
 import callIcon from '../assets/images/call-icon.svg';
 import mailIcon from '../assets/images/mail-icon.svg';
 
@@ -2128,7 +2127,7 @@ const Services = () => {
 {/* Committed to Security end */}
  {/* our partner */}
       <div className="trustedpartner p-16">
-        <img src={trustedPartners} alt="" />
+        <Partnerships />
       </div>
 {/* our partner */}
       {/* process gst registration */}
@@ -4395,7 +4394,7 @@ const Services = () => {
       </div>
 {/* ADD ON SERVICES end */}
       <div className="faqsec">
-        <img src={faqsImg} alt="" />
+<FAQ />
       </div>
 {/* Aliquip AdipiscingElit */}
       <div
