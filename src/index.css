@@ -5970,6 +5970,9 @@ display: block;
   font-size: 16px;
   color: #333;
 }
+.count_sec .card .counter {
+    font-weight: 600 !important;
+}
 
 
 .heading_short {
