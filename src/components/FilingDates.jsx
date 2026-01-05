@@ -85,7 +85,7 @@ const FilingDates = () => {
 <div class="relative flex flex-col md:!flex-row items-center justify-between group">
 <div class="absolute left-1/2 top-0 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-primary border-3 border-white dark:border-background-dark hidden md:!block z-10"></div>
 <div class="w-full md:!w-5/12 flex justify-center md:!justify-end md:pr-12 mb-8 md:mb-0 order-2 md:!order-1">
-<div class="bg-card-light bg-card-dark p-6 rounded-xl shadow-card dark:shadow-card-dark w-48 h-56 flex flex-col items-center justify-between border border-gray-100 dark:border-gray-700 transform transition-transform hover:scale-105 duration-300">
+<div class=" p-6 rounded-xl shadow-card dark:shadow-card-dark w-48 h-56 flex flex-col items-center justify-between border border-gray-100 dark:border-gray-700 transform transition-transform hover:scale-105 duration-300">
 <div class="w-full space-y-3">
 <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-full"></div>
 <div class="h-4 bg-gray-200 dark:bg-gray-600 rounded w-3/4"></div>
