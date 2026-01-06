@@ -118,7 +118,7 @@
 
 /* Service Card Detailed */
 .service-card-detailed {
-    min-width: 380px;
+    min-width: 505px;
     background-color: #f6fafeb0;
     border-radius: 12px;
     padding: 24px;
@@ -297,7 +297,7 @@
   height: 12px;
   border-radius: 50%;
   background-color: var(--border-color);
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.3s ease;
 }
 

@@ -27,7 +27,6 @@ const Home = () => {
       <TrustedPartner />
       <Testimonials />
       <Partnerships />
-      <Partnerships />
       <Calculators />
       <AlertsDeadlines />
       <Experts />

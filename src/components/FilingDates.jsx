@@ -97,7 +97,7 @@ const FilingDates = () => {
 </div>
 <div class="w-full md:!w-5/12 md:pl-12 text-center md:!text-left order-1 md:!order-2">
 <span class="text-primary font-bold text-xl block mb-2">01</span>
-<h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Submit Your Details</h3>
+<h3 class="text-3xl font-bold mb-4 text-gray-900 ">Submit Your Details</h3>
 <p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Choose your service—company registration, GST, compliance, or trademark—and fill a quick form.
                         </p>
@@ -107,7 +107,7 @@ const FilingDates = () => {
 <div class="absolute left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-300 border-3 border-white border-background-dark hidden md:!block z-10"></div>
 <div class="w-full md:!w-5/12 md:pr-12 text-center md:!text-right order-1">
 <span class="text-primary font-bold text-xl block mb-2">02</span>
-<h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
+<h3 class="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
@@ -141,7 +141,7 @@ const FilingDates = () => {
 </div>
 <div class="w-full md:!w-5/12 md:pl-12 text-center md:!text-left order-1 md:!order-2">
 <span class="text-primary font-bold text-xl block mb-2">03</span>
-<h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
+<h3 class="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
@@ -151,7 +151,7 @@ const FilingDates = () => {
 <div class="absolute left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-300 border-3 border-white border-background-dark hidden md:!block z-10"></div>
 <div class="w-full md:!w-5/12 md:pr-12 text-center md:!text-right order-1">
 <span class="text-primary font-bold text-xl block mb-2">04</span>
-<h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
+<h3 class="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
@@ -185,7 +185,7 @@ const FilingDates = () => {
 </div>
 <div class="w-full md:!w-5/12 md:pl-12 text-center md:!text-left order-1 md:!order-2">
 <span class="text-primary font-bold text-xl block mb-2">05</span>
-<h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
+<h3 class="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                            Our compliance expert connects with you to understand your business, explain the process
                        </p>
