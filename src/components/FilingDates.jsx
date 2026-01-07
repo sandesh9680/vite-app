@@ -78,7 +78,7 @@ const FilingDates = () => {
       
 
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
 <div class="relative">
 <div class="absolute left-1/2 top-0 transform -translate-x-1/2 w-0.5 h-full timeline-line hidden md:!block"></div>
 <div class="space-y-6 md:!space-y-6">

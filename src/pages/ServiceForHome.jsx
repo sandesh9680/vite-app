@@ -112,7 +112,7 @@ const ServiceForHome = () => {
     setActivePage(currentIndex);
   };
 
-  const minusValue = window.innerWidth > 1300 ? 2 : window.innerWidth > 900 ? 0 : -1;
+  const minusValue = window.innerWidth > 1300 ? 3 : window.innerWidth > 900 ? 3 : 1;
   const totalDots = serviceCards.length - minusValue ;
 
 

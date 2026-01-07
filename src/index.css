@@ -2919,7 +2919,7 @@ display: block;
 }
 
 .faq-question h4 {
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: 600;
   color: var(--text-dark);
 }
@@ -4728,7 +4728,7 @@ display: block;
   }
   
   .faq-question h4 {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   
   .faq-toggle {
@@ -5749,6 +5749,7 @@ display: block;
     position: relative;
     padding-top: 120px;
     z-index: 9;
+    margin-left: 50px;
 }
 
 /* Left: Testimonials */
