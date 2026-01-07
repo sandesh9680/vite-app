@@ -136,7 +136,7 @@ const Testimonials = () => {
                     </clipPath>
                   </defs>
                 </svg></div>
-              <h4 className="testimonial-name">Client Name</h4>
+              <h5 className="testimonial-name">Client Name</h5>
               <p className="testimonial-role">loremipsumtext</p>
               <div className="stars">★★★★★</div>
               <p className="testimonial-text">
