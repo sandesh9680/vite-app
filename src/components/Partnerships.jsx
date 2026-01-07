@@ -8,35 +8,37 @@ import payoneerLogo from '../assets/partner6.png';
 
 const Partnerships = () => {
   const partners = [
-  { logo: paytmLogo },
-  { logo: globallinkerLogo },
-  { logo: verisignLogo },
-  { logo: quickbooksLogo },
-  { logo: zohoLogo },
-  { logo: payoneerLogo },
-];
+    { logo: paytmLogo },
+    { logo: globallinkerLogo },
+    { logo: verisignLogo },
+    { logo: quickbooksLogo },
+    { logo: zohoLogo },
+    { logo: payoneerLogo },
+  ];
 
 
   return (
     <section className="partnerships">
-      <div className="container">
+      <div className="container p-0!">
         <div className="partnerships-header heading_short_long">
-         
-            <div className="short_title">PARTNER SECTION</div>
-         
+
+          <div className="short_title">PARTNER SECTION</div>
+
           <h2 className="long_title">Collaborating With Industry Leaders To Deliver Better Services</h2>
         </div>
-        <div className="partner-logos">
-  {partners.map((partner, index) => (
-    <div key={index} className="partner-logo">
-      <img
-        src={partner.logo}
-        alt="partner logo"
-        className="h-14 w-auto object-contain mx-auto"
-      />
-    </div>
-  ))}
-</div>
+        <div className="partner-marquee">
+          <div className="partner-marquee-track">
+            {[...partners, ...partners, ...partners].map((partner, index) => (
+              <div key={index} className="partner-logo">
+                <img
+                  src={partner.logo}
+                  alt="partner logo"
+                  className="h-14 w-auto object-contain"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
 
         <div className="partnerships-cta">
           <p className="partnerships-question">Looking for the Perfect Partner to Power Your Growth?</p>
