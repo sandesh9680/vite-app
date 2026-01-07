@@ -6052,3 +6052,15 @@ display: block;
     transform: translateX(-33%);
   }
 }
+
+
+
+.faq-item.active h4 {
+    color: var(--primary-orange);
+}
+.bg-primary {
+  background: var(--primary-orange);
+}
+.border-primary {
+  border-color: var(--primary-orange);
+}
