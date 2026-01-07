@@ -41,7 +41,15 @@ const testimonialCards = [
     rating: 5,
     text:
       "Praesent non enim sed velit malesuada consectetur id a justo. Fusce quis eros sit amet enim laoreet dignissim.",
-  }
+  },
+  {
+    id: 6,
+    name: "Client Name",
+    role: "loremipsumtext",
+    rating: 5,
+    text:
+      "Praesent non enim sed velit malesuada consectetur id a justo. Fusce quis eros sit amet enim laoreet dignissim.",
+  },
 ];
 
 
@@ -76,11 +84,13 @@ const Testimonials = () => {
      AUTO SCROLL
   -----------------------------*/
   useEffect(() => {
+    if(window.innerWidth >= 768) {
     const interval = setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % totalSlides);
-    }, 8000);
-
-    return () => clearInterval(interval);
+        setActiveIndex((prev) => (prev + 1) % totalSlides);
+      }, 8000);
+      
+      return () => clearInterval(interval);
+    }
   }, [totalSlides]);
 
   /* ----------------------------
@@ -104,6 +114,7 @@ const Testimonials = () => {
             className="testimonial-cards"
             style={{
               display: "flex",
+              flexDirection: "row",
               transition: "transform 2s ease",
               transform: `translateX(-${activeIndex * 100}%)`,
             }}

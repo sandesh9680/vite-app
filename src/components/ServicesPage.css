@@ -118,7 +118,7 @@
 
 /* Service Card Detailed */
 .service-card-detailed {
-    min-width: 505px;
+    min-width: 380px;
     background-color: #f6fafeb0;
     border-radius: 12px;
     padding: 24px;
@@ -127,6 +127,23 @@
     flex-direction: column;
     scroll-snap-align: start;
 }
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .service-card-detailed {
+    min-width: 500px;
+  }
+}
+@media (max-width: 1300px) {
+  .service-card-detailed {
+    min-width: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .service-card-detailed {
+    min-width: 500px;
+  }
+}
+
 
 .service-card-detailed:hover {
   transform: translateY(-5px);
@@ -314,7 +331,7 @@
   }
   
   .service-card-detailed {
-    min-width: 320px;
+    min-width: 360px;
   }
   
   .carousel-nav-btn {
