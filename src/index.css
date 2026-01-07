@@ -6054,8 +6054,8 @@ display: block;
 
 /* FULL WIDTH MARQUEE */
 .partner-marquee {
-  width: 100vw;
-  overflow: visible;
+  width: 100%;
+  overflow: hidden;
   position: relative;
   margin: 40px 0;
 }

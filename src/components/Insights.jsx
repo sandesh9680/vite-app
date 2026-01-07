@@ -95,7 +95,7 @@ const Insights = () => {
 
   return (
     <section className="insights">
-      <div className="container" style={{padding:"0px"}}>
+      <div className="container overflow-hidden" style={{padding:"0px"}}>
         <div className="insights-label-wrapper">
           <div className="heading_short_long">
             <div className="short_title">BUSINESS BLOG</div>
