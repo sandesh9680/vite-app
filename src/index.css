@@ -1234,7 +1234,7 @@ a.trusted-read-more.trusted_grid {
 .testimonial-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  gap: 10px !important;
   padding-bottom: 10px;
 }
 

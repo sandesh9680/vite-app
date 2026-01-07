@@ -41,15 +41,7 @@ const testimonialCards = [
     rating: 5,
     text:
       "Praesent non enim sed velit malesuada consectetur id a justo. Fusce quis eros sit amet enim laoreet dignissim.",
-  },
-  {
-    id: 6,
-    name: "Client Name",
-    role: "loremipsumtext",
-    rating: 5,
-    text:
-      "Praesent non enim sed velit malesuada consectetur id a justo. Fusce quis eros sit amet enim laoreet dignissim.",
-  },
+  }
 ];
 
 
