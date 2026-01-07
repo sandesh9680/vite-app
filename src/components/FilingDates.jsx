@@ -98,7 +98,7 @@ const FilingDates = () => {
 <div class="w-full md:!w-5/12 md:pl-12 text-center md:!text-left order-1 md:!order-2">
 <span class="text-primary font-bold text-xl block mb-2">01</span>
 <h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Submit Your Details</h3>
-<p class="text-gray-400 text-lg leading-relaxed">
+<p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Choose your service—company registration, GST, compliance, or trademark—and fill a quick form.
                         </p>
 </div>
@@ -108,7 +108,7 @@ const FilingDates = () => {
 <div class="w-full md:!w-5/12 md:pr-12 text-center md:!text-start order-1">
 <span class="text-primary font-bold text-xl block mb-2">02</span>
 <h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
-<p class="text-gray-400 text-lg leading-relaxed">
+<p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
 </div>
@@ -148,7 +148,7 @@ const FilingDates = () => {
 <div class="w-full md:!w-5/12 md:pl-12 text-center md:!text-left order-1 md:!order-2">
 <span class="text-primary font-bold text-xl block mb-2">03</span>
 <h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
-<p class="text-gray-400 text-lg leading-relaxed">
+<p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
 </div>
@@ -158,7 +158,7 @@ const FilingDates = () => {
 <div class="w-full md:!w-5/12 md:pr-12 text-center md:!text-start order-1">
 <span class="text-primary font-bold text-xl block mb-2">04</span>
 <h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
-<p class="text-gray-400 text-lg leading-relaxed">
+<p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
 </div>
@@ -198,7 +198,7 @@ const FilingDates = () => {
 <div class="w-full md:!w-5/12 md:pl-12 text-center md:!text-left order-1 md:!order-2">
 <span class="text-primary font-bold text-xl block mb-2">05</span>
 <h3 class="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Expert Consultation</h3>
-<p class="text-gray-400 text-lg leading-relaxed">
+<p class="text-secondary-text-light dark:text-secondary-text-dark text-lg leading-relaxed">
                            Our compliance expert connects with you to understand your business, explain the process
                        </p>
 </div>

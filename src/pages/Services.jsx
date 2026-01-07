@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../components/ServicesPage.css';
 import Testimonials from '../components/Testimonials';
-
+import '../Service.css'
 // Import images
 import icon1 from '../assets/images/icon1.png';
 import icon2 from '../assets/images/icon2.png';
@@ -28,9 +28,8 @@ import img_7 from '../assets/images/img-7.png';
 import img8 from '../assets/images/img-8.png';
 import img13 from '../assets/images/img-13.png';
 import img15 from '../assets/images/img-15.png';
-import testimonialImg from '../assets/images/testimonial.png';
-import trustedPartners from '../assets/images/trusted-partners.png';
-import faqsImg from '../assets/images/faqs.png';
+import Partnerships from '../components/Partnerships';
+import FAQ from '../components/FAQ';
 import callIcon from '../assets/images/call-icon.svg';
 import mailIcon from '../assets/images/mail-icon.svg';
 
@@ -94,7 +93,7 @@ const Services = () => {
             >
               Launch Your Business the Right Way with Quick
               <span className="text-gray-900 dark:text-white"
-                >GST Registration</span
+              >GST Registration</span
               >
             </h1>
             <p
@@ -106,26 +105,26 @@ const Services = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3">
                 <span className="material-icons-outlined text-green-500"
-                  >check_circle</span
+                >check_circle</span
                 >
                 <span className="text-gray-700 dark:text-gray-300"
-                  >Lowest price guarantee in the market</span
+                >Lowest price guarantee in the market</span
                 >
               </li>
               <li className="flex items-center space-x-3">
                 <span className="material-icons-outlined text-green-500"
-                  >check_circle</span
+                >check_circle</span
                 >
                 <span className="text-gray-700 dark:text-gray-300"
-                  >100% Online process, no office visit needed</span
+                >100% Online process, no office visit needed</span
                 >
               </li>
               <li className="flex items-center space-x-3">
                 <span className="material-icons-outlined text-green-500"
-                  >check_circle</span
+                >check_circle</span
                 >
                 <span className="text-gray-700 dark:text-gray-300"
-                  >Expert assistance from CA/CS professionals</span
+                >Expert assistance from CA/CS professionals</span
                 >
               </li>
             </ul>
@@ -190,7 +189,7 @@ const Services = () => {
                 className="flex items-center justify-center space-x-2 bg-white dark:bg-gray-800 border-2 border-primary text-gray-900 dark:text-white font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
               >
                 <span className="material-icons-outlined text-primary text-xl"
-                  >description</span
+                >description</span
                 >
                 <span>View Packages</span>
               </button>
@@ -209,7 +208,7 @@ const Services = () => {
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
                   Need assistance?<br />
                   <span className="text-gray-800 dark:text-gray-200"
-                    >Our team will call.</span
+                  >Our team will call.</span
                   >
                 </h2>
               </div>
@@ -218,7 +217,7 @@ const Services = () => {
                   <label
                     className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 ml-1"
                     htmlFor="name"
-                    >Name</label
+                  >Name</label
                   >
                   <input
                     className="w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
@@ -231,7 +230,7 @@ const Services = () => {
                   <label
                     className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 ml-1"
                     htmlFor="email"
-                    >Email ID</label
+                  >Email ID</label
                   >
                   <input
                     className="w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
@@ -244,7 +243,7 @@ const Services = () => {
                   <label
                     className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1 ml-1"
                     htmlFor="phone"
-                    >Phone Number</label
+                  >Phone Number</label
                   >
                   <div className="flex gap-3">
                     <div className="relative w-1/3">
@@ -301,10 +300,10 @@ const Services = () => {
                     <label
                       className="font-medium text-gray-600 dark:text-gray-400"
                       htmlFor="terms"
-                      >I hereby accept the
+                    >I hereby accept the
                       <span
                         className="text-red-800 font-semibold cursor-pointer hover:underline"
-                        >T&amp;C</span
+                      >T&amp;C</span
                       >
                       of Ebizfiling</label
                     >
@@ -355,13 +354,13 @@ const Services = () => {
                 Trusted by Thousands
               </div>
               <h2
-              className="long_title"
-            >
-              Rated 4.5<span className="text-slate-800 dark:text-slate-200">★</span>
-              On Google &amp; Trustpilot
-            </h2>
+                className="long_title"
+              >
+                Rated 4.5<span className="text-slate-800 dark:text-slate-200">★</span>
+                On Google &amp; Trustpilot
+              </h2>
             </div>
-            
+
           </div>
           <div
             className="grid grid-cols-1 lg:!grid-cols-3 gap-6 max-full mx-auto pb-10 lg:pb-20"
@@ -484,8 +483,8 @@ const Services = () => {
                   <a
                     className="text-primary text-[10px] hover:text-orange-700 transition-colors font-medium"
                     href="#"
-                    >Know more about this award
-                    </a>
+                  >Know more about this award
+                  </a>
                 </div>
               </div>
             </div>
@@ -505,7 +504,7 @@ const Services = () => {
                   ></path>
                 </svg>
                 <span className="text-white font-bold text-2xl tracking-tight"
-                  >Trustpilot</span
+                >Trustpilot</span
                 >
               </div>
               <div className="p-4 flex flex-col items-center justify-center flex-1">
@@ -517,27 +516,27 @@ const Services = () => {
                 <div className="flex space-x-1 mb-3">
                   <div className="trustpilot-star-box bg-[#00B67A] rounded-sm">
                     <span className="material-icons-round text-white text-[20px]"
-                      >star</span
+                    >star</span
                     >
                   </div>
                   <div className="trustpilot-star-box bg-[#00B67A] rounded-sm">
                     <span className="material-icons-round text-white text-[20px]"
-                      >star</span
+                    >star</span
                     >
                   </div>
                   <div className="trustpilot-star-box bg-[#00B67A] rounded-sm">
                     <span className="material-icons-round text-white text-[20px]"
-                      >star</span
+                    >star</span
                     >
                   </div>
                   <div className="trustpilot-star-box bg-[#00B67A] rounded-sm">
                     <span className="material-icons-round text-white text-[20px]"
-                      >star</span
+                    >star</span
                     >
                   </div>
                   <div className="trustpilot-star-box bg-[#00B67A] rounded-sm">
                     <span className="material-icons-round text-white text-[20px]"
-                      >star</span
+                    >star</span
                     >
                   </div>
                 </div>
@@ -546,7 +545,7 @@ const Services = () => {
                   <a
                     className="font-semibold underline decoration-slate-400 hover:text-slate-800 dark:hover:text-white"
                     href="#"
-                    >456 reviews</a
+                  >456 reviews</a
                   >
                 </div>
               </div>
@@ -557,7 +556,7 @@ const Services = () => {
       {/* Trusted by Thousands end */}
 
 
-{/* Benefits of GST Registration */}
+      {/* Benefits of GST Registration */}
       <div
         className="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-body antialiased transition-colors duration-300"
       >
@@ -608,20 +607,20 @@ const Services = () => {
           </div>
         </nav>
       </div>
-{/* Benefits of GST Registration end */}
-{/* Plans and Pricing */}
+      {/* Benefits of GST Registration end */}
+      {/* Plans and Pricing */}
       <div className="lg:py-20 py-10 px-4 sm:px-6 lg:px-10 bg-[#FBFCFF] my-6 mx-auto">
         <div className="text-center mb-8 lg:mb-16">
           <div className="heading_short_long mb-4 group">
             <div className="short_title">
               Benefits of GST Registration
             </div>
-         <h2 className="long_title">
-            Why <span className="text-primary">(Service Name)</span> Is A Smart
-            Choice?
-          </h2>   
+            <h2 className="long_title">
+              Why <span className="text-primary">(Service Name)</span> Is A Smart
+              Choice?
+            </h2>
           </div>
-          
+
         </div>
         <div className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-2 gap-8 lg:gap-10">
           <div
@@ -708,7 +707,7 @@ const Services = () => {
       </div>
 
 
-{/* Plans and Pricing end */}
+      {/* Plans and Pricing end */}
 
 
       <div
@@ -718,7 +717,7 @@ const Services = () => {
           <div className="heading_short_long text-center mb-12 space-y-4">
             <div className="short_title">
               Plans and Pricing
-             
+
             </div>
             <h2
               className="long_title mt-4"
@@ -745,13 +744,13 @@ const Services = () => {
                   <span className="text-slate-400 line-through">₹ 1999</span>
                   <span
                     className="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold px-2 py-0.5 rounded"
-                    >40% OFF SAVE BIG</span
+                  >40% OFF SAVE BIG</span
                   >
                 </div>
                 <div className="mt-2 text-center">
                   <span
                     className="text-4xl font-bold text-slate-900 dark:text-white"
-                    >₹ 999</span
+                  >₹ 999</span
                   >
                   <div className="text-xs text-slate-600 dark:text-slate-400">
                     per registration
@@ -768,7 +767,7 @@ const Services = () => {
                 >
                   Use Code:
                   <span className="font-bold text-slate-700 dark:text-slate-300"
-                    >GrabNavratriOffer</span
+                  >GrabNavratriOffer</span
                   >
                   <svg
                     className="w-3 h-3 text-slate-400"
@@ -797,7 +796,7 @@ const Services = () => {
                   >
                     <span
                       className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5"
-                      >tincidunt urna</span
+                    >tincidunt urna</span
                     >
                     Ut in Nam at urna Lorem venenatis ipsum tincidunt non,
                     tincidunt sit Donec
@@ -928,13 +927,13 @@ const Services = () => {
                   <span className="text-slate-400 line-through">₹ 1999</span>
                   <span
                     className="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold px-2 py-0.5 rounded"
-                    >40% OFF SAVE BIG</span
+                  >40% OFF SAVE BIG</span
                   >
                 </div>
                 <div className="mt-2 text-center">
                   <span
                     className="text-4xl font-bold text-slate-900 dark:text-white"
-                    >₹ 999</span
+                  >₹ 999</span
                   >
                   <div className="text-xs text-slate-600 dark:text-slate-400">
                     per registration
@@ -951,7 +950,7 @@ const Services = () => {
                 >
                   Use Code:
                   <span className="font-bold text-slate-700 dark:text-slate-300"
-                    >GrabNavratriOffer</span
+                  >GrabNavratriOffer</span
                   >
                   <svg
                     className="w-3 h-3 text-slate-400"
@@ -980,7 +979,7 @@ const Services = () => {
                   >
                     <span
                       className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5"
-                      >tincidunt urna</span
+                    >tincidunt urna</span
                     >
                     Ut in Nam at urna Lorem venenatis ipsum tincidunt non,
                     tincidunt sit Donec
@@ -1070,7 +1069,7 @@ const Services = () => {
                       ></path>
                     </svg>
                     <span className="font-semibold text-slate-800 dark:text-white"
-                      >4-6 Working Days</span
+                    >4-6 Working Days</span
                     >Processing
                   </li>
                   <li
@@ -1093,7 +1092,7 @@ const Services = () => {
                       <span>Email Support/Phone Support</span>
                       <span
                         className="ml-2 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
-                        >FREE</span
+                      >FREE</span
                       >
                     </div>
                   </li>
@@ -1136,13 +1135,13 @@ const Services = () => {
                   <span className="text-slate-400 line-through">₹ 7000</span>
                   <span
                     className="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold px-2 py-0.5 rounded"
-                    >40% OFF SAVE BIG</span
+                  >40% OFF SAVE BIG</span
                   >
                 </div>
                 <div className="mt-2 text-center">
                   <span
                     className="text-4xl font-bold text-slate-900 dark:text-white"
-                    >₹ 4999</span
+                  >₹ 4999</span
                   >
                   <div className="text-xs text-slate-600 dark:text-slate-400">
                     per registration
@@ -1151,7 +1150,7 @@ const Services = () => {
                 <div className="mt-1 mb-2">
                   <span
                     className="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold px-2 py-0.5 rounded-full"
-                    >+ FREE SERVICE WORTH 3000/-</span
+                  >+ FREE SERVICE WORTH 3000/-</span
                   >
                 </div>
                 <div
@@ -1165,7 +1164,7 @@ const Services = () => {
                 >
                   Use Code:
                   <span className="font-bold text-slate-700 dark:text-slate-300"
-                    >GrabNavratriOffer</span
+                  >GrabNavratriOffer</span
                   >
                   <svg
                     className="w-3 h-3 text-slate-400"
@@ -1194,7 +1193,7 @@ const Services = () => {
                   >
                     <span
                       className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5"
-                      >tincidunt urna</span
+                    >tincidunt urna</span
                     >
                     Ut in Nam at urna Lorem venenatis ipsum tincidunt non,
                     tincidunt sit Donec
@@ -1248,9 +1247,9 @@ const Services = () => {
                       ></path>
                     </svg>
                     <span
-                      >Express
+                    >Express
                       <span className="font-bold text-slate-900 dark:text-white"
-                        >24-48 Hours</span
+                      >24-48 Hours</span
                       >
                       Processing</span
                     >
@@ -1311,7 +1310,7 @@ const Services = () => {
                       <span>Email Support/Phone Support</span>
                       <span
                         className="ml-2 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
-                        >FREE</span
+                      >FREE</span
                       >
                     </div>
                   </li>
@@ -1332,9 +1331,9 @@ const Services = () => {
                       ></path>
                     </svg>
                     <span
-                      >Government
+                    >Government
                       <span className="font-bold text-slate-900 dark:text-white"
-                        >Fee Included</span
+                      >Fee Included</span
                       ></span
                     >
                   </li>
@@ -1376,7 +1375,7 @@ const Services = () => {
                       <span>FREE Video Call Consultation (Worth ₹2,000)</span>
                       <span
                         className="ml-2 mt-0.5 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
-                        >FREE</span
+                      >FREE</span
                       >
                     </div>
                   </li>
@@ -1582,7 +1581,7 @@ const Services = () => {
                 >
                   <span
                     className="pt-[2px] bg-[#E3F1FF] shadow-lg text-center rounded-full w-6 h-6 text-blue-400 text-sm mt-0.5"
-                    >a</span
+                  >a</span
                   >
                   <p
                     className="text-xs text-gray-600 dark:text-gray-200 leading-tight"
@@ -1596,7 +1595,7 @@ const Services = () => {
                 >
                   <span
                     className="pt-[2px] bg-[#E3F1FF] shadow-lg text-center rounded-full w-6 h-6 text-blue-400 text-sm mt-0.5"
-                    >b</span
+                  >b</span
                   >
                   <p
                     className="text-xs text-gray-600 dark:text-gray-200 leading-tight"
@@ -1610,7 +1609,7 @@ const Services = () => {
                 >
                   <span
                     className="pt-[2px] bg-[#E3F1FF] shadow-lg text-center rounded-full w-6 h-6 text-blue-400 text-sm mt-0.5"
-                    >c</span
+                  >c</span
                   >
                   <p
                     className="text-xs text-gray-600 dark:text-gray-200 leading-tight"
@@ -1624,7 +1623,7 @@ const Services = () => {
                 >
                   <span
                     className="pt-[2px] bg-[#E3F1FF] shadow-lg text-center rounded-full w-6 h-6 text-blue-400 text-sm mt-0.5"
-                    >d</span
+                  >d</span
                   >
                   <p
                     className="text-xs text-gray-600 dark:text-gray-200 leading-tight"
@@ -1638,8 +1637,8 @@ const Services = () => {
           </div>
         </div>
       </div>
-{/* Company Overview end */}
- {/* Features of GST Service */}
+      {/* Company Overview end */}
+      {/* Features of GST Service */}
       <div
         className="bg-[#FBFCFF] my-8 text-slate-600 dark:text-slate-300 transition-colors duration-300 font-sans antialiased min-h-screen flex flex-col justify-center"
       >
@@ -1824,10 +1823,10 @@ const Services = () => {
       </div>
 
       {/* Features of GST Service end */}
-       {/* testimonial */}
-       <Testimonials />
-{/* testimonial end */}
- {/* What Happen Next? */}
+      {/* testimonial */}
+      <Testimonials />
+      {/* testimonial end */}
+      {/* What Happen Next? */}
       <div
         className="bg-[#FBFCFF] my-8 text-gray-800 dark:text-gray-200 transition-colors duration-300"
       >
@@ -1849,18 +1848,18 @@ const Services = () => {
                   What Happen Next?
                 </div>
                 <h2
-                className="long_title inline-block pb-6">
-                Post Service <span className="text-primary">Compliances</span>
-              </h2>
-              <p
-                className="max-w-3xl mx-auto text-gray-600 dark:text-gray-400 text-lg leading-relaxed"
-              >
-                After your GST registration is complete, we ensure seamless
-                compliance and ongoing support to keep your business running
-                smoothly.
-              </p>
+                  className="long_title inline-block pb-6">
+                  Post Service <span className="text-primary">Compliances</span>
+                </h2>
+                <p
+                  className="max-w-3xl mx-auto text-gray-600 dark:text-gray-400 text-lg leading-relaxed"
+                >
+                  After your GST registration is complete, we ensure seamless
+                  compliance and ongoing support to keep your business running
+                  smoothly.
+                </p>
               </div>
-              
+
             </div>
             <div
               className="flex flex-col lg:!flex-row items-center justify-between gap-12 lg:gap-20"
@@ -1993,23 +1992,23 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* What Happen Next? end */}
+      {/* What Happen Next? end */}
 
-{/* faqs */}
-      <div className="faqsec">
+      {/* faqs */}
+      {/* <div className="faqsec">
         <img src={img15} alt="" />
-      </div>
-{/* faqs end */}
- {/* Committed to Security */}
+      </div> */}
+      {/* faqs end */}
+      {/* Committed to Security */}
       <div
         className="bg-[#FBFCFF] transition-colors duration-300 antialiased min-h-screen flex flex-col items-center justify-center py-20"
       >
         <div className="container mx-auto px-12">
           <div className="heading_short_long text-center mb-10 mx-auto">
-            
-<div className="short_title">
-                Committed to Security
-</div>
+
+            <div className="short_title">
+              Committed to Security
+            </div>
             <h2 className="long_title pb-6">
               Your Data Stays Safe With Enterprise-Grade Protection And
               Compliance
@@ -2125,12 +2124,12 @@ const Services = () => {
           </div>
         </div>
       </div>
-{/* Committed to Security end */}
- {/* our partner */}
+      {/* Committed to Security end */}
+      {/* our partner */}
       <div className="trustedpartner p-16">
-        <img src={trustedPartners} alt="" />
+        <Partnerships />
       </div>
-{/* our partner */}
+      {/* our partner */}
       {/* process gst registration */}
       <div>
         <div className="mx-auto">
@@ -2170,7 +2169,7 @@ const Services = () => {
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 dark:bg-slate-600 flex items-center justify-center shadow-inner"
                     >
                       <span className="font-bold text-slate-700 dark:text-slate-200"
-                        >1</span
+                      >1</span
                       >
                     </div>
                     <div>
@@ -2195,7 +2194,7 @@ const Services = () => {
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 dark:bg-slate-600 flex items-center justify-center shadow-inner"
                     >
                       <span className="font-bold text-slate-700 dark:text-slate-200"
-                        >1</span
+                      >1</span
                       >
                     </div>
                     <div>
@@ -2220,7 +2219,7 @@ const Services = () => {
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 dark:bg-slate-600 flex items-center justify-center shadow-inner"
                     >
                       <span className="font-bold text-slate-700 dark:text-slate-200"
-                        >1</span
+                      >1</span
                       >
                     </div>
                     <div>
@@ -2279,7 +2278,7 @@ const Services = () => {
                         >
                           <span
                             className="material-icons-round text-green-500 dark:text-green-400 text-lg"
-                            >check</span
+                          >check</span
                           >
                         </div>
                       </div>
@@ -2289,7 +2288,7 @@ const Services = () => {
                         >
                           <span
                             className="inline-block px-3 py-1 bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-xs font-semibold rounded-full mb-2"
-                            >Day 1-2</span
+                          >Day 1-2</span
                           >
                           <h4
                             className="font-bold text-slate-900 dark:text-white text-base mb-1"
@@ -2314,7 +2313,7 @@ const Services = () => {
                         >
                           <span
                             className="material-icons-outlined text-orange-500 dark:text-orange-400 text-lg"
-                            >schedule</span
+                          >schedule</span
                           >
                         </div>
                       </div>
@@ -2324,7 +2323,7 @@ const Services = () => {
                         >
                           <span
                             className="inline-block px-3 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 text-xs font-semibold rounded-full mb-2"
-                            >Day 3-6</span
+                          >Day 3-6</span
                           >
                           <h4
                             className="font-bold text-slate-900 dark:text-white text-base mb-1"
@@ -2349,7 +2348,7 @@ const Services = () => {
                         >
                           <span
                             className="material-icons-outlined text-gray-500 dark:text-gray-300 text-lg"
-                            >calendar_today</span
+                          >calendar_today</span
                           >
                         </div>
                       </div>
@@ -2359,7 +2358,7 @@ const Services = () => {
                         >
                           <span
                             className="inline-block px-3 py-1 bg-gray-100 dark:bg-slate-600 text-gray-600 dark:text-gray-300 text-xs font-semibold rounded-full mb-2"
-                            >Day 7-9</span
+                          >Day 7-9</span
                           >
                           <h4
                             className="font-bold text-slate-900 dark:text-white text-base mb-1"
@@ -2384,7 +2383,7 @@ const Services = () => {
                         >
                           <span
                             className="material-icons-outlined text-gray-500 dark:text-gray-300 text-lg"
-                            >description</span
+                          >description</span
                           >
                         </div>
                       </div>
@@ -2394,7 +2393,7 @@ const Services = () => {
                         >
                           <span
                             className="inline-block px-3 py-1 bg-gray-100 dark:bg-slate-600 text-gray-600 dark:text-gray-300 text-xs font-semibold rounded-full mb-2"
-                            >Day 10-12</span
+                          >Day 10-12</span
                           >
                           <h4
                             className="font-bold text-slate-900 dark:text-white text-base mb-1"
@@ -2437,7 +2436,7 @@ const Services = () => {
         </div>
       </div>
       {/* process gst registration end */}
-{/*  How It Works? */}
+      {/*  How It Works? */}
       <div
         className="min-h-screen flex flex-col items-center justify-center p-4 transition-colors duration-300"
       >
@@ -2467,9 +2466,8 @@ const Services = () => {
                     Step {index + 1}
                   </span>
                   <span
-                    className={`material-icons text-icon-color dark:text-red-400 font-bold transition-transform duration-300 ${
-                      accordionStates[index] ? 'rotate-45' : ''
-                    }`}
+                    className={`material-icons text-icon-color dark:text-red-400 font-bold transition-transform duration-300 ${accordionStates[index] ? 'rotate-45' : ''
+                      }`}
                   >
                     add
                   </span>
@@ -2477,9 +2475,8 @@ const Services = () => {
 
                 {/* Body */}
                 <div
-                  className={`accordion-body gradientcolor overflow-hidden transition-all duration-300 bg-card-body-light dark:bg-slate-900/50 ${
-                    accordionStates[index] ? 'max-h-[500px]' : 'max-h-0'
-                  }`}
+                  className={`accordion-body gradientcolor overflow-hidden transition-all duration-300 bg-card-body-light dark:bg-slate-900/50 ${accordionStates[index] ? 'max-h-[500px]' : 'max-h-0'
+                    }`}
                 >
                   <div
                     className="p-6 border-t border-border-light dark:border-border-dark"
@@ -2504,8 +2501,8 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/*  How It Works? end */}
-  {/* Compare Your Services */}
+      {/*  How It Works? end */}
+      {/* Compare Your Services */}
       <div className="bg-[#FBFCFF] dark:bg-background-dark duration-300">
         <div className="mx-auto px-6 py-6 lg:px-12 lg:py-16">
           <div className="heading_short_long text-center mb-12">
@@ -2612,7 +2609,7 @@ const Services = () => {
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
                           <span className="material-icons text-2xl"
-                            >description</span
+                          >description</span
                           >
                         </div>
                         <div>
@@ -2622,7 +2619,7 @@ const Services = () => {
                             Government Registration
                             <span
                               className="material-icons text-subtext-light dark:text-subtext-dark text-sm cursor-help"
-                              >expand_more</span
+                            >expand_more</span
                             >
                           </div>
                           <div
@@ -2678,7 +2675,7 @@ const Services = () => {
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
                           <span className="material-icons text-2xl"
-                            >description</span
+                          >description</span
                           >
                         </div>
                         <div>
@@ -2688,7 +2685,7 @@ const Services = () => {
                             Number of Partners
                             <span
                               className="material-icons text-subtext-light dark:text-subtext-dark text-sm cursor-help"
-                              >expand_more</span
+                            >expand_more</span
                             >
                           </div>
                           <div
@@ -2734,7 +2731,7 @@ const Services = () => {
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
                           <span className="material-icons text-2xl"
-                            >description</span
+                          >description</span
                           >
                         </div>
                         <div>
@@ -2744,7 +2741,7 @@ const Services = () => {
                             Liability Protection
                             <span
                               className="material-icons text-subtext-light dark:text-subtext-dark text-sm cursor-help"
-                              >expand_more</span
+                            >expand_more</span
                             >
                           </div>
                           <div
@@ -2790,7 +2787,7 @@ const Services = () => {
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
                           <span className="material-icons text-2xl"
-                            >description</span
+                          >description</span
                           >
                         </div>
                         <div>
@@ -2800,7 +2797,7 @@ const Services = () => {
                             Cost of Registration
                             <span
                               className="material-icons text-subtext-light dark:text-subtext-dark text-sm cursor-help"
-                              >expand_more</span
+                            >expand_more</span
                             >
                           </div>
                           <div
@@ -2846,7 +2843,7 @@ const Services = () => {
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
                           <span className="material-icons text-2xl"
-                            >description</span
+                          >description</span
                           >
                         </div>
                         <div>
@@ -2856,7 +2853,7 @@ const Services = () => {
                             Capital Requirement
                             <span
                               className="material-icons text-subtext-light dark:text-subtext-dark text-sm cursor-help"
-                              >expand_more</span
+                            >expand_more</span
                             >
                           </div>
                           <div
@@ -2902,7 +2899,7 @@ const Services = () => {
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
                           <span className="material-icons text-2xl"
-                            >description</span
+                          >description</span
                           >
                         </div>
                         <div>
@@ -2912,7 +2909,7 @@ const Services = () => {
                             Annual Compliance
                             <span
                               className="material-icons text-subtext-light dark:text-subtext-dark text-sm cursor-help"
-                              >expand_more</span
+                            >expand_more</span
                             >
                           </div>
                           <div
@@ -3012,9 +3009,9 @@ const Services = () => {
           </div>
         </div>
       </div>
-{/* Compare Your Services end */}
-     {/*Quick Access Guides  */}
-<div
+      {/* Compare Your Services end */}
+      {/*Quick Access Guides  */}
+      <div
         className="bg-[#EBF2FF] my-10 dark:bg-background-dark text-gray-800 dark:text-gray-200 font-body antialiased flex items-center justify-center p-4"
       >
         <section
@@ -3025,10 +3022,10 @@ const Services = () => {
               <div className="short_title">
                 Quick Access Guides
               </div>
-              
-            <h2 className="long_title">
-              Faucibus Adipiscing Viverra Placerat Ex
-            </h2>
+
+              <h2 className="long_title">
+                Faucibus Adipiscing Viverra Placerat Ex
+              </h2>
             </div>
           </div>
           <div
@@ -3079,7 +3076,7 @@ const Services = () => {
                   Know More
                   <span
                     className="material-icons text-sm transform group-hover:translate-x-1 transition-transform"
-                    >arrow_forward</span
+                  >arrow_forward</span
                   >
                 </button>
               </div>
@@ -3133,8 +3130,8 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* Quick Access Guides end */}
- {/* Why Us */}
+      {/* Quick Access Guides end */}
+      {/* Why Us */}
       <div
         className="gst_timeline dark:bg-background-dark flex flex-col justify-center"
       >
@@ -3146,9 +3143,9 @@ const Services = () => {
               <div className="short_title">
                 Why Us
               </div>
-            <h2 className="long_title">
-              Your Trusted Partner In Business Growth
-            </h2>
+              <h2 className="long_title">
+                Your Trusted Partner In Business Growth
+              </h2>
             </div>
             <div
               className="grid grid-cols-2 md:!grid-cols-2 lg:!grid-cols-4 gap-4 lg:gap-12 items-center"
@@ -3162,7 +3159,7 @@ const Services = () => {
                   <span
                     className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
                     data-target="10000"
-                    >10,000</span
+                  >10,000</span
                   >
                   <div
                     className="flex items-center gap-2 text-text-muted dark:text-gray-400"
@@ -3181,7 +3178,7 @@ const Services = () => {
                   <span
                     className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-3"
                     data-target="10000"
-                    >10,000</span
+                  >10,000</span
                   >
                   <div
                     className="flex items-center gap-2 text-text-muted dark:text-gray-300"
@@ -3200,7 +3197,7 @@ const Services = () => {
                   <span
                     className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
                     data-target="10000"
-                    >10,000</span
+                  >10,000</span
                   >
                   <div
                     className="flex items-center gap-2 text-text-muted dark:text-gray-400"
@@ -3220,7 +3217,7 @@ const Services = () => {
                   <span
                     className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
                     data-target="10000"
-                    >10,000</span
+                  >10,000</span
                   >
                   <div
                     className="flex items-center gap-2 text-text-muted dark:text-gray-400"
@@ -3234,8 +3231,8 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* Why Us end */}
- {/*  Why Choose Ebiz */}
+      {/* Why Us end */}
+      {/*  Why Choose Ebiz */}
       <div
         className="flex flex-col justify-center items-center transition-colors duration-300"
       >
@@ -3245,10 +3242,10 @@ const Services = () => {
               <div className="short_title">
                 Why Choose Ebiz
               </div>
-              
-            <h2 className="long_title">
-              Faucibus Adipiscing Viverra Placerat Ex
-            </h2>
+
+              <h2 className="long_title">
+                Faucibus Adipiscing Viverra Placerat Ex
+              </h2>
             </div>
           </div>
           <div
@@ -3345,14 +3342,14 @@ const Services = () => {
               <span>Explore Partnerships</span>
               <span
                 className="material-icons-round group-hover:translate-x-1 transition-transform"
-                >arrow_forward</span
+              >arrow_forward</span
               >
             </button>
           </div>
         </section>
       </div>
-{/*  Why Choose Ebiz end */}
-  {/* Get Personalized Assistance */}
+      {/*  Why Choose Ebiz end */}
+      {/* Get Personalized Assistance */}
       <div className="bg-[#E7F3FF] dark:bg-gray-900">
         <section
           className="relative p-0 w-full bg-background-light dark:bg-background-dark transition-colors duration-300 overflow-hidden"
@@ -3381,7 +3378,7 @@ const Services = () => {
                   Get Assistance
                   <span
                     className="material-icons ml-2 group-hover:translate-x-1 transition-transform text-xl"
-                    >arrow_forward</span
+                  >arrow_forward</span
                   >
                 </button>
               </div>
@@ -3399,10 +3396,10 @@ const Services = () => {
             </div>
           </div>
         </section>
-       
+
       </div>
-{/* Get Personalized Assistance end */}
- {/* Calculators */}
+      {/* Get Personalized Assistance end */}
+      {/* Calculators */}
       <div
         className="dark:bg-background-dark text-text-main dark:text-slate-200 transition-colors duration-300"
       >
@@ -3412,18 +3409,18 @@ const Services = () => {
               <div className="short_title">
                 Calculators
               </div>
-            
-            <h2 className="long_title pb-6">
-              Faucibus Adipiscing Viverra Placerat Ex
-            </h2>
-            <p
-              className="max-w-5xl mx-auto text-text-muted dark:text-slate-400 text-lg leading-relaxed font-light"
-            >
-              Get instant access to professional-grade tools including Income
-              Tax Calculator, Capital Gains Estimator, Section 80 Deduction
-              Guide, and more. Simplify complex calculations with our
-              user-friendly interface.
-            </p>
+
+              <h2 className="long_title pb-6">
+                Faucibus Adipiscing Viverra Placerat Ex
+              </h2>
+              <p
+                className="max-w-5xl mx-auto text-text-muted dark:text-slate-400 text-lg leading-relaxed font-light"
+              >
+                Get instant access to professional-grade tools including Income
+                Tax Calculator, Capital Gains Estimator, Section 80 Deduction
+                Guide, and more. Simplify complex calculations with our
+                user-friendly interface.
+              </p>
             </div>
           </div>
           <div
@@ -3570,8 +3567,8 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* Calculators end */}
- {/* Document Required */}
+      {/* Calculators end */}
+      {/* Document Required */}
       <div
         className="gradientcolor22 dark:bg-background-dark text-gray-800 dark:text-gray-200 min-h-screen flex flex-col justify-center py-10 transition-colors duration-300"
       >
@@ -3797,100 +3794,100 @@ const Services = () => {
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Pan Card</span
+                      >Pan Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Aadhar Card</span
+                      >Aadhar Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Electricity Bill</span
+                      >Electricity Bill</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Pan Card</span
+                      >Pan Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Aadhar Card</span
+                      >Aadhar Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Electricity Bill</span
+                      >Electricity Bill</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Pan Card</span
+                      >Pan Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Aadhar Card</span
+                      >Aadhar Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Electricity Bill</span
+                      >Electricity Bill</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Pan Card</span
+                      >Pan Card</span
                       >
                     </li>
                     <li className="flex items-center gap-3 py-1">
                       <span
                         className="material-icons text-green-500 text-sm border border-green-500 rounded-full px-1"
-                        >check</span
+                      >check</span
                       >
                       <span className="text-gray-800 dark:text-gray-300"
-                        >Aadhar Card</span
+                      >Aadhar Card</span
                       >
                     </li>
                   </ul>
@@ -3916,7 +3913,7 @@ const Services = () => {
               >
                 <span className="text-primary font-bold">*</span>
                 <span className="text-gray-500 dark:text-gray-400 font-medium"
-                  >Required documents</span
+                >Required documents</span
                 >
               </div>
               <div className="text-gray-400 dark:text-gray-500">
@@ -3925,10 +3922,10 @@ const Services = () => {
             </div>
           </div>
         </div>
-        
+
       </div>
-{/* Document Required end */}
- {/* PREMIUM PLAN SECTION */}
+      {/* Document Required end */}
+      {/* PREMIUM PLAN SECTION */}
       <div
         className="gradientcolor22 my-10 dark:bg-background-dark text-slate-800 dark:text-slate-200 antialiased flex items-center justify-center p-4"
       >
@@ -3938,10 +3935,10 @@ const Services = () => {
               <div className="short_title">
                 PREMIUM PLAN SECTION
               </div>
-              
-            <h2 className="long_title">
-              Faucibus Adipiscing Viverra Placerat Ex
-            </h2>
+
+              <h2 className="long_title">
+                Faucibus Adipiscing Viverra Placerat Ex
+              </h2>
             </div>
           </div>
           <div
@@ -3958,26 +3955,26 @@ const Services = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="material-icons-outlined text-teal-500 mt-0.5"
-                    >check_circle</span
+                  >check_circle</span
                   >
                   <span className="text-slate-700 dark:text-slate-300 font-medium"
-                    >Express incorporation in 7 business days</span
+                  >Express incorporation in 7 business days</span
                   >
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-icons-outlined text-teal-500 mt-0.5"
-                    >check_circle</span
+                  >check_circle</span
                   >
                   <span className="text-slate-700 dark:text-slate-300 font-medium"
-                    >Premium registered office address in prime location</span
+                  >Premium registered office address in prime location</span
                   >
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-icons-outlined text-teal-500 mt-0.5"
-                    >check_circle</span
+                  >check_circle</span
                   >
                   <span className="text-slate-700 dark:text-slate-300 font-medium"
-                    >Complete documentation with leather-bound
+                  >Complete documentation with leather-bound
                     certificates</span
                   >
                 </li>
@@ -3989,7 +3986,7 @@ const Services = () => {
                   <div className="w-2 h-2 rounded-full bg-green-500"></div>
                   <span
                     className="text-sm font-bold text-slate-700 dark:text-slate-200"
-                    >Trusted by 10,000+</span
+                  >Trusted by 10,000+</span
                   >
                 </div>
                 <div
@@ -3998,33 +3995,33 @@ const Services = () => {
                   <div className="flex text-yellow-400 text-sm">
                     <span
                       className="material-icons-outlined"
-                      style={{fontSize: '16px'}}
-                      >star</span
+                      style={{ fontSize: '16px' }}
+                    >star</span
                     >
                     <span
                       className="material-icons-outlined"
-                      style={{fontSize: '16px'}}
-                      >star</span
+                      style={{ fontSize: '16px' }}
+                    >star</span
                     >
                     <span
                       className="material-icons-outlined"
-                      style={{fontSize: '16px'}}
-                      >star</span
+                      style={{ fontSize: '16px' }}
+                    >star</span
                     >
                     <span
                       className="material-icons-outlined"
-                      style={{fontSize: '16px'}}
-                      >star</span
+                      style={{ fontSize: '16px' }}
+                    >star</span
                     >
                     <span
                       className="material-icons-outlined"
-                      style={{fontSize: '16px'}}
-                      >star_half</span
+                      style={{ fontSize: '16px' }}
+                    >star_half</span
                     >
                   </div>
                   <span
                     className="text-sm font-bold text-slate-700 dark:text-slate-200"
-                    >4.9</span
+                  >4.9</span
                   >
                 </div>
               </div>
@@ -4034,7 +4031,7 @@ const Services = () => {
                 >
                   <span className="font-bold text-lg">₹29,000 onwards</span>
                   <span className="text-xs opacity-80 font-normal mt-1"
-                    >per project</span
+                  >per project</span
                   >
                 </button>
                 <button
@@ -4056,8 +4053,8 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* PREMIUM PLAN SECTION end */}
- {/* Upgrade to Pro */}
+      {/* PREMIUM PLAN SECTION end */}
+      {/* Upgrade to Pro */}
       <div
         className="bg-white dark:bg-background-dark flex items-center justify-center font-body transition-colors duration-300 p-4"
       >
@@ -4082,26 +4079,26 @@ const Services = () => {
             <ul className="space-y-4 mb-10">
               <li className="flex items-center space-x-3">
                 <span className="material-icons-outlined text-green-500 text-2xl"
-                  >check_circle_outline</span
+                >check_circle_outline</span
                 >
                 <span className="text-gray-700 dark:text-gray-200 text-lg"
-                  >Quick registration process</span
+                >Quick registration process</span
                 >
               </li>
               <li className="flex items-center space-x-3">
                 <span className="material-icons-outlined text-green-500 text-2xl"
-                  >check_circle_outline</span
+                >check_circle_outline</span
                 >
                 <span className="text-gray-700 dark:text-gray-200 text-lg"
-                  >Quick registration process</span
+                >Quick registration process</span
                 >
               </li>
               <li className="flex items-center space-x-3">
                 <span className="material-icons-outlined text-green-500 text-2xl"
-                  >check_circle_outline</span
+                >check_circle_outline</span
                 >
                 <span className="text-gray-700 dark:text-gray-200 text-lg"
-                  >Quick registration process</span
+                >Quick registration process</span
                 >
               </li>
             </ul>
@@ -4116,11 +4113,11 @@ const Services = () => {
               <div className="flex items-baseline gap-3 mb-1">
                 <span
                   className="text-4xl font-bold text-gray-900 dark:text-white font-display"
-                  >₹ 999/-</span
+                >₹ 999/-</span
                 >
                 <span
                   className="text-xl text-gray-800 line-through font-medium font-display"
-                  >₹2999/-</span
+                >₹2999/-</span
                 >
               </div>
               <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -4151,8 +4148,8 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* Upgrade to Pro end */}
- {/* ADD ON SERVICES */}
+      {/* Upgrade to Pro end */}
+      {/* ADD ON SERVICES */}
       <div
         className="dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased transition-colors duration-300"
       >
@@ -4185,15 +4182,15 @@ const Services = () => {
                   <div className="flex items-center gap-3 mb-5">
                     <span
                       className="text-xl font-bold text-slate-900 dark:text-white"
-                      >₹12,999</span
+                    >₹12,999</span
                     >
                     <span
                       className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
-                      >₹15,999</span
+                    >₹15,999</span
                     >
                     <span
                       className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
-                      >Save 19%</span
+                    >Save 19%</span
                     >
                   </div>
                 </div>
@@ -4241,15 +4238,15 @@ const Services = () => {
                   <div className="flex items-center gap-3 mb-5">
                     <span
                       className="text-xl font-bold text-slate-900 dark:text-white"
-                      >₹12,999</span
+                    >₹12,999</span
                     >
                     <span
                       className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
-                      >₹15,999</span
+                    >₹15,999</span
                     >
                     <span
                       className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
-                      >Save 19%</span
+                    >Save 19%</span
                     >
                   </div>
                 </div>
@@ -4297,15 +4294,15 @@ const Services = () => {
                   <div className="flex items-center gap-3 mb-5">
                     <span
                       className="text-xl font-bold text-slate-900 dark:text-white"
-                      >₹12,999</span
+                    >₹12,999</span
                     >
                     <span
                       className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
-                      >₹15,999</span
+                    >₹15,999</span
                     >
                     <span
                       className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
-                      >Save 19%</span
+                    >Save 19%</span
                     >
                   </div>
                 </div>
@@ -4353,15 +4350,15 @@ const Services = () => {
                   <div className="flex items-center gap-3 mb-5">
                     <span
                       className="text-xl font-bold text-slate-900 dark:text-white"
-                      >₹12,999</span
+                    >₹12,999</span
                     >
                     <span
                       className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
-                      >₹15,999</span
+                    >₹15,999</span
                     >
                     <span
                       className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
-                      >Save 19%</span
+                    >Save 19%</span
                     >
                   </div>
                 </div>
@@ -4393,11 +4390,11 @@ const Services = () => {
           </div>
         </section>
       </div>
-{/* ADD ON SERVICES end */}
+      {/* ADD ON SERVICES end */}
       <div className="faqsec">
-        <img src={faqsImg} alt="" />
+        <FAQ />
       </div>
-{/* Aliquip AdipiscingElit */}
+      {/* Aliquip AdipiscingElit */}
       <div
         className="flex flex-col justify-center text-gray-800 dark:text-gray-200 antialiased"
       >
@@ -4409,10 +4406,10 @@ const Services = () => {
               <div className="short_title">
                 Lorem Ipsum Dolor
               </div>
-              
-            <h2 className="long_title">
-              Aliquip <span className="text-primary">Adipiscing</span> Elit
-            </h2>
+
+              <h2 className="long_title">
+                Aliquip <span className="text-primary">Adipiscing</span> Elit
+              </h2>
             </div>
           </div>
           <div
@@ -4439,7 +4436,7 @@ const Services = () => {
                     className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-lg pl-1"
                   >
                     <span className="material-icons text-white text-3xl"
-                      >play_arrow</span
+                    >play_arrow</span
                     >
                   </div>
                 </div>
@@ -4459,13 +4456,13 @@ const Services = () => {
                     </div>
                   </div>
                   <span className="material-icons text-sm opacity-80"
-                    >volume_up</span
+                  >volume_up</span
                   >
                   <span className="material-icons text-sm opacity-80"
-                    >settings</span
+                  >settings</span
                   >
                   <span className="material-icons text-sm opacity-80"
-                    >fullscreen</span
+                  >fullscreen</span
                   >
                 </div>
               </div>
@@ -4512,11 +4509,11 @@ const Services = () => {
           </div>
         </div>
       </div>
-{/* Aliquip AdipiscingElit end*/}
+      {/* Aliquip AdipiscingElit end*/}
       <div className="faqsec">
         <img src={img13} alt="" />
       </div>
-{/* contact */}
+      {/* contact */}
       <div
         className="bg-[#E7F3FF] shadow-2xl mb-10 dark:bg-background-dark font-body antialiased transition-colors duration-300"
       >
@@ -4590,7 +4587,7 @@ const Services = () => {
             </div>
           </div>
         </section>
-       
+
       </div>
       {/* contact end */}
     </>

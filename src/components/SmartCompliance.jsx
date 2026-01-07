@@ -17,7 +17,7 @@ const SmartCompliance = () => {
 
   return (
     <section className="smart-compliance">
-      <div className="container">
+      <div className="container p-0!">
         <h2 className="section-title">Smart Compliance & Legal Solutions For Businesses</h2>
         <div className="service-carousel">
           <button className="carousel-btn carousel-prev" onClick={() => scrollCarousel(-1)} aria-label="Previous">‹</button>
