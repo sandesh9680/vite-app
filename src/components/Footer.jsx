@@ -13,7 +13,7 @@ const Footer = () => {
 <div class="grid grid-cols-2 md:grid-cols-3 lg:!grid-cols-5 gap-8 mb-12">
 <div class="flex flex-col space-y-4">
 <div>
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">Trademark</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">Trademark</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="space-y-3 text-sm text-gray-600">
@@ -28,7 +28,7 @@ const Footer = () => {
 </div>
 <div class="flex flex-col space-y-4">
 <div>
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">GST</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">GST</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="space-y-3 text-sm text-gray-600">
@@ -41,7 +41,7 @@ const Footer = () => {
 </div>
 <div class="flex flex-col space-y-4">
 <div>
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">Company Registration</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">Company Registration</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="space-y-3 text-sm text-gray-600">
@@ -58,7 +58,7 @@ const Footer = () => {
 <div class="flex flex-col space-y-8">
 <div class="flex flex-col space-y-4">
 <div>
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">ITR</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">ITR</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="space-y-3 text-sm text-gray-600">
@@ -67,7 +67,7 @@ const Footer = () => {
 </div>
 <div class="flex flex-col space-y-4">
 <div>
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">Patent</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">Patent</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="space-y-3 text-sm text-gray-600">
@@ -81,7 +81,7 @@ const Footer = () => {
 <div class="flex flex-col space-y-8">
 <div class="flex flex-col space-y-4">
 <div>
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">BNS</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">BNS</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="space-y-3 text-sm text-gray-600">
@@ -103,7 +103,7 @@ const Footer = () => {
 </div>
 <div class="mb-12">
 <div class="mb-4">
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">Talk to Experts</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">Talk to Experts</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <ul class="flex flex-wrap gap-x-6 gap-y-3 text-sm text-gray-600">
@@ -116,7 +116,7 @@ const Footer = () => {
 </div>
 <div class="mb-12">
 <div class="mb-4">
-<h3 class="text-sm font-bold uppercase tracking-wider mb-3">Calculators</h3>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-3 dark:text-white">Calculators</h3>
 <div class="w-10 h-[2px] bg-[#FFCA30]"></div>
 </div>
 <div class="text-sm text-gray-600">
