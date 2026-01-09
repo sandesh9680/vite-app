@@ -106,15 +106,15 @@ const Calculators = () => {
 <div className='performed_sec'>
         <div className='grid lg:grid-cols-3 lg:gap-20'>
           <div className='performed_info'>
-            <h2 className="long_title text-center">50K +</h2>
+            <h2 className="text-black font-bold long_title text-center">50K +</h2>
             <p>calculations performed</p>
           </div>
           <div className='performed_info'>
-            <h2 className="long_title text-center">99.9%</h2>
+            <h2 className="text-black font-bold long_title text-center">99.9%</h2>
             <p>Accuracy Rate</p>
           </div>
           <div className='performed_info'>
-            <h2 className="long_title text-center">24/7</h2>
+            <h2 className="text-black font-bold long_title text-center">24/7</h2>
             <p>Available Support</p>
           </div>
         </div>

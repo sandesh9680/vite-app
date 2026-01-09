@@ -112,7 +112,7 @@ const ServiceForHome = () => {
     setActivePage(currentIndex);
   };
 
-  const minusValue = window.innerWidth > 1300 ? 2 : window.innerWidth > 900 ? 0 : -1;
+  const minusValue = window.innerWidth > 1300 ? 3 : window.innerWidth > 900 ? 3 : 1;
   const totalDots = serviceCards.length - minusValue ;
 
 
@@ -123,9 +123,9 @@ const ServiceForHome = () => {
         {/* Services Header */}
         <div className="services-header heading_short_long">
           <div className="short_title">OUR SERVICES</div>
-          <h1 className="long_title">
+          <h2 className="long_title">
             <span className="highlight">Smart</span> Compliance & <span className="highlight">Legal</span> Solutions For Businesses
-          </h1>
+          </h2>
         </div>
 
         {/* Navigation Tabs */}

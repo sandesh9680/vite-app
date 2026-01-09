@@ -137,13 +137,19 @@ const Experts = () => {
                 <span className="expert-available">Available now</span>
                 <button className="expert-connect-btn">
                   Connect
-                  <span className="connect-arrow">➜</span>
+                  <span className="connect-arrow"><svg width="12" height="12" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 4.61538H8.65113L4.9435 0.576923L5.4096 0L10 5L5.4096 10L4.9435 9.42308L8.65113 5.38462H0V4.61538Z" fill="#D73B00"/>
+</svg>
+</span>
                 </button>
               </div>
 
               <div className="book_btn">
                 <button className="btn-primary">
-                  Book Call ➜
+                  Book Call <svg className="ml-2" width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 6.05769H11.3546L6.48835 0.757212L7.10011 0L13.125 6.5625L7.10011 13.125L6.48835 12.3678L11.3546 7.06731H0V6.05769Z" fill="#FFFDFC"/>
+</svg>
+
                 </button>
               </div>
             </div>
@@ -169,10 +175,9 @@ const Experts = () => {
           <p className="partnerships-question">
             Need Help Choosing the right specialist ?
           </p>
-          <button className="btn-primary trusted-btn-primary text-center">
-            Get Free Consultation
-            <span className="btn-arrow border_left">➜</span>
-          </button>
+          <div className='flex justify-center text-center'>
+        <button class="btn-primary trusted-btn-primary text-center">Explore More FAQ<span class="btn-arrow border_left"><svg width="20" height="18" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.6824 11.7593L1.19209e-06 11.7593" stroke="#FFFDFC" stroke-width="2"></path><path d="M12.8412 0.759277L25.6824 11.7593L12.8412 22.7593" stroke="#FFFDFC" stroke-width="2"></path></svg></span></button>
+      </div>
         </div>
       </div>
     </section>

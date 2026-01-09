@@ -89,10 +89,10 @@ const Services = () => {
               </span>
             </div>
             <h1
-              className="text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white leading-tight"
+              className="text-2xl lg:text-3xl font-bold text-gray-900  leading-tight"
             >
               Launch Your Business the Right Way with Quick
-              <span className="text-gray-900 dark:text-white"
+              <span className="text-gray-900 "
               >GST Registration</span
               >
             </h1>
@@ -138,7 +138,7 @@ const Services = () => {
                 <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">
                   GST Registration from just
                 </p>
-                <p className="text-lg font-bold text-gray-900 dark:text-white">
+                <p className="text-lg font-bold text-gray-900 ">
                   ₹1,200/-
                 </p>
               </div>
@@ -152,7 +152,7 @@ const Services = () => {
                   CA/CS Assisted
                 </p>
                 <div className="flex flex-col items-center">
-                  <p className="text-lg font-bold text-gray-900 dark:text-white">
+                  <p className="text-lg font-bold text-gray-900 ">
                     4.5/5 Ratings
                   </p>
                   <div className="flex text-yellow-400 text-[10px]">
@@ -173,7 +173,7 @@ const Services = () => {
                 <p className="text-xs text-gray-500 dark:text-gray-400 font-medium">
                   Get GSTIN in just
                 </p>
-                <p className="text-lg font-bold text-gray-900 dark:text-white">
+                <p className="text-lg font-bold text-gray-900 ">
                   4-6 Days
                 </p>
               </div>
@@ -186,7 +186,7 @@ const Services = () => {
                 <span>Watch a demo</span>
               </button>
               <button
-                className="flex items-center justify-center space-x-2 bg-white dark:bg-gray-800 border-2 border-primary text-gray-900 dark:text-white font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
+                className="flex items-center justify-center space-x-2  border-2 border-primary text-gray-900  font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
               >
                 <span className="material-icons-outlined text-primary text-xl"
                 >description</span
@@ -205,12 +205,12 @@ const Services = () => {
               className="bg-[#FFF8EB] dark:bg-form-bg-dark rounded-3xl p-6 md:p-8 shadow-card border border-[#FFD1A1] dark:border-gray-700 relative"
             >
               <div className="text-center mb-6 mt-4">
-                <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
+                <h5 className="font-bold text-gray-900 ">
                   Need assistance?<br />
                   <span className="text-gray-800 dark:text-gray-200"
                   >Our team will call.</span
                   >
-                </h2>
+                </h5>
               </div>
               <form className="space-y-5">
                 <div>
@@ -220,7 +220,7 @@ const Services = () => {
                   >Name</label
                   >
                   <input
-                    className="w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
+                    className="w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900  px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
                     id="name"
                     placeholder="Amrit Kumar"
                     type="text"
@@ -233,7 +233,7 @@ const Services = () => {
                   >Email ID</label
                   >
                   <input
-                    className="w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
+                    className="w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900  px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
                     id="email"
                     placeholder="abcdefg@gmail.com"
                     type="email"
@@ -258,7 +258,7 @@ const Services = () => {
                         />
                       </div>
                       <select
-                        className="block w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white pl-10 pr-8 py-3 focus:ring-2 focus:ring-primary focus:border-primary appearance-none outline-none"
+                        className="block w-full rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900  pl-10 pr-8 py-3 focus:ring-2 focus:ring-primary focus:border-primary appearance-none outline-none"
                       >
                         <option>+91</option>
                         <option>+1</option>
@@ -279,7 +279,7 @@ const Services = () => {
                       </div>
                     </div>
                     <input
-                      className="w-2/3 rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
+                      className="w-2/3 rounded-full border-orange-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900  px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-400"
                       id="phone"
                       placeholder="8023456789"
                       type="tel"
@@ -310,7 +310,7 @@ const Services = () => {
                   </div>
                 </div>
                 <button
-                  className="w-full bg-primary hover:bg-primary-hover text-white font-bold py-2.5 px-6 rounded-full shadow-lg transform active:scale-95 transition-all flex items-center justify-center space-x-2 text-lg"
+                  className="w-full bg-primary hover:bg-primary-hover text-white font-semibold py-2.5 px-6 rounded-full shadow-lg transform active:scale-95 transition-all flex items-center justify-center space-x-2 text-lg"
                   type="submit"
                 >
                   <span>Book an Appointment</span>
@@ -335,7 +335,7 @@ const Services = () => {
                 <span className="material-symbols-outlined"> search </span>
               </div>
               <input
-                className="block w-full rounded-full border-[#8FCBFF] dark:border-slate-700 bg-white dark:bg-slate-800 py-4 pl-14 pr-14 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-2 focus:ring-primary focus:border-transparent shadow-soft transition-all duration-200 text-sm lg:text-lg"
+                className="block w-full rounded-full border-1 border-[#8FCBFF]  bg-white dark:bg-slate-800 py-3 pl-14 pr-14 text-slate-900  placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-2 focus:ring-primary focus:border-transparent shadow-soft transition-all duration-200 text-sm lg:text-lg"
                 placeholder="Looking for Company Registration"
                 type="text"
               />
@@ -356,7 +356,7 @@ const Services = () => {
               <h2
                 className="long_title"
               >
-                Rated 4.5<span className="text-slate-800 dark:text-slate-200">★</span>
+                Rated 4.5<span className="text-slate-800 ">★</span>
                 On Google &amp; Trustpilot
               </h2>
             </div>
@@ -411,7 +411,7 @@ const Services = () => {
                       star
                     </span>
                   </div>
-                  <div className="text-xl font-bold text-slate-900 dark:text-white">
+                  <div className="text-xl font-bold text-slate-900 ">
                     5/5 Google Reviews
                   </div>
                   <div className="flex items-center mt-2 pl-2">
@@ -464,7 +464,7 @@ const Services = () => {
               <div className="flex-1 flex flex-col justify-between h-full">
                 <div>
                   <h3
-                    className="text-lg font-bold text-slate-900 dark:text-white mb-1"
+                    className="text-lg font-bold text-slate-900  mb-1"
                   >
                     Award Name
                   </h3>
@@ -509,7 +509,7 @@ const Services = () => {
               </div>
               <div className="p-4 flex flex-col items-center justify-center flex-1">
                 <div
-                  className="text-xl font-medium text-slate-800 dark:text-slate-200 mb-3"
+                  className="text-xl font-medium text-slate-800  mb-3"
                 >
                   Excellent
                 </div>
@@ -558,7 +558,7 @@ const Services = () => {
 
       {/* Benefits of GST Registration */}
       <div
-        className="bg-background-light dark:bg-background-dark text-slate-800 dark:text-slate-200 font-body antialiased transition-colors duration-300"
+        className="gst_timeline my-10 text-slate-800  font-body antialiased transition-colors duration-300"
       >
         <nav
           className="sticky top-0 z-50 w-full bg-gradient-to-r from-orange-50 via-white to-blue-50 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800 border-b border-gray-100 dark:border-slate-800 shadow-sm backdrop-blur-sm bg-opacity-95"
@@ -609,7 +609,7 @@ const Services = () => {
       </div>
       {/* Benefits of GST Registration end */}
       {/* Plans and Pricing */}
-      <div className="lg:py-20 py-10 px-4 sm:px-6 lg:px-10 bg-[#FBFCFF] my-6 mx-auto">
+      <div className="lg:py-20 py-10 px-4 sm:px-6 lg:px-16 bg-[#FBFCFF] my-6 mx-auto">
         <div className="text-center mb-8 lg:mb-16">
           <div className="heading_short_long mb-4 group">
             <div className="short_title">
@@ -630,7 +630,7 @@ const Services = () => {
               <img src={icon4} alt="" />
             </div>
             <h3
-              className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-4"
+              className="text-xl md:text-2xl font-bold text-slate-900  mb-4"
             >
               Tax Savings — Reduce costs with credits
             </h3>
@@ -650,7 +650,7 @@ const Services = () => {
               <img src={icon4} alt="" />
             </div>
             <h3
-              className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-4"
+              className="text-xl md:text-2xl font-bold text-slate-900  mb-4"
             >
               Tax Savings — Reduce costs with credits
             </h3>
@@ -670,7 +670,7 @@ const Services = () => {
               <img src={icon4} alt="" />
             </div>
             <h3
-              className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-4"
+              className="text-xl md:text-2xl font-bold text-slate-900  mb-4"
             >
               Tax Savings — Reduce costs with credits
             </h3>
@@ -690,7 +690,7 @@ const Services = () => {
               <img src={icon4} alt="" />
             </div>
             <h3
-              className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-4"
+              className="text-xl md:text-2xl font-bold text-slate-900  mb-4"
             >
               Tax Savings — Reduce costs with credits
             </h3>
@@ -736,7 +736,7 @@ const Services = () => {
                   <img src={icon5} alt="" />
                 </div>
                 <h3
-                  className="text-xl font-bold text-slate-900 dark:text-white uppercase tracking-tight"
+                  className="text-xl font-bold text-slate-900  uppercase tracking-tight"
                 >
                   Basic Plan
                 </h3>
@@ -749,7 +749,7 @@ const Services = () => {
                 </div>
                 <div className="mt-2 text-center">
                   <span
-                    className="text-4xl font-bold text-slate-900 dark:text-white"
+                    className="text-4xl font-bold text-slate-900 "
                   >₹ 999</span
                   >
                   <div className="text-xs text-slate-600 dark:text-slate-400">
@@ -795,7 +795,7 @@ const Services = () => {
                     className="text-[10px] text-slate-600 dark:text-slate-400 leading-tight"
                   >
                     <span
-                      className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5"
+                      className="font-bold text-slate-800  block mb-0.5"
                     >tincidunt urna</span
                     >
                     Ut in Nam at urna Lorem venenatis ipsum tincidunt non,
@@ -810,7 +810,7 @@ const Services = () => {
               </div>
               <div className="mt-8">
                 <h4
-                  className="font-bold text-sm text-slate-900 dark:text-white mb-4"
+                  className="font-bold text-sm text-slate-900  mb-4"
                 >
                   What You'll Get Here
                 </h4>
@@ -919,7 +919,7 @@ const Services = () => {
                   <img src={icon6} alt="" />
                 </div>
                 <h3
-                  className="text-xl font-bold text-slate-900 dark:text-white uppercase tracking-tight"
+                  className="text-xl font-bold text-slate-900  uppercase tracking-tight"
                 >
                   Premium Plan
                 </h3>
@@ -932,7 +932,7 @@ const Services = () => {
                 </div>
                 <div className="mt-2 text-center">
                   <span
-                    className="text-4xl font-bold text-slate-900 dark:text-white"
+                    className="text-4xl font-bold text-slate-900 "
                   >₹ 999</span
                   >
                   <div className="text-xs text-slate-600 dark:text-slate-400">
@@ -978,7 +978,7 @@ const Services = () => {
                     className="text-[10px] text-slate-600 dark:text-slate-400 leading-tight"
                   >
                     <span
-                      className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5"
+                      className="font-bold text-slate-800  block mb-0.5"
                     >tincidunt urna</span
                     >
                     Ut in Nam at urna Lorem venenatis ipsum tincidunt non,
@@ -993,7 +993,7 @@ const Services = () => {
               </div>
               <div className="mt-8">
                 <h4
-                  className="font-bold text-sm text-slate-900 dark:text-white mb-4"
+                  className="font-bold text-sm text-slate-900  mb-4"
                 >
                   What You'll Get Here
                 </h4>
@@ -1068,7 +1068,7 @@ const Services = () => {
                         strokeWidth="2"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-slate-800 dark:text-white"
+                    <span className="font-semibold text-slate-800 "
                     >4-6 Working Days</span
                     >Processing
                   </li>
@@ -1127,7 +1127,7 @@ const Services = () => {
                   <img src={icon7} alt="" />
                 </div>
                 <h3
-                  className="text-xl font-bold text-slate-900 dark:text-white uppercase tracking-tight"
+                  className="text-xl font-bold text-slate-900  uppercase tracking-tight"
                 >
                   Elite Plan
                 </h3>
@@ -1140,7 +1140,7 @@ const Services = () => {
                 </div>
                 <div className="mt-2 text-center">
                   <span
-                    className="text-4xl font-bold text-slate-900 dark:text-white"
+                    className="text-4xl font-bold text-slate-900 "
                   >₹ 4999</span
                   >
                   <div className="text-xs text-slate-600 dark:text-slate-400">
@@ -1192,7 +1192,7 @@ const Services = () => {
                     className="text-[10px] text-slate-600 dark:text-slate-400 leading-tight"
                   >
                     <span
-                      className="font-bold text-slate-800 dark:text-slate-200 block mb-0.5"
+                      className="font-bold text-slate-800  block mb-0.5"
                     >tincidunt urna</span
                     >
                     Ut in Nam at urna Lorem venenatis ipsum tincidunt non,
@@ -1207,7 +1207,7 @@ const Services = () => {
               </div>
               <div className="mt-4">
                 <h4
-                  className="font-bold text-sm text-slate-900 dark:text-white mb-4"
+                  className="font-bold text-sm text-slate-900  mb-4"
                 >
                   What You'll Get Here
                 </h4>
@@ -1248,7 +1248,7 @@ const Services = () => {
                     </svg>
                     <span
                     >Express
-                      <span className="font-bold text-slate-900 dark:text-white"
+                      <span className="font-bold text-slate-900 "
                       >24-48 Hours</span
                       >
                       Processing</span
@@ -1332,7 +1332,7 @@ const Services = () => {
                     </svg>
                     <span
                     >Government
-                      <span className="font-bold text-slate-900 dark:text-white"
+                      <span className="font-bold text-slate-900 "
                       >Fee Included</span
                       ></span
                     >
@@ -1405,7 +1405,7 @@ const Services = () => {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-slate-900 dark:text-white">
+              <div className="text-2xl font-bold text-slate-900 ">
                 6,000+
               </div>
               <div className="text-sm text-slate-600 dark:text-slate-400">
@@ -1434,7 +1434,7 @@ const Services = () => {
                   ></polygon>
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-slate-900 dark:text-white">
+              <div className="text-2xl font-bold text-slate-900 ">
                 4.8/5
               </div>
               <div className="text-sm text-slate-600 dark:text-slate-400">
@@ -1460,7 +1460,7 @@ const Services = () => {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
               </div>
-              <div className="text-2xl font-bold text-slate-900 dark:text-white">
+              <div className="text-2xl font-bold text-slate-900 ">
                 100%
               </div>
               <div className="text-sm text-slate-600 dark:text-slate-400">
@@ -1491,7 +1491,7 @@ const Services = () => {
             <div className="grid grid-cols-1 lg:!grid-cols-12 gap-8 mb-12">
               <div className="lg:col-span-7">
                 <h2
-                  className="text-2xl font-bold text-gray-900 dark:text-white mb-4"
+                  className="text-2xl font-bold text-gray-900  mb-4"
                 >
                   Overview
                 </h2>
@@ -1539,7 +1539,7 @@ const Services = () => {
             </div>
             <div className="mb-10">
               <h2
-                className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-5"
+                className="text-2xl md:text-3xl font-bold text-gray-900  mb-5"
               >
                 What is a
                 <span className="text-primary">Private Limited Company</span> (Pvt
@@ -1568,7 +1568,7 @@ const Services = () => {
             <div
               className="bg-blue-50 dark:bg-slate-800/50 rounded-lg p-6 border border-blue-100 dark:border-slate-700"
             >
-              <h3 className="font-bold text-lg text-gray-900 dark:text-white mb-2">
+              <h3 className="font-bold text-lg text-gray-900  mb-2">
                 Companies Act, 2013
               </h3>
               <p className="text-primary text-sm font-medium mb-6">
@@ -1675,7 +1675,7 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                    className="font-bold text-slate-900  text-base mb-1"
                   >
                     100% Legal Compliance
                   </h3>
@@ -1696,7 +1696,7 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                    className="font-bold text-slate-900  text-base mb-1"
                   >
                     100% Legal Compliance
                   </h3>
@@ -1717,7 +1717,7 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                    className="font-bold text-slate-900  text-base mb-1"
                   >
                     100% Legal Compliance
                   </h3>
@@ -1738,7 +1738,7 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                    className="font-bold text-slate-900  text-base mb-1"
                   >
                     100% Legal Compliance
                   </h3>
@@ -1759,7 +1759,7 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                    className="font-bold text-slate-900  text-base mb-1"
                   >
                     100% Legal Compliance
                   </h3>
@@ -1780,7 +1780,7 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                    className="font-bold text-slate-900  text-base mb-1"
                   >
                     100% Legal Compliance
                   </h3>
@@ -1808,7 +1808,7 @@ const Services = () => {
           </div>
           <div className="text-center space-y-6">
             <h3
-              className="text-xl sm:text-2xl font-bold text-slate-800 dark:text-white"
+              className="text-xl sm:text-2xl font-bold text-slate-800 "
             >
               Join 50,000+ businesses who trust eBizFiling
             </h3>
@@ -1885,7 +1885,7 @@ const Services = () => {
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
-                      className="font-bold text-lg mb-2 text-gray-900 dark:text-white"
+                      className="font-bold text-lg mb-2 text-gray-900 "
                     >
                       Deadline Reminders
                     </h3>
@@ -1903,7 +1903,7 @@ const Services = () => {
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
-                      className="font-bold text-lg mb-2 text-gray-900 dark:text-white"
+                      className="font-bold text-lg mb-2 text-gray-900 "
                     >
                       Deadline Reminders
                     </h3>
@@ -1921,7 +1921,7 @@ const Services = () => {
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
-                      className="font-bold text-lg mb-2 text-gray-900 dark:text-white"
+                      className="font-bold text-lg mb-2 text-gray-900 "
                     >
                       Deadline Reminders
                     </h3>
@@ -1939,7 +1939,7 @@ const Services = () => {
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
-                      className="font-bold text-lg mb-2 text-gray-900 dark:text-white"
+                      className="font-bold text-lg mb-2 text-gray-900 "
                     >
                       Deadline Reminders
                     </h3>
@@ -1957,7 +1957,7 @@ const Services = () => {
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
-                      className="font-bold text-lg mb-2 text-gray-900 dark:text-white"
+                      className="font-bold text-lg mb-2 text-gray-900 "
                     >
                       Deadline Reminders
                     </h3>
@@ -1975,7 +1975,7 @@ const Services = () => {
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
-                      className="font-bold text-lg mb-2 text-gray-900 dark:text-white"
+                      className="font-bold text-lg mb-2 text-gray-900 "
                     >
                       Deadline Reminders
                     </h3>
@@ -2142,7 +2142,7 @@ const Services = () => {
             </h2>
           </div>
           <div
-            className="gst_timeline text-slate-800 dark:text-slate-200 p-4 md:p-8 lg:p-12"
+            className="gst_timeline text-slate-800  p-4 md:p-8 lg:p-12"
           >
             <div className="grid grid-cols-1 lg:!grid-cols-2 gap-8 mb-10">
               <div
@@ -2150,7 +2150,7 @@ const Services = () => {
               >
                 <div className="mb-8">
                   <h3
-                    className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-2"
+                    className="text-xl md:text-2xl font-bold text-slate-900  mb-2"
                   >
                     GST Registration in 3 Simple Steps
                   </h3>
@@ -2168,16 +2168,16 @@ const Services = () => {
                     <div
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 dark:bg-slate-600 flex items-center justify-center shadow-inner"
                     >
-                      <span className="font-bold text-slate-700 dark:text-slate-200"
+                      <span className="font-bold text-slate-700 "
                       >1</span
                       >
                     </div>
                     <div>
-                      <h4
-                        className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                      <h5
+                        className="font-bold text-slate-900  text-base mb-1"
                       >
                         Answer Quick Questions
-                      </h4>
+                      </h5>
                       <p
                         className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                       >
@@ -2193,16 +2193,16 @@ const Services = () => {
                     <div
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 dark:bg-slate-600 flex items-center justify-center shadow-inner"
                     >
-                      <span className="font-bold text-slate-700 dark:text-slate-200"
+                      <span className="font-bold text-slate-700 "
                       >1</span
                       >
                     </div>
                     <div>
-                      <h4
-                        className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                      <h5
+                        className="font-bold text-slate-900  text-base mb-1"
                       >
                         Answer Quick Questions
-                      </h4>
+                      </h5>
                       <p
                         className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                       >
@@ -2218,16 +2218,16 @@ const Services = () => {
                     <div
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 dark:bg-slate-600 flex items-center justify-center shadow-inner"
                     >
-                      <span className="font-bold text-slate-700 dark:text-slate-200"
+                      <span className="font-bold text-slate-700 "
                       >1</span
                       >
                     </div>
                     <div>
-                      <h4
-                        className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                      <h5
+                        className="font-bold text-slate-900  text-base mb-1"
                       >
                         Answer Quick Questions
-                      </h4>
+                      </h5>
                       <p
                         className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                       >
@@ -2240,7 +2240,7 @@ const Services = () => {
                 </div>
                 <div className="flex justify-center mt-auto">
                   <button
-                    className="px-8 py-2 rounded-full border border-primary text-slate-900 dark:text-white font-medium hover:bg-primary hover:text-white transition-colors duration-300"
+                    className="px-8 py-2 rounded-full border border-primary text-slate-900  font-medium hover:bg-primary hover:text-white transition-colors duration-300"
                   >
                     Download
                   </button>
@@ -2254,7 +2254,7 @@ const Services = () => {
                 ></div>
                 <div className="mb-8 relative z-10">
                   <h3
-                    className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-2"
+                    className="text-xl md:text-2xl font-bold text-slate-900  mb-2"
                   >
                     Timeline to Register a Company
                   </h3>
@@ -2290,11 +2290,11 @@ const Services = () => {
                             className="inline-block px-3 py-1 bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-xs font-semibold rounded-full mb-2"
                           >Day 1-2</span
                           >
-                          <h4
-                            className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                          <h5
+                            className="font-bold text-slate-900  text-base mb-1"
                           >
                             Application Processing
-                          </h4>
+                          </h5>
                           <p
                             className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
@@ -2325,11 +2325,11 @@ const Services = () => {
                             className="inline-block px-3 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 text-xs font-semibold rounded-full mb-2"
                           >Day 3-6</span
                           >
-                          <h4
-                            className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                          <h5
+                            className="font-bold text-slate-900  text-base mb-1"
                           >
                             Government Submission
-                          </h4>
+                          </h5>
                           <p
                             className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
@@ -2360,11 +2360,11 @@ const Services = () => {
                             className="inline-block px-3 py-1 bg-gray-100 dark:bg-slate-600 text-gray-600 dark:text-gray-300 text-xs font-semibold rounded-full mb-2"
                           >Day 7-9</span
                           >
-                          <h4
-                            className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                          <h5
+                            className="font-bold text-slate-900  text-base mb-1"
                           >
                             Verification &amp; Review
-                          </h4>
+                          </h5>
                           <p
                             className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
@@ -2395,11 +2395,11 @@ const Services = () => {
                             className="inline-block px-3 py-1 bg-gray-100 dark:bg-slate-600 text-gray-600 dark:text-gray-300 text-xs font-semibold rounded-full mb-2"
                           >Day 10-12</span
                           >
-                          <h4
-                            className="font-bold text-slate-900 dark:text-white text-base mb-1"
+                          <h5
+                            className="font-bold text-slate-900  text-base mb-1"
                           >
                             Certificate Issuance
-                          </h4>
+                          </h5>
                           <p
                             className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed"
                           >
@@ -2413,7 +2413,7 @@ const Services = () => {
                 </div>
                 <div className="flex justify-center mt-auto z-10">
                   <button
-                    className="px-8 py-2 rounded-full border border-primary text-slate-900 dark:text-white font-medium hover:bg-primary hover:text-white transition-colors duration-300"
+                    className="px-8 py-2 rounded-full border border-primary text-slate-900  font-medium hover:bg-primary hover:text-white transition-colors duration-300"
                   >
                     Download
                   </button>
@@ -2422,7 +2422,7 @@ const Services = () => {
             </div>
             <div className="text-center">
               <h3
-                className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-6"
+                className="text-xl md:text-2xl font-bold text-slate-900  mb-6"
               >
                 Ready to Start Your Company Registration?
               </h3>
@@ -2503,7 +2503,7 @@ const Services = () => {
       </div>
       {/*  How It Works? end */}
       {/* Compare Your Services */}
-      <div className="bg-[#FBFCFF] dark:bg-background-dark duration-300">
+      <div className="bg-[#FBFCFF] duration-300">
         <div className="mx-auto px-6 py-6 lg:px-12 lg:py-16">
           <div className="heading_short_long text-center mb-12">
             <div className="short_title">
@@ -3012,7 +3012,7 @@ const Services = () => {
       {/* Compare Your Services end */}
       {/*Quick Access Guides  */}
       <div
-        className="bg-[#EBF2FF] my-10 dark:bg-background-dark text-gray-800 dark:text-gray-200 font-body antialiased flex items-center justify-center p-4"
+        className="bg-[#EBF2FF] my-10 text-gray-800 dark:text-gray-200 font-body antialiased flex items-center justify-center p-4"
       >
         <section
           className="w-full max-w-[1400px] mx-auto py-16 px-4 sm:px-6 lg:px-8"
@@ -3133,7 +3133,7 @@ const Services = () => {
       {/* Quick Access Guides end */}
       {/* Why Us */}
       <div
-        className="gst_timeline dark:bg-background-dark flex flex-col justify-center"
+        className="gst_timeline flex flex-col justify-center"
       >
         <section
           className="relative py-16 px-4 sm:px-6 lg:px-8 bg-soft-gradient dark:bg-soft-gradient-dark overflow-hidden"
@@ -3157,7 +3157,7 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main  mb-2"
                     data-target="10000"
                   >10,000</span
                   >
@@ -3176,7 +3176,7 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-3"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main  mb-3"
                     data-target="10000"
                   >10,000</span
                   >
@@ -3195,7 +3195,7 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main  mb-2"
                     data-target="10000"
                   >10,000</span
                   >
@@ -3215,7 +3215,7 @@ const Services = () => {
                   className="flex flex-col items-center justify-center text-center"
                 >
                   <span
-                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main dark:text-white mb-2"
+                    className="counter text-2xl lg:!text-4x1 font-bold text-text-main  mb-2"
                     data-target="10000"
                   >10,000</span
                   >
@@ -3258,7 +3258,7 @@ const Services = () => {
                 <img src={icon12} alt="" />
               </div>
               <h3
-                className="text-lg font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors"
+                className="text-lg font-bold text-slate-900  mb-3 group-hover:text-primary transition-colors"
               >
                 Accurate Filing
               </h3>
@@ -3277,7 +3277,7 @@ const Services = () => {
                 <img src={icon12} alt="" />
               </div>
               <h3
-                className="text-lg font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors"
+                className="text-lg font-bold text-slate-900  mb-3 group-hover:text-primary transition-colors"
               >
                 Accurate Filing
               </h3>
@@ -3296,7 +3296,7 @@ const Services = () => {
                 <img src={icon12} alt="" />
               </div>
               <h3
-                className="text-lg font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors"
+                className="text-lg font-bold text-slate-900  mb-3 group-hover:text-primary transition-colors"
               >
                 Accurate Filing
               </h3>
@@ -3315,7 +3315,7 @@ const Services = () => {
                 <img src={icon12} alt="" />
               </div>
               <h3
-                className="text-lg font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors"
+                className="text-lg font-bold text-slate-900  mb-3 group-hover:text-primary transition-colors"
               >
                 Accurate Filing
               </h3>
@@ -3352,7 +3352,7 @@ const Services = () => {
       {/* Get Personalized Assistance */}
       <div className="bg-[#E7F3FF] dark:bg-gray-900">
         <section
-          className="relative p-0 w-full bg-background-light dark:bg-background-dark transition-colors duration-300 overflow-hidden"
+          className="relative p-0 w-full bg-background-light transition-colors duration-300 overflow-hidden"
         >
           <div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-16">
             <div
@@ -3362,7 +3362,7 @@ const Services = () => {
                 className="flex-1 w-full lg:col-span-2 text-center md:!text-left z-10 order-2 lg:!order-1"
               >
                 <h2
-                  className="text-lg md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 leading-[1.15]"
+                  className="text-lg md:text-2xl lg:text-4xl font-bold tracking-tight text-gray-900  mb-6 leading-[1.15]"
                 >
                   Get Personalized Assistance
                 </h2>
@@ -3401,7 +3401,7 @@ const Services = () => {
       {/* Get Personalized Assistance end */}
       {/* Calculators */}
       <div
-        className="dark:bg-background-dark text-text-main dark:text-slate-200 transition-colors duration-300"
+        className="dark:bg-background-dark text-text-main  transition-colors duration-300"
       >
         <section className="relative py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-8 lg:mb-16">
@@ -3434,7 +3434,7 @@ const Services = () => {
               >
                 <img src={icon13} width="80" alt="" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-0">
+              <h3 className="text-xl font-bold text-slate-900  mb-0">
                 Tax Calculators
               </h3>
               <p className="text-slate-700 dark:text-slate-400">Instant Results</p>
@@ -3447,7 +3447,7 @@ const Services = () => {
               >
                 <img src={icon13} width="80" alt="" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-0">
+              <h3 className="text-xl font-bold text-slate-900  mb-0">
                 Tax Calculators
               </h3>
               <p className="text-slate-700 dark:text-slate-400">Instant Results</p>
@@ -3460,7 +3460,7 @@ const Services = () => {
               >
                 <img src={icon13} width="80" alt="" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-0">
+              <h3 className="text-xl font-bold text-slate-900  mb-0">
                 Tax Calculators
               </h3>
               <p className="text-slate-700 dark:text-slate-400">Instant Results</p>
@@ -3473,7 +3473,7 @@ const Services = () => {
               >
                 <img src={icon13} width="80" alt="" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-0">
+              <h3 className="text-xl font-bold text-slate-900  mb-0">
                 Tax Calculators
               </h3>
               <p className="text-slate-700 dark:text-slate-400">Instant Results</p>
@@ -3488,7 +3488,7 @@ const Services = () => {
               Explore Tools
             </button>
             <button
-              className="bg-transparent hover:bg-orange-50 dark:hover:bg-slate-800 border-2 border-primary text-slate-900 dark:text-white font-bold py-2 px-10 rounded-full transition-all duration-200 transform hover:-translate-y-0.5"
+              className="bg-transparent hover:bg-orange-50 dark:hover:bg-slate-800 border-2 border-primary text-slate-900  font-bold py-2 px-10 rounded-full transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Try a Calculator
             </button>
@@ -3570,7 +3570,7 @@ const Services = () => {
       {/* Calculators end */}
       {/* Document Required */}
       <div
-        className="gradientcolor22 dark:bg-background-dark text-gray-800 dark:text-gray-200 min-h-screen flex flex-col justify-center py-10 transition-colors duration-300"
+        className="gradientcolor22 text-gray-800 dark:text-gray-200 min-h-screen flex flex-col justify-center py-10 transition-colors duration-300"
       >
         <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
           <div className="heading_short_long text-center mb-12">
@@ -3604,7 +3604,7 @@ const Services = () => {
                   <img src={icon13Svg} alt="" />
                 </div>
                 <h3
-                  className="text-lg font-bold text-gray-900 dark:text-white mb-2"
+                  className="text-lg font-bold text-gray-900  mb-2"
                 >
                   PAN Card
                 </h3>
@@ -3634,7 +3634,7 @@ const Services = () => {
                   <img src={icon13Svg} alt="" />
                 </div>
                 <h3
-                  className="text-lg font-bold text-gray-900 dark:text-white mb-2"
+                  className="text-lg font-bold text-gray-900  mb-2"
                 >
                   PAN Card
                 </h3>
@@ -3664,7 +3664,7 @@ const Services = () => {
                   <img src={icon13Svg} alt="" />
                 </div>
                 <h3
-                  className="text-lg font-bold text-gray-900 dark:text-white mb-2"
+                  className="text-lg font-bold text-gray-900  mb-2"
                 >
                   PAN Card
                 </h3>
@@ -3694,7 +3694,7 @@ const Services = () => {
                   <img src={icon13Svg} alt="" />
                 </div>
                 <h3
-                  className="text-lg font-bold text-gray-900 dark:text-white mb-2"
+                  className="text-lg font-bold text-gray-900  mb-2"
                 >
                   PAN Card
                 </h3>
@@ -3724,7 +3724,7 @@ const Services = () => {
                   <img src={icon13Svg} alt="" />
                 </div>
                 <h3
-                  className="text-lg font-bold text-gray-900 dark:text-white mb-2"
+                  className="text-lg font-bold text-gray-900  mb-2"
                 >
                   PAN Card
                 </h3>
@@ -3754,7 +3754,7 @@ const Services = () => {
                   <img src={icon13Svg} alt="" />
                 </div>
                 <h3
-                  className="text-lg font-bold text-gray-900 dark:text-white mb-2"
+                  className="text-lg font-bold text-gray-900  mb-2"
                 >
                   PAN Card
                 </h3>
@@ -3780,7 +3780,7 @@ const Services = () => {
                 <div
                   className="bg-blue-100 dark:bg-slate-700 py-2 px-4 text-center border-b border-blue-200 dark:border-slate-600"
                 >
-                  <h3 className="font-bold text-lg text-gray-800 dark:text-white">
+                  <h3 className="font-bold text-lg text-gray-800 ">
                     List of document
                   </h3>
                 </div>
@@ -3927,7 +3927,7 @@ const Services = () => {
       {/* Document Required end */}
       {/* PREMIUM PLAN SECTION */}
       <div
-        className="gradientcolor22 my-10 dark:bg-background-dark text-slate-800 dark:text-slate-200 antialiased flex items-center justify-center p-4"
+        className="gradientcolor22 my-10 text-slate-800  antialiased flex items-center justify-center p-4"
       >
         <section className="max-w-7xl mx-auto w-full py-6 lg:py-10">
           <div className="text-center mb-8 lg:mb-16 px-4">
@@ -3985,7 +3985,7 @@ const Services = () => {
                 >
                   <div className="w-2 h-2 rounded-full bg-green-500"></div>
                   <span
-                    className="text-sm font-bold text-slate-700 dark:text-slate-200"
+                    className="text-sm font-bold text-slate-700 "
                   >Trusted by 10,000+</span
                   >
                 </div>
@@ -4020,7 +4020,7 @@ const Services = () => {
                     >
                   </div>
                   <span
-                    className="text-sm font-bold text-slate-700 dark:text-slate-200"
+                    className="text-sm font-bold text-slate-700 "
                   >4.9</span
                   >
                 </div>
@@ -4035,7 +4035,7 @@ const Services = () => {
                   >
                 </button>
                 <button
-                  className="bg-transparent border border-slate-300 dark:border-slate-600 hover:border-primary dark:hover:border-primary text-slate-700 dark:text-white hover:text-primary dark:hover:text-primary transition-all rounded-full px-10 py-2 font-semibold bg-white dark:bg-slate-800"
+                  className="bg-transparent border border-slate-300 dark:border-slate-600 hover:border-primary dark:hover:border-primary text-slate-700  hover:text-primary dark:hover:text-primary transition-all rounded-full px-10 py-2 font-semibold bg-white dark:bg-slate-800"
                 >
                   Know More
                 </button>
@@ -4056,7 +4056,7 @@ const Services = () => {
       {/* PREMIUM PLAN SECTION end */}
       {/* Upgrade to Pro */}
       <div
-        className="bg-white dark:bg-background-dark flex items-center justify-center font-body transition-colors duration-300 p-4"
+        className="bg-white flex items-center justify-center font-body transition-colors duration-300 p-4"
       >
         <section
           className="w-full p-0 max-w-7xl bg-[#FBFCFF] dark:bg-card-dark shadow-xl overflow-hidden flex flex-col lg:!flex-row relative z-10"
@@ -4066,7 +4066,7 @@ const Services = () => {
           >
             <div className="mb-8">
               <h1
-                className="font-display text-2x1 md:!text-4xl font-bold text-gray-900 dark:text-white mb-3 tracking-tight"
+                className="font-display text-2x1 md:!text-4xl font-bold text-gray-900  mb-3 tracking-tight"
               >
                 Upgrade to Pro
               </h1>
@@ -4112,7 +4112,7 @@ const Services = () => {
               </p>
               <div className="flex items-baseline gap-3 mb-1">
                 <span
-                  className="text-4xl font-bold text-gray-900 dark:text-white font-display"
+                  className="text-4xl font-bold text-gray-900  font-display"
                 >₹ 999/-</span
                 >
                 <span
@@ -4175,13 +4175,13 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white"
+                    className="text-xl sm:text-2xl font-bold text-slate-900 "
                   >
                     Add on services
                   </h3>
                   <div className="flex items-center gap-3 mb-5">
                     <span
-                      className="text-xl font-bold text-slate-900 dark:text-white"
+                      className="text-xl font-bold text-slate-900 "
                     >₹12,999</span
                     >
                     <span
@@ -4213,7 +4213,7 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600  font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4231,13 +4231,13 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white"
+                    className="text-xl sm:text-2xl font-bold text-slate-900 "
                   >
                     Add on services
                   </h3>
                   <div className="flex items-center gap-3 mb-5">
                     <span
-                      className="text-xl font-bold text-slate-900 dark:text-white"
+                      className="text-xl font-bold text-slate-900 "
                     >₹12,999</span
                     >
                     <span
@@ -4269,7 +4269,7 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600  font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4287,13 +4287,13 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white"
+                    className="text-xl sm:text-2xl font-bold text-slate-900 "
                   >
                     Add on services
                   </h3>
                   <div className="flex items-center gap-3 mb-5">
                     <span
-                      className="text-xl font-bold text-slate-900 dark:text-white"
+                      className="text-xl font-bold text-slate-900 "
                     >₹12,999</span
                     >
                     <span
@@ -4325,7 +4325,7 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600  font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4343,13 +4343,13 @@ const Services = () => {
                 </div>
                 <div>
                   <h3
-                    className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white"
+                    className="text-xl sm:text-2xl font-bold text-slate-900 "
                   >
                     Add on services
                   </h3>
                   <div className="flex items-center gap-3 mb-5">
                     <span
-                      className="text-xl font-bold text-slate-900 dark:text-white"
+                      className="text-xl font-bold text-slate-900 "
                     >₹12,999</span
                     >
                     <span
@@ -4381,7 +4381,7 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-200 font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
+                  className="bg-white dark:bg-transparent border border-slate-300 dark:border-slate-600 text-slate-600  font-semibold py-2.5 px-12 rounded-full hover:bg-slate-50 dark:hover:bg-slate-700 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -4469,7 +4469,7 @@ const Services = () => {
             </div>
             <div className="space-y-6">
               <h2
-                className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white leading-tight"
+                className="text-2xl md:text-3xl font-bold text-gray-900  leading-tight"
               >
                 Lorem ipsum dolor sit amet, <br className="hidden lg:block" />
                 aliquip adipiscing elit?
@@ -4515,14 +4515,14 @@ const Services = () => {
       </div>
       {/* contact */}
       <div
-        className="bg-[#E7F3FF] shadow-2xl mb-10 dark:bg-background-dark font-body antialiased transition-colors duration-300"
+        className="bg-[#E7F3FF] shadow-2xl mb-10 font-body antialiased transition-colors duration-300"
       >
         <section
           className="w-full flex flex-col justify-center items-center py-12 px-4 sm:px-6 lg:px-8"
         >
           <div className="max-w-4xl w-full text-center space-y-6">
             <h1
-              className="text-4xl md:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight"
+              className="text-4xl md:text-4xl font-extrabold text-slate-900  tracking-tight"
             >
               Contact Us
             </h1>
@@ -4549,7 +4549,7 @@ const Services = () => {
                   <img src={callIcon} alt="" />
                 </div>
                 <span
-                  className="text-lg font-medium text-slate-700 dark:text-slate-200 group-hover:text-primary transition-colors"
+                  className="text-lg font-medium text-slate-700  group-hover:text-primary transition-colors"
                 >
                   +00-000000000
                 </span>
@@ -4564,7 +4564,7 @@ const Services = () => {
                   <img src={mailIcon} alt="" />
                 </div>
                 <span
-                  className="text-lg font-medium text-slate-700 dark:text-slate-200 group-hover:text-primary transition-colors"
+                  className="text-lg font-medium text-slate-700  group-hover:text-primary transition-colors"
                 >
                   reach@delegrace.com
                 </span>
@@ -4579,7 +4579,7 @@ const Services = () => {
                   <img src={callIcon} alt="" />
                 </div>
                 <span
-                  className="text-lg font-medium text-slate-700 dark:text-slate-200 group-hover:text-primary transition-colors"
+                  className="text-lg font-medium text-slate-700  group-hover:text-primary transition-colors"
                 >
                   +00-000000000
                 </span>
