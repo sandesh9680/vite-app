@@ -60,7 +60,7 @@ const Insights = () => {
   const renderIcon = () => <img src={work3} alt="" />;
 
   return (
-    <section className="insights !px-12">
+    <section className="insights md:!px-12">
       <div className="container overflow-hidden" style={{padding:"0px"}}>
         <div className="insights-label-wrapper">
           <div className="heading_short_long">
