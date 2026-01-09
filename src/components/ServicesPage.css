@@ -130,17 +130,17 @@
 
 @media (min-width: 1300px) and (max-width: 1400px) {
   .service-card-detailed {
-    min-width: 500px;
+    min-width: 300px;
   }
 }
 @media (max-width: 1300px) {
   .service-card-detailed {
-    min-width: 500px;
+    min-width: 300px;
   }
 }
 @media (min-width: 1400px) {
   .service-card-detailed {
-    min-width: 500px;
+    min-width: 400px;
   }
 }
 
@@ -423,3 +423,47 @@
   }
 }
 
+
+/* Common styles */
+.services-swiper-prev,
+.services-swiper-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary-orange-dark);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Left Arrow */
+.services-swiper-prev {
+  left: -25px;
+}
+
+/* Right Arrow */
+.services-swiper-next {
+  right: -25px;
+}
+
+/* Disabled state */
+.services-swiper-prev.swiper-button-disabled,
+.services-swiper-next.swiper-button-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (max-width: 767px) {
+  .services-swiper-prev,
+  .services-swiper-next {
+    display: none;
+  }
+}
