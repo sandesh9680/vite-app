@@ -5766,7 +5766,7 @@ display: block;
     position: relative;
     padding-top: 120px;
     z-index: 9;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 /* Left: Testimonials */
