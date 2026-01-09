@@ -2749,14 +2749,15 @@ button.blog-read-more span {
 }
 
 .blog-cards {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 90px;
+  gap: 90px; */
   margin: 30px 0;
 }
 
 .blog-card {
   background-color: #FBFCFF;
+  max-width: 580px;
   border-radius: 8px;
   padding: 0px;
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
@@ -2765,6 +2766,18 @@ button.blog-read-more span {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+@media (max-width:  1350px) {
+  .blog-card {
+    max-width: 500px;
+  }
+}
+@media (max-width:  1400px) {
+  .blog-card {
+    max-width: 400px;
+  }
 }
 
 .blog-card:hover {
@@ -2778,7 +2791,7 @@ button.blog-read-more span {
 }
 .blog_content {
   padding: 20px;
-}
+} 
 .blog-meta {
   display: flex;
   align-items: center;
@@ -3582,10 +3595,10 @@ display: block;
     font-size: 36px;
   }
 
-  .blog-cards {
+  /* .blog-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-  }
+  } */
   
   /* FAQ */
   .faq-content {
@@ -4161,7 +4174,9 @@ display: block;
   
   .testimonial-card {
     padding: 25px 14px 14px;
-    min-width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: auto;
   }
 
   .testimonial-quote-icon {
@@ -4680,10 +4695,10 @@ display: block;
     font-size: 28px;
   }
 
-  .blog-cards {
+  /* .blog-cards {
     grid-template-columns: 1fr;
     gap: 20px;
-  }
+  } */
   
   .blog-icon {
     height: 150px;
@@ -4711,6 +4726,7 @@ display: block;
   
   .blog-card {
     padding: 20px;
+    max-width: 120%;
   }
   
   /* Guidance */
@@ -5674,6 +5690,7 @@ display: block;
 @media (max-width: 992px) {
   .content-wrapper {
     flex-direction: column;
+    padding: 0;
   }
 
   .appointment {
@@ -5783,7 +5800,7 @@ display: block;
 
 .quote-icon {
   position: absolute;
-  left: -18px;
+  left: 0px;
   top: 35px;
   background: #e6f2ff;
   width: 42px;
@@ -5933,6 +5950,7 @@ display: block;
 @media (max-width: 992px) {
   .content-wrapper {
     flex-direction: column;
+    padding: 0;
   }
 
   .appointment {
@@ -6088,4 +6106,18 @@ display: block;
   .partner-marquee-track {
     animation-duration: 30s;
   }
+}
+
+
+.swiper-pagination-bullet {
+  background-color: #cfcfcf; /* inactive color */
+  opacity: 1;               /* important */
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff4a1f !important; /* active color */
+  width: 30px !important;
+  border-radius: 20px !important;
 }
