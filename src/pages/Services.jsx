@@ -2317,7 +2317,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 lg:gap-16 quickaccessguid"
+            className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 lg:gap-16 quickaccessguid items-start"
           >
             <div
               className="bg-white rounded-xl shadow-card hover:shadow-[0_20px_25px_-5px_rgba(0,0,0,0.1),0_10px_10px_-5px_rgba(0,0,0,0.04)] ring-1 ring-black/5 p-6 flex flex-col relative lg:-mt-4 lg:mb-4 lg:py-6 z-10 border border-transparent "

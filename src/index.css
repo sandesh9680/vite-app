@@ -3633,9 +3633,10 @@ display: block;
     padding: 0 20px;
   }
   
+
   /* Top Bar */
   .top-bar-container {
-    flex-direction: column;
+    flex-direction: row;
     gap: 8px;
     text-align: center;
   }
@@ -3670,7 +3671,11 @@ display: block;
     width: 100%;
     margin-top: 10px;
     border-radius: 8px;
+    display: none;
   }
+  nav.nav-menu.mobile-open {
+    display: block;
+}
   
   .nav-menu.mobile-open {
     max-height: 500px;
@@ -4891,9 +4896,11 @@ display: block;
     height: 20px;
   }
 
-  .hero-categories-section {
+ .hero-categories-section {
     margin-bottom: 25px;
-  }
+    display: inline-block;
+    text-align: center;
+}
 
   .categories-label {
     font-size: 12px;
@@ -4905,6 +4912,7 @@ display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     padding-bottom: 4px;
+    justify-content: center;
   }
 
   .hero-category-tab {
@@ -4913,11 +4921,16 @@ display: block;
     white-space: nowrap;
   }
 
-  .hero-trust-indicators {
-    gap: 16px;
-    margin-top: 30px;
-  }
-
+ .hero-trust-indicators {
+    gap: 13px;
+    margin: 0px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.heading_short_long .short_title {
+    font-size: 14px !important;
+}
   .trust-logo {
     width: 32px;
     height: 32px;
@@ -5265,7 +5278,7 @@ display: block;
   
   /* Partnerships */
   .partnerships {
-    padding: 30px 0;
+    padding: 30px 20px;
   }
 
   .partnerships-header {
@@ -5440,9 +5453,23 @@ display: block;
   }
 .stats.count_sec {
     gap: 10px !important;
+    padding: 0 !important;
+}
+.count_sec .card p {
+    font-size: 14px !important;
 }
 .content-wrapper {
     padding: 0 20px !important;
+}
+
+.content-wrapper.content_afterbefore .testimonials {
+    padding-top: 20px !important;
+}
+.content_afterbefore::after {
+    height: 10px !important;
+}
+.content-wrapper {
+    gap: 20px !important;
 }
 
 .timeline-card.work2 {
@@ -5472,6 +5499,10 @@ display: block;
 }
 .blog_content {
     padding: 20px 0px 0;
+}
+.calculator-btn-solid {
+    padding: 4px 10px;
+    gap: 5px;
 }
 }
 
