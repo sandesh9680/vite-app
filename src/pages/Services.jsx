@@ -40,6 +40,7 @@ import Award1 from '../assets/award2.png';
 import Plans from '../components/Plans';
 import Insights from '../components/Insights';
 import HelpfulResources from '../components/HelpfulResources';
+import Features from '../components/Features';
 
 const Services = () => {
   const [accordionStates, setAccordionStates] = useState({});
@@ -1069,7 +1070,7 @@ const Services = () => {
 
       {/* Features of GST Service end */}
       {/* testimonial */}
-      <Testimonials />
+      <Testimonials showForm={false} />
       {/* testimonial end */}
       {/* What Happen Next? */}
       <div
@@ -3814,8 +3815,8 @@ const Services = () => {
         </div>
       </div>
       {/* Aliquip AdipiscingElit end*/}
-      <div className="faqsec">
-        <img src={img13} alt="" />
+      <div className="py-2">
+        <Features />
       </div>
       {/* contact */}
       <div

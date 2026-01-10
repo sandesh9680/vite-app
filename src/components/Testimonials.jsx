@@ -56,7 +56,7 @@ const testimonialCards = [
   },
 ];
 
-const Testimonials = () => {
+const Testimonials = ({ showForm= true }) => {
   return (
     <section className="section-wrapper">
       <div className="section-header heading_short_long">
@@ -68,7 +68,7 @@ const Testimonials = () => {
         </h2>
       </div>
 
-      <div className="content-wrapper content_afterbefore">
+      <div className="content-wrapper content_afterbefore" style={{ padding: showForm ? "0px" : "0px 80px" }}>
         {/* LEFT : TESTIMONIALS */}
         <div className="testimonials" style={{ overflow: "hidden", width: "100%" }}>
           <Swiper
@@ -136,7 +136,7 @@ const Testimonials = () => {
         </div>
 
         {/* Right: Appointment form */}
-        <div className="appointment">
+        <div className="appointment" style={{ display: showForm ? "block" : "none" }}>
           <div className="appointment-header">
             Need assistance? Our team's got you covered.
           </div>
