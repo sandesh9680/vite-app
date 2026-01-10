@@ -77,10 +77,10 @@ const Services = () => {
         className="min-h-screen w-full flex items-center justify-center hero-bg py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
       >
         <div
-          className="absolute top-0 left-0 w-64 h-64 bg-orange-100 dark:bg-orange-900/20 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"
+          className="absolute top-0 left-0 w-64 h-64 bg-orange-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"
         ></div>
         <div
-          className="absolute top-0 right-0 w-64 h-64 bg-blue-100 dark:bg-blue-900/20 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"
+          className="absolute top-0 right-0 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"
         ></div>
         <div
           className="max-w-7xl w-full mx-auto grid grid-cols-1 xl:!grid-cols-3 gap-0 lg:gap-5 items-center z-10"
@@ -102,7 +102,7 @@ const Services = () => {
               >
             </h1>
             <p
-              className="text-lg text-gray-900 dark:text-gray-800 max-w-xl leading-relaxed"
+              className="text-lg text-gray-900 max-w-xl leading-relaxed"
             >
               Hassle-Free, Fast, and Reliable GST Registration to Get You
               Started in Just a Few Days.
@@ -194,7 +194,7 @@ const Services = () => {
                 <span>Watch a demo</span>
               </button>
               <button
-                className="flex items-center justify-center space-x-2  border-2 border-primary text-gray-900  font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors"
+                className="flex items-center justify-center space-x-2  border-2 border-primary text-gray-900  font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 transition-colors"
               >
               <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M3.24992 6.49935V23.8327H22.7499V25.9993H3.24992C2.67528 25.9993 2.12418 25.7711 1.71785 25.3647C1.31153 24.9584 1.08325 24.4073 1.08325 23.8327V6.49935H3.24992ZM17.3333 9.74935H23.2916L17.3333 3.79102V9.74935ZM7.58325 2.16602H18.4166L24.9166 8.66602V19.4993C24.9166 20.074 24.6883 20.6251 24.282 21.0314C23.8757 21.4377 23.3246 21.666 22.7499 21.666H7.58325C7.00862 21.666 6.45752 21.4377 6.05119 21.0314C5.64486 20.6251 5.41659 20.074 5.41659 19.4993V4.33268C5.41659 3.75805 5.64486 3.20695 6.05119 2.80062C6.45752 2.39429 7.00862 2.16602 7.58325 2.16602ZM7.58325 4.33268V19.4993H22.7499V11.916H15.1666V4.33268H7.58325Z" fill="#0018A6"/>
@@ -343,7 +343,7 @@ const Services = () => {
                 <span className="material-symbols-outlined"> search </span>
               </div>
               <input
-                className="block w-full rounded-full border-1 border-[#8FCBFF]  bg-white  py-3 pl-14 pr-14 text-slate-900  placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-2 focus:ring-primary focus:border-transparent shadow-soft transition-all duration-200 text-sm lg:text-lg"
+                className="block w-full rounded-full border-1 border-[#8FCBFF]  bg-white  py-3 pl-14 pr-14 text-slate-900  placeholder:text-slate-500 focus:ring-2 focus:ring-primary focus:border-transparent shadow-soft transition-all duration-200 text-sm lg:text-lg"
                 placeholder="Looking for Company Registration"
                 type="text"
               />
@@ -524,7 +524,7 @@ const Services = () => {
                 </div>
                 <div className="text-sm text-black">
                   Based on <a
-                    className="font-bold underline decoration-slate-500  hover:text-slate-800 dark:hover:text-white"
+                    className="font-bold underline decoration-slate-500  hover:text-slate-800"
                     href="#"
                   > 456 reviews</a>
                 </div>
@@ -541,7 +541,7 @@ const Services = () => {
         className="gst_timeline my-10 text-slate-800  font-body antialiased transition-colors duration-300"
       >
         <nav
-          className="sticky top-0 z-50 w-full bg-gradient-to-r from-orange-50 via-white to-blue-50 dark:from-slate-900 dark:via-slate-900 dark:to-slate-800 border-b border-gray-100 shadow-sm backdrop-blur-sm bg-opacity-95"
+          className="sticky top-0 z-50 w-full bg-gradient-to-r from-orange-50 via-white to-blue-50 border-b border-gray-100 shadow-sm backdrop-blur-sm bg-opacity-95"
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div
@@ -764,10 +764,10 @@ const Services = () => {
                   </svg>
                 </div>
                 <div
-                  className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 dark:border-yellow-900/20 rounded-lg flex items-start gap-3 w-full"
+                  className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 rounded-lg flex items-start gap-3 w-full"
                 >
                   <div
-                    className="w-8 h-8 rounded bg-yellow-200 dark:bg-yellow-800 flex-shrink-0"
+                    className="w-8 h-8 rounded bg-yellow-200 flex-shrink-0"
                   >
                     <img src={icon8} alt="" />
                   </div>
@@ -944,10 +944,10 @@ const Services = () => {
                   </svg>
                 </div>
                 <div
-                  className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 dark:border-yellow-900/20 rounded-lg flex items-start gap-3 w-full"
+                  className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 rounded-lg flex items-start gap-3 w-full"
                 >
                   <div
-                    className="w-8 h-8 rounded bg-yellow-200 dark:bg-yellow-800 flex-shrink-0"
+                    className="w-8 h-8 rounded bg-yellow-200 flex-shrink-0"
                   >
                     <img src={icon8} alt="" />
                   </div>
@@ -1063,7 +1063,7 @@ const Services = () => {
                     <div className="flex-1 flex justify-between items-center">
                       <span>Email Support/Phone Support</span>
                       <span
-                        className="ml-2 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
+                        className="ml-2 text-[10px] font-bold text-green-600 bg-green-50 px-1 py-0.5 rounded border border-green-200"
                       >FREE</span
                       >
                     </div>
@@ -1134,7 +1134,7 @@ const Services = () => {
                   className="mt-3 flex items-center gap-2 text-xs text-gray-400 transition-colors"
                 >
                   Use Code:
-                  <span className="font-bold text-slate-700 dark:text-slate-300"
+                  <span className="font-bold text-slate-700"
                   >GrabNavratriOffer</span
                   >
                   <svg
@@ -1152,10 +1152,10 @@ const Services = () => {
                   </svg>
                 </div>
                  <div
-                  className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 dark:border-yellow-900/20 rounded-lg flex items-start gap-3 w-full"
+                  className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 rounded-lg flex items-start gap-3 w-full"
                 >
                   <div
-                    className="w-8 h-8 rounded bg-yellow-200 dark:bg-yellow-800 flex-shrink-0"
+                    className="w-8 h-8 rounded bg-yellow-200 flex-shrink-0"
                   >
                     <img src={icon8} alt="" />
                   </div>
@@ -1275,7 +1275,7 @@ const Services = () => {
                     <div className="flex-1 flex justify-between items-center">
                       <span>Email Support/Phone Support</span>
                       <span
-                        className="ml-2 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
+                        className="ml-2 text-[10px] font-bold text-green-600 bg-green-50 px-1 py-0.5 rounded border border-green-200"
                       >FREE</span
                       >
                     </div>
@@ -1337,7 +1337,7 @@ const Services = () => {
                     <div className="flex-1 flex justify-between items-start">
                       <span>FREE Video Call Consultation (Worth ₹2,000)</span>
                       <span
-                        className="ml-2 mt-0.5 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
+                        className="ml-2 mt-0.5 text-[10px] font-bold text-green-600 bg-green-50 px-1 py-0.5 rounded border border-green-200"
                       >FREE</span
                       >
                     </div>
@@ -1376,7 +1376,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="hidden md:block w-px h-12 bg-slate-200 dark:bg-slate-700"
+              className="hidden md:block w-px h-12 bg-slate-200"
             ></div>
             <div className="flex flex-col items-center text-center">
               <div className="mb-2 text-yellow-500">
@@ -1405,7 +1405,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="hidden md:block w-px h-12 bg-slate-200 dark:bg-slate-700"
+              className="hidden md:block w-px h-12 bg-slate-200"
             ></div>
             <div className="flex flex-col items-center text-center">
               <div className="mb-2 text-blue-600">
@@ -1768,10 +1768,10 @@ const Services = () => {
               className="relative flex justify-center items-center h-full min-h-[400px]"
             >
               <div
-                className="absolute w-64 h-64 bg-orange-100 dark:bg-orange-900/20 rounded-full blur-3xl -z-10 top-1/4 right-1/4 animate-pulse"
+                className="absolute w-64 h-64 bg-orange-100 rounded-full blur-3xl -z-10 top-1/4 right-1/4 animate-pulse"
               ></div>
               <div
-                className="absolute w-64 h-64 bg-blue-100 dark:bg-blue-900/20 rounded-full blur-3xl -z-10 bottom-1/4 left-1/4"
+                className="absolute w-64 h-64 bg-blue-100 rounded-full blur-3xl -z-10 bottom-1/4 left-1/4"
               ></div>
               <img
                 alt="Illustration of a man pointing to a smartphone showing key features of GST service"
@@ -1809,10 +1809,10 @@ const Services = () => {
             className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10"
           >
             <div
-              className="absolute top-1/4 left-10 w-96 h-96 bg-orange-100 dark:bg-orange-900/20 rounded-full blur-3xl opacity-50 mix-blend-multiply dark:mix-blend-normal"
+              className="absolute top-1/4 left-10 w-96 h-96 bg-orange-100 rounded-full blur-3xl opacity-50 mix-blend-multiply"
             ></div>
             <div
-              className="absolute bottom-1/4 right-10 w-80 h-80 bg-blue-100 dark:bg-blue-900/20 rounded-full blur-3xl opacity-50 mix-blend-multiply dark:mix-blend-normal"
+              className="absolute bottom-1/4 right-10 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-50 mix-blend-multiply"
             ></div>
           </div>
           <div className="mx-auto">
@@ -1853,7 +1853,7 @@ const Services = () => {
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
                   >
-                    <div className="mb-4 text-indigo-600 dark:text-indigo-400">
+                    <div className="mb-4 text-indigo-600">
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
@@ -1871,7 +1871,7 @@ const Services = () => {
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
                   >
-                    <div className="mb-4 text-indigo-600 dark:text-indigo-400">
+                    <div className="mb-4 text-indigo-600">
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
@@ -1889,7 +1889,7 @@ const Services = () => {
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
                   >
-                    <div className="mb-4 text-indigo-600 dark:text-indigo-400">
+                    <div className="mb-4 text-indigo-600">
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
@@ -1907,7 +1907,7 @@ const Services = () => {
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
                   >
-                    <div className="mb-4 text-indigo-600 dark:text-indigo-400">
+                    <div className="mb-4 text-indigo-600">
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
@@ -1925,7 +1925,7 @@ const Services = () => {
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
                   >
-                    <div className="mb-4 text-indigo-600 dark:text-indigo-400">
+                    <div className="mb-4 text-indigo-600">
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
@@ -1943,7 +1943,7 @@ const Services = () => {
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
                   >
-                    <div className="mb-4 text-indigo-600 dark:text-indigo-400">
+                    <div className="mb-4 text-indigo-600">
                       <img src={icon9} alt="icon" />
                     </div>
                     <h3
@@ -2135,7 +2135,7 @@ const Services = () => {
                 </div>
                 <div className="flex-grow space-y-4 mb-8">
                   <div
-                    className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300"
+                    className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300"
                   >
                     <div
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 shadow-lg flex items-center justify-center shadow-inner"
@@ -2160,7 +2160,7 @@ const Services = () => {
                     </div>
                   </div>
                   <div
-                    className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300"
+                    className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300"
                   >
                     <div
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 shadow-lg flex items-center justify-center shadow-inner"
@@ -2185,7 +2185,7 @@ const Services = () => {
                     </div>
                   </div>
                   <div
-                    className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300"
+                    className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm flex items-start gap-4 transition-transform hover:-translate-y-1 duration-300"
                   >
                     <div
                       className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 shadow-lg flex items-center justify-center shadow-inner"
@@ -2222,7 +2222,7 @@ const Services = () => {
                 className="bg-[#FBFCFF]  rounded-2xl p-6 md:p-10 border border-orange-100  shadow-sm flex flex-col h-full relative overflow-hidden"
               >
                 <div
-                  className="absolute top-0 right-0 w-64 h-64 bg-blue-50 dark:bg-slate-700/30 rounded-full blur-3xl -z-0 translate-x-1/2 -translate-y-1/2"
+                  className="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full blur-3xl -z-0 translate-x-1/2 -translate-y-1/2"
                 ></div>
                 <div className="mb-8 relative z-10">
                   <h3
@@ -2257,10 +2257,10 @@ const Services = () => {
                       </div>
                       <div className="ml-16 w-full">
                         <div
-                          className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
+                          className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
                         >
                           <span
-                            className="inline-block px-3 py-1 bg-green-50 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-xs font-semibold rounded-full mb-2"
+                            className="inline-block px-3 py-1 bg-green-50 text-xs font-semibold rounded-full mb-2"
                           >Day 1-2</span
                           >
                           <h5
@@ -2282,7 +2282,7 @@ const Services = () => {
                         className="absolute left-0 top-0 bg-white rounded-full z-10"
                       >
                         <div
-                          className="w-12 h-12 p-2 rounded-full border-2 border-orange-400 dark:border-orange-400 flex items-center justify-center"
+                          className="w-12 h-12 p-2 rounded-full border-2 border-orange-400 flex items-center justify-center"
                         >
                           <svg width="26" height="26" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.9988 9V18L23.9988 21" stroke="#FE7F10" stroke-width="2.26895" stroke-linecap="round" stroke-linejoin="round"/>
@@ -2293,10 +2293,10 @@ const Services = () => {
                       </div>
                       <div className="ml-16 w-full">
                         <div
-                          className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
+                          className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
                         >
                           <span
-                            className="inline-block px-3 py-1 bg-orange-50 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 text-xs font-semibold rounded-full mb-2"
+                            className="inline-block px-3 py-1 bg-orange-50 text-orange-600 text-xs font-semibold rounded-full mb-2"
                           >Day 3-6</span
                           >
                           <h5
@@ -2331,7 +2331,7 @@ const Services = () => {
                       </div>
                       <div className="ml-16 w-full">
                         <div
-                          className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
+                          className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
                         >
                           <span
                             className="inline-block px-3 py-1 bg-gray-100 text-gray-600 text-xs font-semibold rounded-full mb-2"
@@ -2369,7 +2369,7 @@ const Services = () => {
                       </div>
                       <div className="ml-16 w-full">
                         <div
-                          className="bg-white dark:bg-slate-700/50 border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
+                          className="bg-white border border-gray-100 rounded-xl p-4 shadow-sm group-hover:shadow-md transition-shadow"
                         >
                           <span
                             className="inline-block px-3 py-1 bg-gray-100 text-gray-600 text-xs font-semibold rounded-full mb-2"
@@ -2476,7 +2476,7 @@ const Services = () => {
           </div>
           <div className="mt-8 flex justify-end w-full">
             <button
-              className="bg-primary hover:bg-orange-600 dark:hover:bg-orange-500 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors duration-200"
+              className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-8 rounded-full shadow-md transition-colors duration-200"
             >
               Download the Steps
             </button>
@@ -2619,35 +2619,35 @@ const Services = () => {
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
@@ -2934,35 +2934,35 @@ const Services = () => {
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500 dark:bg-green-900/30 dark:text-green-400"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 dark:bg-red-900/30"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 "
                       >
                         <span className="material-icons text-lg">close</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 dark:bg-red-900/30"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 "
                       >
                         <span className="material-icons text-lg">close</span>
                       </span>
                     </td>
                     <td className="p-3 text-center">
                       <span
-                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 dark:bg-red-900/30"
+                        className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 "
                       >
                         <span className="material-icons text-lg">close</span>
                       </span>
@@ -2988,28 +2988,28 @@ const Services = () => {
                     </td>
                     <td className="p-3 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
                     <td className="p-3 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
                     <td className="p-3 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
                     <td className="p-3 text-center">
                       <button
-                        className="bg-white dark:bg-transparent border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white dark:hover:bg-primary dark:hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
@@ -3160,7 +3160,7 @@ const Services = () => {
         className="gst_timeline flex flex-col justify-center"
       >
         <section
-          className="relative py-16 px-4 sm:px-6 lg:px-8 bg-soft-gradient dark:bg-soft-gradient-dark overflow-hidden"
+          className="relative py-16 px-4 sm:px-6 lg:px-8 bg-soft-gradient overflow-hidden"
         >
           <div className="max-w-7xl mx-auto text-center relative z-10">
             <div className="heading_short_long inline-block mb-8">
@@ -3276,7 +3276,7 @@ const Services = () => {
             className="grid grid-cols-1 md:!grid-cols-2 lg:!grid-cols-4 gap-6 lg:!gap-20 mb-10"
           >
             <div
-              className="group gradientcolor dark:bg-card-bg-dark rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
+              className="group gradientcolor rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
             >
               <div className="mb-2">
                 <img src={icon12} alt="" />
@@ -3295,7 +3295,7 @@ const Services = () => {
               </p>
             </div>
             <div
-              className="group gradientcolor dark:bg-card-bg-dark rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
+              className="group gradientcolor rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
             >
               <div className="mb-2">
                 <img src={icon12} alt="" />
@@ -3314,7 +3314,7 @@ const Services = () => {
               </p>
             </div>
             <div
-              className="group gradientcolor dark:bg-card-bg-dark rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
+              className="group gradientcolor rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
             >
               <div className="mb-2">
                 <img src={icon12} alt="" />
@@ -3333,7 +3333,7 @@ const Services = () => {
               </p>
             </div>
             <div
-              className="group gradientcolor dark:bg-card-bg-dark rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
+              className="group gradientcolor rounded-xl p-6 shadow hover:shadow-lg transition-all duration-300 border border-blue-50  h-full flex flex-col"
             >
               <div className="mb-2">
                 <img src={icon12} alt="" />
@@ -3366,7 +3366,7 @@ const Services = () => {
       </div>
       {/*  Why Choose Ebiz end */}
       {/* Get Personalized Assistance */}
-      <div className="bg-[#E7F3FF] dark:bg-gray-900">
+      <div className="bg-[#E7F3FF]">
         <section
           className="relative p-0 w-full bg-background-light transition-colors duration-300 overflow-hidden"
         >
@@ -3389,7 +3389,7 @@ const Services = () => {
                   to your business goals.
                 </p>
                 <button
-                  className="group inline-flex items-center justify-center bg-primary hover:bg-orange-600 text-white font-bold text-lg py-2 px-10 rounded-full shadow-lg hover:shadow-orange-500/30 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:focus:ring-orange-900"
+                  className="group inline-flex items-center justify-center bg-primary hover:bg-orange-600 text-white font-bold text-lg py-2 px-10 rounded-full shadow-lg hover:shadow-orange-500/30 transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-300"
                 >
                   Get Assistance
                   <span
@@ -3417,7 +3417,7 @@ const Services = () => {
       {/* Get Personalized Assistance end */}
       {/* Calculators */}
       <div
-        className="dark:bg-background-dark text-text-main  transition-colors duration-300"
+        className="text-text-main  transition-colors duration-300"
       >
         <section className="relative py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
           <div className="text-center mb-8 lg:mb-16">
@@ -3759,7 +3759,7 @@ const Services = () => {
                 className="bg-blue-50 shadow-xl rounded-xl overflow-hidden shadow-sidebar border border-blue-300  flex flex-col h-full max-h-[560px] xl:max-h-none xl:sticky xl:top-4"
               >
                 <div
-                  className="bg-blue-100 dark:bg-slate-700 py-2 px-4 text-center border-b border-blue-200"
+                  className="bg-blue-100 py-2 px-4 text-center border-b border-blue-200"
                 >
                   <h3 className="font-bold text-lg text-gray-800 ">
                     List of document
@@ -4180,7 +4180,7 @@ const Services = () => {
       {/* Upgrade to Pro end */}
       {/* ADD ON SERVICES */}
       <div
-        className="dark:bg-background-dark text-slate-900 antialiased transition-colors duration-300"
+        className="text-slate-900 antialiased transition-colors duration-300"
       >
         <section className="py-16 px-4 sm:px-6 lg:px-20 max-w-8xl mx-auto">
           <div className="heading_short_long text-center mb-12">
@@ -4193,7 +4193,7 @@ const Services = () => {
           </div>
           <div className="grid grid-cols-1 md:!grid-cols-2 gap-6 lg:gap-8">
             <article
-              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg dark:hover:shadow-slate-900/50"
+              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg"
             >
               <div className="flex items-start gap-3 mb-4">
                 <div className="relative flex items-center justify-center w-8 h-8">
@@ -4214,11 +4214,11 @@ const Services = () => {
                     >₹12,999</span
                     >
                     <span
-                      className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
+                      className="text-sm text-slate-400 line-through decoration-slate-400"
                     >₹15,999</span
                     >
                     <span
-                      className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
+                      className="bg-green-100 text-green-600 text-xs font-bold px-2.5 py-1 rounded-full"
                     >Save 19%</span
                     >
                   </div>
@@ -4242,14 +4242,14 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
               </div>
             </article>
             <article
-              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg dark:hover:shadow-slate-900/50"
+              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg"
             >
               <div className="flex items-start gap-3 mb-4">
                 <div className="relative flex items-center justify-center w-8 h-8">
@@ -4270,11 +4270,11 @@ const Services = () => {
                     >₹12,999</span
                     >
                     <span
-                      className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
+                      className="text-sm text-slate-400 line-through decoration-slate-400"
                     >₹15,999</span
                     >
                     <span
-                      className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
+                      className="bg-green-100 text-green-600 text-xs font-bold px-2.5 py-1 rounded-full"
                     >Save 19%</span
                     >
                   </div>
@@ -4298,14 +4298,14 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
               </div>
             </article>
             <article
-              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg dark:hover:shadow-slate-900/50"
+              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg"
             >
               <div className="flex items-start gap-3 mb-4">
                 <div className="relative flex items-center justify-center w-8 h-8">
@@ -4326,11 +4326,11 @@ const Services = () => {
                     >₹12,999</span
                     >
                     <span
-                      className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
+                      className="text-sm text-slate-400 line-through decoration-slate-400"
                     >₹15,999</span
                     >
                     <span
-                      className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
+                      className="bg-green-100 text-green-600 text-xs font-bold px-2.5 py-1 rounded-full"
                     >Save 19%</span
                     >
                   </div>
@@ -4354,14 +4354,14 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
               </div>
             </article>
             <article
-              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg dark:hover:shadow-slate-900/50"
+              className="flex flex-col p-6 sm:p-4 rounded-lg bg-[#F8FBFF]  border border-[#8EC7FC]  transition-all hover:shadow-lg"
             >
               <div className="flex items-start gap-3 mb-4">
                 <div className="relative flex items-center justify-center w-8 h-8">
@@ -4382,11 +4382,11 @@ const Services = () => {
                     >₹12,999</span
                     >
                     <span
-                      className="text-sm text-slate-400 dark:text-slate-500 line-through decoration-slate-400"
+                      className="text-sm text-slate-400 line-through decoration-slate-400"
                     >₹15,999</span
                     >
                     <span
-                      className="bg-green-100 dark:bg-green-900/40 text-green-600 dark:text-green-400 text-xs font-bold px-2.5 py-1 rounded-full"
+                      className="bg-green-100 text-green-600 text-xs font-bold px-2.5 py-1 rounded-full"
                     >Save 19%</span
                     >
                   </div>
@@ -4410,7 +4410,7 @@ const Services = () => {
                   Add Service
                 </button>
                 <button
-                  className="bg-white dark:bg-transparent border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
