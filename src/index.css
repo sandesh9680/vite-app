@@ -6210,21 +6210,21 @@ background: #FFFBFB;
 
 /* Show desktop grid by default */
 .plans-desktop {
-  display: grid;
+  display: grid !important;
 }
 
 /* Hide mobile swiper by default */
 .plans-mobile {
-  display: none;
+  display: none !important;
 }
 
 /* Mobile breakpoint */
 @media (max-width: 1024px) {
   .plans-desktop {
-    display: none;
+    display: none !important;
   }
 
   .plans-mobile {
-    display: block;
+    display: block !important;
   }
 }
