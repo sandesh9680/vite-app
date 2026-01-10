@@ -3679,7 +3679,7 @@ display: block;
     font-size: 16px;
     padding: 12px 0;
     width: 100%;
-    border-bottom: 1px solid var(--border-color);
+    /* border-bottom: 1px solid var(--border-color); */
   }
   
   .nav-link:last-child {
@@ -6158,4 +6158,11 @@ display: block;
 
 .dropdown-item:hover {
   background: #f5f5f5;
+}
+
+
+.mobile-submenu{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
 }

@@ -10,7 +10,7 @@ const Header = () => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { 
-      name: 'Services', 
+      name: 'Services',
       path: '/services',
       submenu: [
         { name: 'Web Development', path: '/services/web' },
@@ -20,7 +20,7 @@ const Header = () => {
     },
     { name: 'Pricing', path: '/pricing' },
     { 
-      name: 'Resources', 
+      name: 'Resources',
       path: '/resources',
       submenu: [
         { name: 'Blog', path: '/resources/blog' },
@@ -32,32 +32,31 @@ const Header = () => {
     { name: 'Contact Us', path: '/contact' },
   ];
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const isMobile = isMobileMenuOpen; 
+  // mobile menu only exists when open — simple check
 
   return (
     <header className="header">
       <div className="header-container">
-        
+
         <Link to="/" className="logo">
           <img src={Logo} width={100} alt="Logo" />
         </Link>
 
-        <button className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+        <button className="mobile-menu-toggle" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           <span className={isMobileMenuOpen ? 'hamburger open' : 'hamburger'}>
             <span></span><span></span><span></span>
           </span>
         </button>
 
         <nav className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
-          
+
           {navLinks.map((link) => (
             <div
               key={link.name}
               className="nav-item"
-              onMouseEnter={() => setActiveDropdown(link.name)}
-              onMouseLeave={() => setActiveDropdown(null)}
+              onMouseEnter={() => !isMobile && setActiveDropdown(link.name)}
+              onMouseLeave={() => !isMobile && setActiveDropdown(null)}
             >
               <Link
                 to={link.path}
@@ -67,24 +66,33 @@ const Header = () => {
                 {link.name}
               </Link>
 
-              {/* Dropdown */}
-              {link.submenu && activeDropdown === link.name && (
+              {/* === DESKTOP DROPDOWN === */}
+              {!isMobile && link.submenu && activeDropdown === link.name && (
                 <div className="dropdown-menu">
+                  {link.submenu.map((sub) => (
+                    <Link key={sub.name} to={sub.path} className="dropdown-item">
+                      {sub.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+              {/* === MOBILE INLINE SUBMENU === */}
+              {isMobile && link.submenu && (
+                <div className="mobile-submenu">
                   {link.submenu.map((sub) => (
                     <Link
                       key={sub.name}
                       to={sub.path}
-                      className="dropdown-item"
-                      onClick={() => {
-                        setIsMobileMenuOpen(false);
-                        setActiveDropdown(null);
-                      }}
+                      className="mobile-submenu-item"
+                      onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {sub.name}
                     </Link>
                   ))}
                 </div>
               )}
+
             </div>
           ))}
 
