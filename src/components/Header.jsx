@@ -5,12 +5,29 @@ import Logo from "../assets/logo.png";
 const Header = () => {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Services', path: '/services' },
+    { 
+      name: 'Services', 
+      path: '/services',
+      submenu: [
+        { name: 'Web Development', path: '/services/web' },
+        { name: 'App Development', path: '/services/app' },
+        { name: 'UI/UX Design', path: '/services/uiux' },
+      ]
+    },
     { name: 'Pricing', path: '/pricing' },
-    { name: 'Resources', path: '/resources' },
+    { 
+      name: 'Resources', 
+      path: '/resources',
+      submenu: [
+        { name: 'Blog', path: '/resources/blog' },
+        { name: 'Case Studies', path: '/resources/cases' },
+        { name: 'Guides', path: '/resources/guides' },
+      ]
+    },
     { name: 'About Us', path: '/about' },
     { name: 'Contact Us', path: '/contact' },
   ];
@@ -22,29 +39,58 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
+        
         <Link to="/" className="logo">
-          <span className="logo-e"><img src={Logo} width={100} alt="" /></span>
+          <img src={Logo} width={100} alt="Logo" />
         </Link>
-        <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Toggle menu">
+
+        <button className="mobile-menu-toggle" onClick={toggleMobileMenu}>
           <span className={isMobileMenuOpen ? 'hamburger open' : 'hamburger'}>
-            <span></span>
-            <span></span>
-            <span></span>
+            <span></span><span></span><span></span>
           </span>
         </button>
+
         <nav className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+          
           {navLinks.map((link) => (
-            <Link
+            <div
               key={link.name}
-              to={link.path}
-              className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
-              onClick={() => setIsMobileMenuOpen(false)}
+              className="nav-item"
+              onMouseEnter={() => setActiveDropdown(link.name)}
+              onMouseLeave={() => setActiveDropdown(null)}
             >
-              {link.name}
-            </Link>
+              <Link
+                to={link.path}
+                className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.name}
+              </Link>
+
+              {/* Dropdown */}
+              {link.submenu && activeDropdown === link.name && (
+                <div className="dropdown-menu">
+                  {link.submenu.map((sub) => (
+                    <Link
+                      key={sub.name}
+                      to={sub.path}
+                      className="dropdown-item"
+                      onClick={() => {
+                        setIsMobileMenuOpen(false);
+                        setActiveDropdown(null);
+                      }}
+                    >
+                      {sub.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
-          <button className="btn-primary mobile-cta" onClick={() => setIsMobileMenuOpen(false)}>Get Started</button>
+
+          <button className="btn-primary mobile-cta">Get Started</button>
         </nav>
+
         <button className="btn-primary header-cta">Get Started</button>
       </div>
     </header>
@@ -52,4 +98,3 @@ const Header = () => {
 };
 
 export default Header;
-
