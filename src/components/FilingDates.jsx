@@ -78,7 +78,7 @@ const FilingDates = () => {
       
 
 
-<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
 <div className="relative">
 <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-0.5 h-full timeline-line hidden md:!block"></div>
 <div className="space-y-6 md:!space-y-6">
@@ -97,7 +97,7 @@ const FilingDates = () => {
 </div>
 <div className="w-full md:!w-5/12  text-center md:!text-left order-1 md:!order-2">
 <span className="text-primary font-bold text-xl block mb-2">01</span>
-<h3 className="text-3xl font-bold mb-4 text-gray-900 ">Submit Your Details</h3>
+<h3 className="text-lg lg:text-3xl font-bold mb-4 text-gray-900 ">Submit Your Details</h3>
 <p className="text-gray-400 text-lg leading-relaxed">
                             Choose your service—company registration, GST, compliance, or trademark—and fill a quick form.
                         </p>
@@ -107,12 +107,12 @@ const FilingDates = () => {
 <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-300 border-3 border-white border-background-dark hidden md:!block z-10"></div>
 <div className="w-full md:!w-5/12  text-center md:!text-start order-1">
 <span className="text-primary font-bold text-xl block mb-2">02</span>
-<h3 className="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
+<h3 className="text-lg lg:text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p className="text-gray-400 text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
 </div>
-<div className="w-full md:!w-5/12 flex justify-start md:!j!ustify-start  mt-8 md:mt-0 order-2">
+<div className="w-full md:!w-5/12 flex justify-center md:!j!ustify-start  mt-8 md:mt-0 order-2">
 <div className=" p-6 rounded-xl shadow-lg w-48 h-56 flex flex-col items-center justify-center border border-gray-100 transform transition-transform hover:scale-105 duration-300 relative">
 <div className="text-blue-600 mb-6">
 <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,7 +147,7 @@ const FilingDates = () => {
 </div>
 <div className="w-full md:!w-5/12  text-center md:!text-left order-1 md:!order-2">
 <span className="text-primary font-bold text-xl block mb-2">03</span>
-<h3 className="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
+<h3 className="text-lg lg:text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p className="text-gray-400 text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
@@ -157,12 +157,12 @@ const FilingDates = () => {
 <div className="absolute left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-300 border-3 border-white border-background-dark hidden md:!block z-10"></div>
 <div className="w-full md:!w-5/12  text-center md:!text-start order-1">
 <span className="text-primary font-bold text-xl block mb-2">04</span>
-<h3 className="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
+<h3 className="text-lg lg:text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p className="text-gray-400 text-lg leading-relaxed">
                             Our compliance expert connects with you to understand your business, explain the process
                         </p>
 </div>
-<div className="w-full md:!w-5/12 flex justify-start md:!j!ustify-start  mt-8 md:mt-0 order-2">
+<div className="w-full md:!w-5/12 flex justify-center md:!j!ustify-start  mt-8 md:mt-0 order-2">
 <div className=" p-6 rounded-xl shadow-lg w-48 h-56 flex flex-col items-center justify-center border border-gray-100 transform transition-transform hover:scale-105 duration-300 relative">
 <div className="text-gray-400 mb-6">
 <svg width="83" height="83" viewBox="0 0 83 83" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -197,7 +197,7 @@ const FilingDates = () => {
 </div>
 <div className="w-full md:!w-5/12  text-center md:!text-left order-1 md:!order-2">
 <span className="text-primary font-bold text-xl block mb-2">05</span>
-<h3 className="text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
+<h3 className="text-lg lg:text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
 <p className="text-gray-400 text-lg leading-relaxed">
                            Our compliance expert connects with you to understand your business, explain the process
                        </p>
@@ -207,7 +207,7 @@ const FilingDates = () => {
 </div>
 </div>
 
-        <div className="filing-dates-cta">
+        <div className="filing-dates-cta !m-0">
           <button className="btn-primary filing-dates-btn !text-2xl">Start the Process</button>
         </div>
       </div>

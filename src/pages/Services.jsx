@@ -189,7 +189,7 @@ const Services = () => {
             </div>
             <div className="flex lg:flex-row sm:flex-row gap-4 md:!gap-10 pt-4">
               <button
-                className="flex items-center justify-center space-x-2 bg-primary hover:bg-primary-hover text-white font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="flex items-center justify-center space-x-2 bg-primary hover:bg-primary-hover text-white font-semibold py-2 px-4 md:px-8 text-xs md:text-base rounded-full transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.18201 4.76005C4.18201 4.12072 4.70118 3.60155 5.34051 3.60155H24.0235C24.6628 3.60155 25.182 4.12072 25.182 4.76005V23.4431C25.1817 23.7502 25.0595 24.0447 24.8424 24.2619C24.6252 24.4791 24.3307 24.6012 24.0235 24.6016H5.34051C5.03326 24.6016 4.73859 24.4795 4.52133 24.2622C4.30407 24.045 4.18201 23.7503 4.18201 23.4431V4.76005ZM5.63438 4.92195V23.4431H23.8061V4.92195H5.63438ZM13.0743 9.91905L18.7665 13.713C18.8305 13.7556 18.883 13.8134 18.9193 13.8812C18.9556 13.949 18.9746 14.0247 18.9746 14.1016C18.9746 14.1784 18.9556 14.2541 18.9193 14.3219C18.883 14.3897 18.8305 14.4475 18.7665 14.4901L13.0732 18.284C13.003 18.3306 12.9215 18.3573 12.8374 18.3612C12.7532 18.3652 12.6696 18.3463 12.5953 18.3066C12.521 18.2669 12.4589 18.2078 12.4155 18.1357C12.3721 18.0635 12.349 17.9809 12.3487 17.8967V10.3064C12.3488 10.222 12.3719 10.1392 12.4154 10.0668C12.4588 9.9945 12.5211 9.9353 12.5956 9.89556C12.6701 9.85581 12.7539 9.837 12.8382 9.84114C12.9225 9.84528 13.0041 9.8722 13.0743 9.91905Z" fill="#FFFDFC"/>
@@ -198,7 +198,7 @@ const Services = () => {
                 <span>Watch a demo</span>
               </button>
               <button
-                className="flex items-center justify-center space-x-2  border-2 border-primary text-gray-900  font-semibold py-2 px-4 md:px-8 text-sm md:text-base rounded-full hover:bg-orange-50 transition-colors"
+                className="flex items-center justify-center space-x-2  border-2 border-primary text-gray-900  font-semibold py-2 px-4 md:px-8 text-xs md:text-base rounded-full hover:bg-orange-50 transition-colors"
               >
               <svg width="22" height="22" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M3.24992 6.49935V23.8327H22.7499V25.9993H3.24992C2.67528 25.9993 2.12418 25.7711 1.71785 25.3647C1.31153 24.9584 1.08325 24.4073 1.08325 23.8327V6.49935H3.24992ZM17.3333 9.74935H23.2916L17.3333 3.79102V9.74935ZM7.58325 2.16602H18.4166L24.9166 8.66602V19.4993C24.9166 20.074 24.6883 20.6251 24.282 21.0314C23.8757 21.4377 23.3246 21.666 22.7499 21.666H7.58325C7.00862 21.666 6.45752 21.4377 6.05119 21.0314C5.64486 20.6251 5.41659 20.074 5.41659 19.4993V4.33268C5.41659 3.75805 5.64486 3.20695 6.05119 2.80062C6.45752 2.39429 7.00862 2.16602 7.58325 2.16602ZM7.58325 4.33268V19.4993H22.7499V11.916H15.1666V4.33268H7.58325Z" fill="#0018A6"/>
@@ -210,14 +210,14 @@ const Services = () => {
           </div>
           <div className="relative mt-12 lg:mt-0">
             <div
-              className="absolute -top-6 -left-10 z-20 w-full lg:!items-start flex flex-col items-center space-y-1"
+              className="absolute -top-6 -left-10 z-20 w-full lg:!items-start flex flex-col items-center space-y-1 hidden lg:!block"
             >
               <img src={img1} width="120" alt="" />
             </div>
             <div
               className="bg-[#FFF8EB] rounded-3xl p-6 md:p-8 shadow-card border border-[#FFD1A1]  relative"
             >
-              <div className="text-center mb-6 mt-4">
+              <div className="text-center md:mb-6 md:mt-4">
                 <h5 className="font-bold leading-8 text-gray-900 ">
                   Need assistance?<br />
                   <span className="text-gray-800"
@@ -383,7 +383,7 @@ const Services = () => {
               <div className="flex items-center gap-6">
                 <div className="flex-shrink-0">
                   <svg
-                    className="w-28 h-28"
+                    className="w-20 h-20 md:w-28 md:h-28"
                     viewBox="0 0 48 48"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -408,14 +408,14 @@ const Services = () => {
                 <div className="flex flex-col space-y-3">
                   <div >
                     <ul className="flex items-center space-x-2 mb-1">
-                      <li><img className='w-8 h-8' src={Star} alt='star' /></li>
-                      <li><img className='w-8 h-8' src={Star} alt='star' /></li>
-                      <li><img className='w-8 h-8' src={Star} alt='star' /></li>
-                      <li><img className='w-8 h-8' src={Star} alt='star' /></li>
-                      <li><img className='w-8 h-8' src={Star} alt='star' /></li>
+                      <li><img className='md:w-8 md:h-8 w-6 h-6' src={Star} alt='star' /></li>
+                      <li><img className='md:w-8 md:h-8 w-6 h-6' src={Star} alt='star' /></li>
+                      <li><img className='md:w-8 md:h-8 w-6 h-6' src={Star} alt='star' /></li>
+                      <li><img className='md:w-8 md:h-8 w-6 h-6' src={Star} alt='star' /></li>
+                      <li><img className='md:w-8 md:h-8 w-6 h-6' src={Star} alt='star' /></li>
                     </ul>
                   </div>
-                  <div className="text-2xl font-bold text-slate-900 ">
+                  <div className="md:text-2xl font-bold text-slate-900 ">
                     5/5 Google Reviews
                   </div>
                   <div className="flex items-center mt-2 pl-2">
@@ -456,7 +456,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="bg-white shadow_custome rounded-2xl p-4 shadow-soft  flex gap-10 items-start hover:shadow-lg transition-shadow duration-300"
+              className="bg-white shadow_custome rounded-2xl p-4 shadow-soft  flex gap-3 md:gap-10 items-start hover:shadow-lg transition-shadow duration-300"
             >
               <div
                 className="flex-shrink-0 flex flex-col items-center justify-center mt-1"
@@ -468,7 +468,7 @@ const Services = () => {
               <div className="flex-1 flex flex-col justify-between h-full">
                 <div>
                   <h3
-                    className="text-2xl font-bold border-b border-gray-400 text-slate-900 pb-3 mb-3"
+                    className="text-lg md:text-2xl font-bold border-b border-gray-400 text-slate-900 pb-3 mb-3"
                   >
                     Award Name
                   </h3>
@@ -481,7 +481,7 @@ const Services = () => {
                   </p>
                 </div>
                 <div
-                  className="flex justify-between sm:flex-row sm:items-center sm:justify-between text-xs pt-3 border-t border-slate-100 "
+                  className="flex justify-between gap-2 sm:flex-row sm:items-center sm:justify-between text-xs pt-3 border-t border-slate-100 "
                 >
                   <span className="text-slate-500 mb-1 sm:mb-0">02/05/2025</span>
                   <a
@@ -709,7 +709,7 @@ const Services = () => {
             </h2>
           </div>
           <div
-            className="bg-white rounded-xl shadow-lg p-6 md:p-10 border border-gray-100 "
+            className="bg-white rounded-xl shadow-lg p-4 md:p-10 border border-gray-100 "
           >
             <div className="grid grid-cols-1 lg:!grid-cols-12 gap-8 mb-12">
               <div className="lg:col-span-6">
@@ -796,7 +796,7 @@ const Services = () => {
               </div>
             </div>
             <div
-              className="bg-blue-50 /50 rounded-lg p-6 border border-[#8EC7FC] "
+              className="bg-blue-50 /50 rounded-lg p-4 md:p-6 border border-[#8EC7FC] "
             >
               <h3 className="font-bold text-lg text-gray-900  mb-2">
                 Companies Act, 2013
@@ -814,7 +814,7 @@ const Services = () => {
                   >a</span
                   >
                   <p
-                    className="text-sm text-gray-800 leading-tight"
+                    className="text-xs md:text-sm text-gray-800 leading-tight"
                   >
                     Minimum of 2 and maximum of 200 members (shareholders),
                     excluding employees and ex-employees
@@ -828,7 +828,7 @@ const Services = () => {
                   >b</span
                   >
                   <p
-                    className="text-sm text-gray-800 leading-tight"
+                    className="text-xs md:text-sm text-gray-800 leading-tight"
                   >
                     Minimum of 2 and maximum of 200 members (shareholders),
                     excluding employees and ex-employees
@@ -842,7 +842,7 @@ const Services = () => {
                   >c</span
                   >
                   <p
-                    className="text-sm text-gray-800 leading-tight"
+                    className="text-xs md:text-sm text-gray-800 leading-tight"
                   >
                     Minimum of 2 and maximum of 200 members (shareholders),
                     excluding employees and ex-employees
@@ -856,7 +856,7 @@ const Services = () => {
                   >d</span
                   >
                   <p
-                    className="text-sm text-gray-800 leading-tight"
+                    className="text-xs md:text-sm text-gray-800 leading-tight"
                   >
                     Minimum of 2 and maximum of 200 members (shareholders),
                     excluding employees and ex-employees
@@ -1374,7 +1374,7 @@ const Services = () => {
       </div>
       {/* Committed to Security end */}
       {/* our partner */}
-      <div className="trustedpartner p-16">
+      <div className="trustedpartner p-4 lg:p-16">
         <Partnerships />
       </div>
       {/* our partner */}
@@ -1781,12 +1781,12 @@ const Services = () => {
                     className="bg-surface-light bg-[#F6FAFF]"
                   >
                     <th
-                      className="p-3 text-xl font-bold text-text-light  w-1/5 sticky left-0 z-10 bg-[#F6FAFF] "
+                      className="p-2 lg:p-3 text-xl font-bold text-text-light  w-1/5 lg:sticky left-0 z-10 bg-[#F6FAFF] "
                     >
                       Features
                     </th>
                     <th
-                      className="p-3 text-center  w-[18%]"
+                      className="p-2 lg:p-3 text-center  w-[18%]"
                     >
                       <div
                         className="font-bold text-text-light  text-sm md:text-base"
@@ -1800,7 +1800,7 @@ const Services = () => {
                       </div>
                     </th>
                     <th
-                      className="p-3 text-center  w-[15%]"
+                      className="p-2 lg:p-3 text-center  w-[15%]"
                     >
                       <div
                         className="font-bold text-text-light  text-sm md:text-base"
@@ -1814,7 +1814,7 @@ const Services = () => {
                       </div>
                     </th>
                     <th
-                      className="p-3 text-center  w-[15%]"
+                      className="p-2 lg:p-3 text-center  w-[15%]"
                     >
                       <div
                         className="font-bold text-text-light  text-sm md:text-base"
@@ -1828,7 +1828,7 @@ const Services = () => {
                       </div>
                     </th>
                     <th
-                      className="p-3 text-center  w-[15%]"
+                      className="p-2 lg:p-3 text-center  w-[15%]"
                     >
                       <div
                         className="font-bold text-text-light  text-sm md:text-base"
@@ -1842,7 +1842,7 @@ const Services = () => {
                       </div>
                     </th>
                     <th
-                      className="p-3 text-center  w-[15%]"
+                      className="p-2 lg:p-3 text-center  w-[15%]"
                     >
                       <div
                         className="font-bold text-text-light  text-sm md:text-base"
@@ -1862,7 +1862,7 @@ const Services = () => {
                     className="hover:bg-gray-50"
                   >
                     <td
-                      className="p-3 sticky left-0 z-10"
+                      className="p-1 lg:p-3 lg:sticky left-0 z-10"
                     >
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
@@ -1893,35 +1893,35 @@ const Services = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
@@ -1933,7 +1933,7 @@ const Services = () => {
                     className="hover:bg-gray-50"
                   >
                     <td
-                      className="p-3 sticky left-0 z-10"
+                      className="p-1 lg:p-3 lg:sticky left-0 z-10"
                     >
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
@@ -1965,27 +1965,27 @@ const Services = () => {
                       </div>
                     </td>
                     <td
-                      className="p-3 text-center text-text-light  text-lg font-medium"
+                      className="p-2 lg:p-3 text-center text-text-light  text-lg font-medium"
                     >
                       1
                     </td>
                     <td
-                      className="p-3 text-center text-text-light  text-lg font-medium"
+                      className="p-2 lg:p-3 text-center text-text-light  text-lg font-medium"
                     >
                       1
                     </td>
                     <td
-                      className="p-3 text-center text-text-light  text-lg font-medium"
+                      className="p-2 lg:p-3 text-center text-text-light  text-lg font-medium"
                     >
                       1
                     </td>
                     <td
-                      className="p-3 text-center text-text-light  text-lg font-medium"
+                      className="p-2 lg:p-3 text-center text-text-light  text-lg font-medium"
                     >
                       1
                     </td>
                     <td
-                      className="p-3 text-center text-text-light  text-lg font-medium"
+                      className="p-2 lg:p-3 text-center text-text-light  text-lg font-medium"
                     >
                       1
                     </td>
@@ -1994,7 +1994,7 @@ const Services = () => {
                     className="hover:bg-gray-50"
                   >
                     <td
-                      className="p-3 sticky left-0 z-10"
+                      className="p-1 lg:p-3 lg:sticky left-0 z-10"
                     >
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
@@ -2026,27 +2026,27 @@ const Services = () => {
                       </div>
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Limited
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Limited
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Limited
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Limited
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Limited
                     </td>
@@ -2055,7 +2055,7 @@ const Services = () => {
                     className="hover:bg-gray-50"
                   >
                     <td
-                      className="p-3 sticky left-0 z-10"
+                      className="p-1 lg:p-3 lg:sticky left-0 z-10"
                     >
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
@@ -2087,27 +2087,27 @@ const Services = () => {
                       </div>
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       High
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       High
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Low
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Low
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       Low
                     </td>
@@ -2116,7 +2116,7 @@ const Services = () => {
                     className="hover:bg-gray-50"
                   >
                     <td
-                      className="p-3 sticky left-0 z-10"
+                      className="p-1 lg:p-3 lg:sticky left-0 z-10"
                     >
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
@@ -2148,27 +2148,27 @@ const Services = () => {
                       </div>
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       1 Lakh
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       1 Lakh
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       1 Lakh
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       1 Lakh
                     </td>
                     <td
-                      className="p-3 text-center text-subtext-light text-base font-medium"
+                      className="p-2 lg:p-3 text-center text-subtext-light text-base font-medium"
                     >
                       1 Lakh
                     </td>
@@ -2177,7 +2177,7 @@ const Services = () => {
                     className="hover:bg-gray-50"
                   >
                     <td
-                      className="p-3 sticky left-0 z-10"
+                      className="p-1 lg:p-3 lg:sticky left-0 z-10"
                     >
                       <div className="flex items-start gap-3">
                         <div className="text-primary mt-1">
@@ -2208,35 +2208,35 @@ const Services = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-500"
                       >
                         <span className="material-icons text-lg">check</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 "
                       >
                         <span className="material-icons text-lg">close</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 "
                       >
                         <span className="material-icons text-lg">close</span>
                       </span>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <span
                         className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-red-100 text-red-500 "
                       >
@@ -2246,7 +2246,7 @@ const Services = () => {
                   </tr>
                   <tr className="bg-surface-light/50/30 !border-t !border-gray-200">
                     <td
-                      className="p-6 sticky left-0  z-10"
+                      className="p-3 z-10"
                     >
                       <a
                         className="text-primary font-bold underline hover:text-primary-hover decoration-1 underline-offset-2 text-sm whitespace-nowrap"
@@ -2255,37 +2255,37 @@ const Services = () => {
                         Download Comparison
                       </a>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <button
-                        className="bg-primary hover:bg-primary-hover text-white font-semibold py-1 px-10 rounded-full shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5"
+                        className="bg-primary hover:bg-primary-hover text-white font-semibold text-xs lg:text-lg py-1 px-4 lg:px-10 rounded-full shadow-lg shadow-orange-500/30 transition-all transform hover:-translate-y-0.5"
                       >
                         Get Started
                       </button>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <button
-                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold text-xs lg:text-lg py-1 px-4 lg:px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <button
-                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold text-xs lg:text-lg py-1 px-4 lg:px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <button
-                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold text-xs lg:text-lg py-1 px-4 lg:px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
                     </td>
-                    <td className="p-3 text-center">
+                    <td className="p-2 lg:p-3 text-center">
                       <button
-                        className="bg-white border border-primary text-text-light  font-semibold py-1 px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
+                        className="bg-white border border-primary text-text-light  font-semibold text-xs lg:text-lg py-1 px-4 lg:px-10 rounded-full hover:bg-[#ff6f3b] hover:text-white transition-colors"
                       >
                         Read More
                       </button>
@@ -2716,7 +2716,7 @@ const Services = () => {
             </div>
           </div>
           <div
-            className="grid grid-cols-1 sm:!grid-cols-2 lg:!grid-cols-4 gap-6 mb-12"
+            className="grid grid-cols-1 sm:!grid-cols-2 lg:!grid-cols-4 gap-6 mb-8 lg:mb-12"
           >
             <div
               className="group bg-white border border-[#8EC7FC]  rounded-xl p-4 flex flex-col items-center justify-center text-center transition-all duration-300 hover:shadow-lg hover:border-blue-200"
@@ -2775,18 +2775,18 @@ const Services = () => {
             className="flex md:!flex sm:flex-row items-center justify-center gap-6"
           >
             <button
-              className="bg-primary hover:bg-orange-600 text-white font-semibold py-1 px-10 rounded-full shadow-lg shadow-orange-100 transition-all duration-200 transform hover:-translate-y-0.5"
+              className="bg-primary hover:bg-orange-600 text-white font-semibold px-4 py-1 lg:px-10 rounded-full shadow-lg shadow-orange-100 transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Explore Tools
             </button>
             <button
-              className="bg-transparent hover:bg-orange-50 border-2 border-primary text-slate-700  font-semibold py-1 px-10 rounded-full transition-all duration-200 transform hover:-translate-y-0.5"
+              className="bg-transparent hover:bg-orange-50 border-2 border-primary text-slate-700  font-semibold px-4 py-1 lg:px-10 rounded-full transition-all duration-200 transform hover:-translate-y-0.5"
             >
               Try a Calculator
             </button>
           </div>
           <div
-            className="flex flex-wrap justify-center items-center gap-x-20 gap-y-6  text-sm font-medium pt-10"
+            className="flex flex-wrap justify-center items-center gap-5 lg:gap-x-20 gap-y-6  text-sm font-medium pt-10"
           >
             <div className="flex items-center gap-2.5">
               <svg width="24" height="24" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3032,7 +3032,7 @@ const Services = () => {
             </div>
             <div className="w-full xl:!w-80 flex-shrink-0">
               <div
-                className="bg-blue-50 shadow-xl rounded-xl overflow-hidden shadow-sidebar border border-blue-300  flex flex-col h-full max-h-[560px] xl:max-h-none xl:sticky xl:top-4"
+                className="bg-blue-50 shadow-xl rounded-xl overflow-hidden shadow-sidebar border border-blue-300  flex flex-col h-full max-h-[560px] xl:sticky xl:top-4"
               >
                 <div
                   className="bg-blue-100 py-2 px-4 text-center border-b border-blue-200"
@@ -3197,7 +3197,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <div className="mt-16 flex justify-center">
+          <div className="mt-6 lg:mt-16 flex justify-center">
             <div
               className="bg-white  rounded-full border border-[#8EC7FC]  py-3 px-6 flex items-center gap-4 text-xs sm:text-sm"
             >
@@ -3513,12 +3513,12 @@ const Services = () => {
               </p>
               <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -3569,12 +3569,12 @@ const Services = () => {
               </p>
               <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -3625,12 +3625,12 @@ const Services = () => {
               </p>
               <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>
@@ -3681,12 +3681,12 @@ const Services = () => {
               </p>
               <div className="flex items-center gap-4 mt-auto">
                 <button
-                  className="bg-primary hover:bg-orange-600 text-white font-semibold py-2 px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
+                  className="bg-primary hover:bg-orange-600 text-white font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full transition-colors duration-200 text-sm shadow-sm hover:shadow-md"
                 >
                   Add Service
                 </button>
                 <button
-                  className="bg-white border border-slate-300   font-semibold py-2 px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
+                  className="bg-white border border-slate-300   font-semibold text-sm lg:text-base px-4 py-2 lg:px-12 rounded-full hover:bg-slate-50 transition-colors duration-200 text-sm"
                 >
                   Learn More
                 </button>

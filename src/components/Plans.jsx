@@ -23,11 +23,11 @@ const BasicPlan = () => {
                 >
                     <img src={icon5} alt="" />
                 </div>
-                <h4
+                <h3
                     className="text-xl font-bold text-slate-900  uppercase tracking-tight"
                 >
                     Basic Plan
-                </h4>
+                </h3>
                 <div className="flex items-center gap-2 mt-4 text-sm">
                     <span className="text-slate-900 line-through">₹ 1999</span>
                     <span
@@ -72,10 +72,10 @@ const BasicPlan = () => {
                     </svg>
                 </div>
                 <div
-                    className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 dark:border-yellow-900/20 rounded-lg flex items-start gap-3 w-full"
+                    className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 rounded-lg flex items-start gap-3 w-full"
                 >
                     <div
-                        className="w-8 h-8 rounded bg-yellow-200 dark:bg-yellow-800 flex-shrink-0"
+                        className="w-8 h-8 rounded bg-yellow-200 flex-shrink-0"
                     >
                         <img src={icon8} alt="" />
                     </div>
@@ -97,11 +97,11 @@ const BasicPlan = () => {
                 </button>
             </div>
             <div className="mt-5">
-                <h5
+                <h6
                     className="font-bold text-slate-700  mb-4"
                 >
                     What You'll Get Here
-                </h5>
+                </h6>
                 <ul className="space-y-3">
                     <li
                         className="flex items-center gap-2 text-base"
@@ -208,11 +208,11 @@ const PremiumPlan = () => {
                 >
                     <img src={icon5} alt="" />
                 </div>
-                <h4
+                <h3
                     className="text-xl font-bold text-slate-900  uppercase tracking-tight"
                 >
                     Basic Plan
-                </h4>
+                </h3>
                 <div className="flex items-center gap-2 mt-4 text-sm">
                     <span className="text-slate-900 line-through">₹ 1999</span>
                     <span
@@ -257,10 +257,10 @@ const PremiumPlan = () => {
                     </svg>
                 </div>
                 <div
-                    className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 dark:border-yellow-900/20 rounded-lg flex items-start gap-3 w-full"
+                    className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 rounded-lg flex items-start gap-3 w-full"
                 >
                     <div
-                        className="w-8 h-8 rounded bg-yellow-200 dark:bg-yellow-800 flex-shrink-0"
+                        className="w-8 h-8 rounded bg-yellow-200 flex-shrink-0"
                     >
                         <img src={icon8} alt="" />
                     </div>
@@ -282,11 +282,11 @@ const PremiumPlan = () => {
                 </button>
             </div>
             <div className="mt-5">
-                <h5
+                <h6
                     className="font-bold text-slate-700  mb-4"
                 >
                     What You'll Get Here
-                </h5>
+                </h6>
                 <ul className="space-y-5">
                     <li
                         className="flex items-center gap-2 text-base"
@@ -376,7 +376,7 @@ const PremiumPlan = () => {
                         <div className="flex-1 flex justify-between items-center">
                             <span>Email Support/Phone Support</span>
                             <span
-                                className="ml-2 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
+                                className="ml-2 text-[10px] font-bold text-green-600 bg-green-50 px-1 py-0.5 rounded border border-green-200"
                             >FREE</span
                             >
                         </div>
@@ -415,11 +415,11 @@ const ElitePlan = () => {
                 >
                     <img src={icon7} alt="" />
                 </div>
-                <h4
+                <h3
                     className="text-xl font-bold text-slate-900  uppercase tracking-tight"
                 >
                     Elite Plan
-                </h4>
+                </h3>
                 <div className="flex items-center gap-2 mt-2 text-sm">
                     <span className="text-slate-900 line-through">₹ 7000</span>
                     <span
@@ -452,7 +452,7 @@ const ElitePlan = () => {
                     className="mt-3 flex items-center gap-2 text-xs text-gray-400 transition-colors"
                 >
                     Use Code:
-                    <span className="font-bold text-slate-700 dark:text-slate-300"
+                    <span className="font-bold text-slate-700 "
                     >GrabNavratriOffer</span
                     >
                     <svg
@@ -470,10 +470,10 @@ const ElitePlan = () => {
                     </svg>
                 </div>
                 <div
-                    className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 dark:border-yellow-900/20 rounded-lg flex items-start gap-3 w-full"
+                    className="mt-4 p-2 bg-[#F9E5CE]/9 border-l-0 border-r-0 border border-gray-200 rounded-lg flex items-start gap-3 w-full"
                 >
                     <div
-                        className="w-8 h-8 rounded bg-yellow-200 dark:bg-yellow-800 flex-shrink-0"
+                        className="w-8 h-8 rounded bg-yellow-200 flex-shrink-0"
                     >
                         <img src={icon8} alt="" />
                     </div>
@@ -495,11 +495,11 @@ const ElitePlan = () => {
                 </button>
             </div>
             <div className="mt-4">
-                <h5
+                <h6
                     className="font-bold text-slate-700  mb-4"
                 >
                     What You'll Get Here
-                </h5>
+                </h6>
                 <ul className="space-y-1">
                     <li
                         className="flex items-center gap-2 text-base"
@@ -593,7 +593,7 @@ const ElitePlan = () => {
                         <div className="flex-1 flex justify-between items-center">
                             <span>Email Support/Phone Support</span>
                             <span
-                                className="ml-2 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
+                                className="ml-2 text-[10px] font-bold text-green-600 bg-green-50 px-1 py-0.5 rounded border border-green-200"
                             >FREE</span
                             >
                         </div>
@@ -655,7 +655,7 @@ const ElitePlan = () => {
                         <div className="flex-1 flex justify-between items-start">
                             <span>FREE Video Call Consultation (Worth ₹2,000)</span>
                             <span
-                                className="ml-2 mt-0.5 text-[10px] font-bold text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-900/30 px-1 py-0.5 rounded border border-green-200 dark:border-green-800"
+                                className="ml-2 mt-0.5 text-[10px] font-bold text-green-600 bg-green-50 px-1 py-0.5 rounded border border-green-200"
                             >FREE</span
                             >
                         </div>
@@ -712,7 +712,7 @@ const Plans = () => {
                 </div>
 
                 <div
-                    className="mt-16 bg-[#F5FAFF] rounded-xl shadow-md p-3 flex md:flex-row justify-evenly items-center gap-6 lg:gap-16 "
+                    className="mt-16 bg-[#F5FAFF] rounded-xl shadow-md p-3 flex md:flex-row justify-evenly items-center gap-3 lg:gap-16 "
                 >
                     <div className="flex flex-col items-center text-center">
                         <div className="mb-2 text-blue-600">
@@ -741,7 +741,7 @@ const Plans = () => {
                         </div>
                     </div>
                     <div
-                        className="hidden md:block w-px h-12 bg-slate-200 dark:bg-slate-700"
+                        className="hidden md:block w-px h-12 bg-slate-200"
                     ></div>
                     <div className="flex flex-col items-center text-center">
                         <div className="mb-2 text-yellow-500">
@@ -770,7 +770,7 @@ const Plans = () => {
                         </div>
                     </div>
                     <div
-                        className="hidden md:block w-px h-12 bg-slate-200 dark:bg-slate-700"
+                        className="hidden md:block w-px h-12 bg-slate-200"
                     ></div>
                     <div className="flex flex-col items-center text-center">
                         <div className="mb-2 text-blue-600">

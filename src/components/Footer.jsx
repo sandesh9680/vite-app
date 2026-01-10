@@ -3,7 +3,7 @@ import Footer_logo from '../assets/footer-logo.png';
 const Footer = () => {
 
   return (
-    <footer class="bg-black text-text-main-dark pt-12 pb-8 border-t border-gray-200 px-10">
+    <footer class="bg-black text-text-main-dark pt-12 pb-8 border-t border-gray-200 px-2 md:px-10">
 <div class="mx-auto px-4 sm:px-6 lg:px-8">
 <div class="mb-10">
 <a class="inline-block" href="#">
