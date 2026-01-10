@@ -1301,7 +1301,7 @@ a.trusted-read-more.trusted_grid {
 }
 
 .testimonial-name {
-  font-size: 18px;
+  font-size: 18px !important;
   font-weight: 700;
   color: var(--text-dark);
   margin: 0;
@@ -2920,8 +2920,10 @@ display: block;
     background-color: #FFFDFC;
     border-radius: 12px;
     padding: 16px 20px;
-    border: solid 1px #FF8554;
-    /* box-shadow: var(--shadow); */
+    border: solid 1px #ff85545c;
+}
+.faq-item.active {
+  border-color: var(--primary-orange);
 }
 
 .faq-question {
@@ -2939,8 +2941,8 @@ display: block;
 
 .faq-toggle {
   font-size: 24px;
-  font-weight: 700;
-  color: var(--primary-orange);
+  font-weight: 300;
+  color: #0D0F1D;
 }
 
 .faq-answer {
@@ -5550,11 +5552,7 @@ display: block;
   color: #1b3d6d;
 }
 
-.testimonial-name {
-  margin-top: 15px;
-  font-weight: 600;
-  font-size: 15px;
-}
+
 
 .testimonial-role {
   font-size: 12px;
@@ -5812,12 +5810,7 @@ display: block;
   box-shadow: 0 5px 10px rgba(130, 160, 200, 0.2);
 }
 
-.testimonial-name {
-  font-size: 17px;
-  font-weight: 700;
-  margin-bottom: 2px;
-  color: #1d1d1d;
-}
+
 
 .testimonial-role {
   font-size: 12px;
@@ -6165,4 +6158,52 @@ display: block;
   display: flex;
   flex-direction: column;
   padding-left: 10px;
+}
+
+.shadow_custome {
+    box-shadow: 0px 7px 20px -4px #00000026;
+}
+
+.shadow_custome1:hover {
+    box-shadow: 10px 15px 20px 0px #9999994d;
+}
+
+.premium_package {
+  background: linear-gradient(
+179deg, #FFEDD9, #F4F8FD);
+border-color: var(--primary-orange);
+}
+
+
+.plan_style:hover .group.bg-white {
+ box-shadow: 10px 15px 20px 0px #9999994d;
+}
+
+.card_deadline {
+    border: solid 1px #D6D6D9;
+}
+.card_deadline:hover {
+    border: solid 1px #d6d6d900;
+    border-top: solid 3px var(--primary-orange);
+    box-shadow: 10px 15px 20px 0px #9999994d;
+}
+
+.committed_sec .shadow_custome1:hover {
+background: #FFFBFB;
+}
+
+
+.plan_table tr {
+    border: none;
+}
+
+.quickaccessguid .btn_knowmore .material-icons {
+    display: none;
+}
+.quickaccessguid .btn_knowmore:hover .material-icons {
+    display: block;
+}
+
+.quickaccessguid .bg-white:hover p {
+    letter-spacing: 1px;
 }
