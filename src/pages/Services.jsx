@@ -1120,7 +1120,7 @@ const Services = () => {
                   />
                 </div>
               </div>
-              <div className="w-full lg:w-7/12">
+              <div className="w-full">
                 <div className="grid grid-cols-1 md:!grid-cols-2 gap-y-6 gap-x-10">
                   <div
                     className="p-4 rounded-xl bg-[#F6FAFF] card_deadline relative z-10"
