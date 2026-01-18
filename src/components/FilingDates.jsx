@@ -83,7 +83,7 @@ const FilingDates = () => {
 <div className="timeline-line md:!block"></div>
 <div className="space-y-4 md:!space-y-4">
 <div className="relative flex flex-col md:!flex-row items-center justify-between group">
-<div className="absolute left-[-20px] lg:left-1/2 top-0 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-primary border-3 border-white  md:!block z-10"></div>
+<div className="absolute left-[-12px] lg:left-1/2 top-0 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-primary border-3 border-white  md:!block z-10"></div>
 <div className="w-full md:!w-5/12 flex justify-center md:!justify-end  mb-8 md:mb-0 order-2 md:!order-1">
 <div className=" p-6 rounded-xl shadow-lg w-48 h-56 flex flex-col items-center justify-between border border-gray-100 transform transition-transform hover:scale-105 duration-300">
 <div className="w-full space-y-3">
@@ -104,7 +104,7 @@ const FilingDates = () => {
 </div>
 </div>
 <div className="relative flex flex-col md:!flex-row items-center justify-between group">
-<div className="absolute left-[-20px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
+<div className="absolute left-[-12px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
 <div className="w-full md:!w-5/12 text-left md:!text-start order-1">
 <span className="text-primary font-bold text-xl block mb-2">02</span>
 <h3 className="text-xl lg:text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
@@ -129,7 +129,7 @@ const FilingDates = () => {
 </div>
 </div>
 <div className="relative flex flex-col md:!flex-row items-center justify-between group">
-<div className="absolute left-[-20px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
+<div className="absolute left-[-12px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
 <div className="w-full md:!w-5/12 flex justify-center md:!justify-end  mb-8 md:mb-0 order-2 md:!order-1">
 <div className=" p-6 rounded-xl shadow-lg w-48 h-56 flex flex-col items-center justify-center border border-gray-100 transform transition-transform hover:scale-105 duration-300 relative">
 <div className="text-gray-400 mb-6">
@@ -154,7 +154,7 @@ const FilingDates = () => {
 </div>
 </div>
 <div className="relative flex flex-col md:!flex-row items-center justify-between group">
-<div className="absolute left-[-20px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
+<div className="absolute left-[-12px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
 <div className="w-full md:!w-5/12 text-left md:!text-start order-1">
 <span className="text-primary font-bold text-xl block mb-2">04</span>
 <h3 className="text-xl lg:text-3xl font-bold mb-4 text-gray-900 ">Expert Consultation</h3>
@@ -179,7 +179,7 @@ const FilingDates = () => {
 </div>
 </div>
 <div className="relative flex flex-col md:!flex-row items-center justify-between group">
-<div className="absolute left-[-20px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
+<div className="absolute left-[-12px] lg:left-1/2 top-0 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gray-400 border-3 border-white border-background-dark  md:!block z-10"></div>
 <div className="w-full md:!w-5/12 flex justify-center md:!justify-end  mb-8 md:mb-0 order-2 md:!order-1">
 <div className=" p-6 rounded-xl shadow-lg w-48 h-56 flex flex-col items-center justify-center border border-gray-100 transform transition-transform hover:scale-105 duration-300 relative">
 <div className="text-gray-400 mb-6">
