@@ -2407,16 +2407,15 @@ button.blog-read-more span {
 }
 
 .timeline-line {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--primary-orange) 0%, var(--primary-orange) 21%, #E5E5E5 5%, #E5E5E5 100%);
-  transform: translateX(-50%);
-  z-index: 1;
+    position: absolute;
+    left: 49.5%;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--primary-orange) 0%, var(--primary-orange) 21%, #E5E5E5 5%, #E5E5E5 100%);
+    transform: translateX(-50%);
+    z-index: 1;
 }
-
 .timeline-start-node {
   position: absolute;
   left: 50%;
