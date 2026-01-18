@@ -218,12 +218,12 @@ const Services = () => {
               className="bg-[#FFF8EB] rounded-3xl p-6 md:p-8 shadow-card border border-[#FFD1A1]  relative"
             >
               <div className="text-center md:mb-6 md:mt-4">
-                <h5 className="font-bold leading-8 text-gray-900 ">
+                <div className="text-2xl font-bold leading-8 text-gray-900 ">
                   Need assistance?<br />
                   <span className="text-gray-800"
                   >Our team will call.</span
                   >
-                </h5>
+                </div>
               </div>
               <form className="space-y-5">
                 <div>
@@ -235,7 +235,7 @@ const Services = () => {
                   <input
                     className="w-full rounded-full border-orange-200 bg-white  px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-500 border border-[#FFD1A1]"
                     id="name"
-                    placeholder="Amrit Kumar"
+                    placeholder="Type user name"
                     type="text"
                   />
                 </div>
@@ -248,7 +248,7 @@ const Services = () => {
                   <input
                     className="w-full rounded-full border-orange-200 bg-white  px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-500 border border-[#FFD1A1]"
                     id="email"
-                    placeholder="abcdefg@gmail.com"
+                    placeholder="Type email id"
                     type="email"
                   />
                 </div>
@@ -294,7 +294,7 @@ const Services = () => {
                     <input
                       className="w-2/3 rounded-full border border-[#FFD1A1] bg-white  px-5 py-3 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-shadow placeholder-gray-500"
                       id="phone"
-                      placeholder="8023456789"
+                      placeholder="Type phone number"
                       type="tel"
                     />
                   </div>

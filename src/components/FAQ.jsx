@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const FAQ = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const faqs = [
     {
@@ -30,9 +30,10 @@ const FAQ = () => {
     },
   ];
 
-  const toggleFAQ = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
+ const toggleFAQ = (index) => {
+  setActiveIndex(activeIndex === index ? null : index);
+};
+
 
   return (
     <section className="faq">
@@ -45,18 +46,24 @@ const FAQ = () => {
           <div className="faq-column">
             {faqs.slice(0, 3).map((faq, index) => (
               <div
-                key={index}
-                className={`faq-item ${activeIndex === index ? 'active' : ''}`}
-                onClick={() => toggleFAQ(index)}
-              >
-                <div className="faq-question">
-                  <h4>{faq.question}</h4>
-                  <span className="faq-toggle">{activeIndex === index ? '×' : '+'}</span>
+                  key={index}
+                  className={`faq-item ${activeIndex === index ? 'active' : ''}`}
+                  onClick={() => toggleFAQ(index)}
+                >
+                  <div className="faq-question">
+                    <h4>{faq.question}</h4>
+                    <span className="faq-toggle">
+                      {activeIndex === index ? '×' : '+'}
+                    </span>
+                  </div>
+
+                  {activeIndex === index && (
+                    <div className="faq-answer">
+                      <p>{faq.answer}</p>
+                    </div>
+                  )}
                 </div>
-                <div className="faq-answer">
-                  <p>{faq.answer}</p>
-                </div>
-              </div>
+
             ))}
           </div>
           <div className="faq-column">

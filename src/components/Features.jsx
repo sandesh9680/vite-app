@@ -51,7 +51,7 @@ const Features = () => {
 <path d="M8.68059 5L7.15833 6.41L12.103 11L7.15833 15.59L8.68059 17L15.1583 11L8.68059 5Z" fill="#FF6F3B"/>
 </svg>
 </a>
-            <button className="btn-primary features-btn">Lorem Ipsum</button>
+            <button className="btn-primary features-btn">Explore EBIZ</button>
           </div>
           <div className="features-boards">
 <img src={Features_img} alt='features' />

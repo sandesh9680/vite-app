@@ -137,7 +137,7 @@ const Testimonials = ({ showForm= true }) => {
 
         {/* Right: Appointment form */}
         <div className="appointment" style={{ display: showForm ? "block" : "none" }}>
-          <div className="appointment-header">
+          <div className="appointment-header text-center">
             Need assistance? Our team's got you covered.
           </div>
 
@@ -148,7 +148,7 @@ const Testimonials = ({ showForm= true }) => {
                 className="form-control"
                 id="name"
                 type="text"
-                placeholder="Amit Kumar"
+                placeholder="Type user name"
               />
             </div>
 
@@ -158,7 +158,7 @@ const Testimonials = ({ showForm= true }) => {
                 className="form-control"
                 id="email"
                 type="email"
-                placeholder="abcd@gmail.com"
+                placeholder="Type email id"
               />
             </div>
 
@@ -174,7 +174,7 @@ const Testimonials = ({ showForm= true }) => {
                   className="form-control"
                   id="phone"
                   type="text"
-                  placeholder="8023456789"
+                  placeholder="Type phone number"
                 />
               </div>
             </div>
@@ -182,6 +182,7 @@ const Testimonials = ({ showForm= true }) => {
             <div className="form-group">
               <label htmlFor="service">Select Service</label>
               <select className="form-select" id="service">
+                <option>Select services</option>
                 <option>Get Service</option>
                 <option>Consultation</option>
                 <option>Support</option>
@@ -193,7 +194,7 @@ const Testimonials = ({ showForm= true }) => {
               <textarea
                 id="message"
                 rows="3"
-                placeholder="Donec fringilla in elementum placerat..."
+                placeholder="Type Message"
               />
             </div>
 
