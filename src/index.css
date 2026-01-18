@@ -2407,14 +2407,12 @@ button.blog-read-more span {
 }
 
 .timeline-line {
-    position: absolute;
-    left: 49.5%;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(to bottom, var(--primary-orange) 0%, var(--primary-orange) 21%, #E5E5E5 5%, #E5E5E5 100%);
-    transform: translateX(-50%);
+    background: linear-gradient(to bottom,var(--primary-orange)0%,var(--primary-orange)21%,#e5e5e5 5%,#e5e5e5 100%);
     z-index: 1;
+    width: 2px !important;
+    bottom: 0;
+    left: 49.5% !important;
+    transform: translate(-50%) !important;
 }
 .timeline-start-node {
   position: absolute;
