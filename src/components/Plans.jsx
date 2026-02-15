@@ -671,7 +671,7 @@ const ElitePlan = () => {
 
 
 
-const Plans = () => {
+const Plans = ({ pageData }) => {
     return (
         < div
             className="font-sans text-slate-800 antialiased transition-colors duration-300"
@@ -680,13 +680,13 @@ const Plans = () => {
             <div className="lg:py-16 py-6 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
                 <div className="heading_short_long text-center mb-12 space-y-4">
                     <div className="short_title">
-                        Plans and Pricing
+                        {pageData?.section_title || "Plans and Pricing"}
 
                     </div>
                     <h2
                         className="long_title mt-4"
                     >
-                        Choose The Right Plan To Grow Your Business
+                        {pageData?.section_heading || "Choose The Right Plan To Grow Your Business"}
                     </h2>
                 </div>
                 <div className="plans-desktop grid grid-cols-3 gap-8 items-start">
@@ -716,28 +716,13 @@ const Plans = () => {
                 >
                     <div className="flex flex-col items-center text-center">
                         <div className="mb-2 text-blue-600">
-                            <svg
-                                fill="none"
-                                height="36"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="1.5"
-                                viewBox="0 0 24 24"
-                                width="36"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
+                            <img src={pageData?.ratingBox?.happy_clients_count?.iconUrl || ''} alt="" />
                         </div>
                         <div className="text-2xl font-bold text-slate-900 ">
-                            6,000+
+                            {pageData?.ratingBox?.happy_clients_count?.key_value}
                         </div>
                         <div className="text-sm text-gray-400 tracking-widest">
-                            Happy Clients
+                            {pageData?.ratingBox?.happy_clients_title?.key_value}
                         </div>
                     </div>
                     <div
@@ -745,28 +730,13 @@ const Plans = () => {
                     ></div>
                     <div className="flex flex-col items-center text-center">
                         <div className="mb-2 text-yellow-500">
-                            <svg
-                                className="text-yellow-400"
-                                fill="currentColor"
-                                height="36"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="1.5"
-                                viewBox="0 0 24 24"
-                                width="36"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <polygon
-                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-                                ></polygon>
-                            </svg>
+                            <img src={pageData?.ratingBox?.cr_ratings_count?.iconUrl || ''} alt='' />
                         </div>
                         <div className="text-2xl font-bold text-slate-900 ">
-                            4.8/5
+                            {pageData?.ratingBox?.cr_ratings_count?.key_value}
                         </div>
                         <div className="text-sm text-gray-400 tracking-widest">
-                            Customer Reviews
+                            {pageData?.ratingBox?.cr_ratings_title?.key_value}
                         </div>
                     </div>
                     <div
@@ -774,13 +744,13 @@ const Plans = () => {
                     ></div>
                     <div className="flex flex-col items-center text-center">
                         <div className="mb-2 text-blue-600">
-                            <img src={Award1} alt='' />
+                            <img src={pageData?.ratingBox?.cg_percantage?.iconUrl || ''} alt='' />
                         </div>
                         <div className="text-2xl font-bold text-slate-900 ">
-                            100%
+                            {pageData?.ratingBox?.cg_percantage?.key_value}
                         </div>
                         <div className="text-sm text-gray-400 tracking-widest">
-                            Compliance Guarantee
+                            {pageData?.ratingBox?.cg_title?.key_value}
                         </div>
                     </div>
                 </div>

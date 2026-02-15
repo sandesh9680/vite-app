@@ -6,7 +6,7 @@ import quickbooksLogo from '../assets/partner4.png';
 import zohoLogo from '../assets/partner5.png';
 import payoneerLogo from '../assets/partner6.png';
 
-const Partnerships = () => {
+const Partnerships = ({ pageData }) => {
   const partners = [
     { logo: paytmLogo },
     { logo: globallinkerLogo },
@@ -22,17 +22,17 @@ const Partnerships = () => {
       <div>
         <div className="partnerships-header heading_short_long">
 
-          <div className="short_title">PARTNER SECTION</div>
+          <div className="short_title">{pageData?.section_title || "PARTNER SECTION"}</div>
 
-          <h2 className="long_title">Collaborating With Industry Leaders To Deliver Better Services</h2>
+          <h2 className="long_title">{pageData?.section_heading || "Collaborating With Industry Leaders To Deliver Better Services"}</h2>
         </div>
         <div className="partner-marquee">
           <div className="partner-marquee-track">
-            {[...partners, ...partners, ...partners].map((partner, index) => (
+            {pageData?.trusted_partners?.length > 0 && [...pageData?.trusted_partners, ...pageData?.trusted_partners, ...pageData?.trusted_partners].map((partner, index) => (
               <div key={index} className="partner-logo">
                 <img
-                  src={partner.logo}
-                  alt="partner logo"
+                  src={partner.trusted_partner_logo_media}
+                  alt="no image"
                   className="h-14 w-auto object-contain"
                 />
               </div>

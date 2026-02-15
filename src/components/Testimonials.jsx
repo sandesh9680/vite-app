@@ -56,15 +56,13 @@ const testimonialCards = [
   },
 ];
 
-const Testimonials = ({ showForm= true }) => {
+const Testimonials = ({ showForm= true, pageData }) => {
   return (
     <section className="section-wrapper">
       <div className="section-header heading_short_long">
-        <div className="short_title">TESTIMONIALS</div>
+        <div className="short_title">{pageData?.section_title || "TESTIMONIALS"}</div>
         <h2 className="long_title">
-          What Our
-          <span className="highlight"> Clients Says </span>
-          About Us
+          {pageData?.section_heading || "What Our Clients Say About Us"}
         </h2>
       </div>
 
@@ -101,7 +99,7 @@ const Testimonials = ({ showForm= true }) => {
             className="testimonial-swiper"
             style={{ paddingBottom: "40px" }} // Add padding for pagination dots
           >
-            {testimonialCards.map((item) => (
+            {pageData?.testimonial_of_service?.length > 0 && pageData?.testimonial_of_service?.map((item) => (
               <SwiperSlide key={item.id}>
                 <div className="testimonial-card">
                   <div className="quote-icon">
@@ -125,10 +123,15 @@ const Testimonials = ({ showForm= true }) => {
                       </defs>
                     </svg>
                   </div>
-                  <h4 className="testimonial-name">{item.name}</h4>
+                  <h4 className="testimonial-name">{item.client_name}</h4>
                   <p className="testimonial-role">{item.role}</p>
-                  <div className="stars">{"★".repeat(item.rating)}</div>
-                  <p className="testimonial-text">{item.text}</p>
+                  {/* <div className="stars">{"★".repeat(item.rating)}</div> */}
+                  <div className="flex justify-center items-center">{
+                    item?.starImagesArr?.length > 0 && item?.starImagesArr?.map((star, index) => (
+                      <img key={index} src={star} alt={`Star ${index + 1}`} className="w-5 h-5" />
+                    ))
+                    }</div>
+                  <p className="testimonial-text">{item.short_description}</p>
                 </div>
               </SwiperSlide>
             ))}

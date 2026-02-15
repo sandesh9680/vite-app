@@ -56,7 +56,7 @@ const blogs = [
   }
 ];
 
-const HelpfulResources = () => {
+const HelpfulResources = ({ pageData }) => {
   const renderIcon = () => <img src={work3} alt="" />;
 
   return (
@@ -64,9 +64,9 @@ const HelpfulResources = () => {
       <div className="container overflow-hidden" style={{padding:"0px"}}>
         <div className="insights-label-wrapper">
           <div className="heading_short_long">
-            <div className="short_title">Helpful Resources</div>
+            <div className="short_title">{pageData?.section_title || "Helpful Resources"}</div>
             <h2 className="long_title text-center">
-              Helpful Resources That Drive Your Business
+              {pageData?.section_heading || "Helpful Resources That Drive Your Business"}
             </h2>
           </div>
         </div>
@@ -99,20 +99,20 @@ const HelpfulResources = () => {
             className="insights-swiper"
           style={{ padding:"0px 30px", overflow:"visible" }}
           >
-            {blogs.map((blog, index) => (
+            { pageData?.helpful_resources?.length > 0 && pageData?.helpful_resources.map((blog, index) => (
               <SwiperSlide key={index}  >
                 <div className="blog-card">
                   <div className="blog-icon">{renderIcon(blog.icon)}</div>
 
                   <div className="blog_content">
                     <div className="blog-meta">
-                      <span className="blog-date">{blog.date}</span>
+                      <span className="blog-date">{blog.post_date}</span>
                       <span className="blog-separator">·</span>
-                      <span className="blog-read-time">{blog.readTime}</span>
+                      <span className="blog-read-time">{blog.post_status}</span>
                     </div>
 
-                    <h3 className="blog-card-title">{blog.title}</h3>
-                    <p className="blog-description">{blog.description}</p>
+                    <h3 className="blog-card-title">{blog.post_title}</h3>
+                    <p className="blog-description">{blog.description || "No description available"}</p>
 
                     <button className="blog-read-more">
                       Read More{" "}
